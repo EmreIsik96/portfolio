@@ -1,0 +1,44 @@
+<div class="mainContainer">
+  <div class="skillsIconContainer">
+    @for (item of skillIcons; track item.img) {
+    <img src="{{ item.img }}" alt="skill Icons" />
+    }
+  </div>
+
+  <img class="greenShadowBg1" src="./assets/img/green_shadow_bg1.png" alt="">
+
+  <div class="skillsTxtContainer">
+    <div class="mySkillsHeaderContainer">
+      <h2 class="mySkillsHeader">My skills</h2>
+      <div class="vectorLayout">
+        <img
+          class="vector_purple_small"
+          src="./assets/img/vector_purple_small.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="mySkillsTxtContainer">
+      <span class="mySkillsTxt">
+        I have gained experience in building projects with different <br> frontend
+        technologies and concepts.
+      </span>
+      <div class="getInTouchContainer">
+        <div class="lookingForTxtContainer">
+            <span class="mySkillsMainTxt"> 
+                Looking for <span class="anotherSkillTxt">another skill</span>? 
+            </span>
+    
+            <span class="mySkillsSecondTxt">
+                Feel free to contact me. I look forward to expanding on my previous
+                knowledge.
+            </span>
+            <div class="mySkillButtonContainer">
+                <button class="mySkillButton">Get in touch</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

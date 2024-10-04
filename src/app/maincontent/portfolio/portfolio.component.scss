@@ -1,0 +1,32 @@
+.mainContainer {
+  width: 1304px;
+  height: 2216.57px;
+}
+.headerMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: -120px;
+  gap: 32px;
+}
+.purpleFirstLine {
+  width: 100px;
+  border: 4px 0px 0px 0px;
+}
+.headerTxtContainer {
+  width: 389px;
+  height: 108px;
+  gap: 10px;
+}
+.portfolioTxt {
+  margin: 0;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 108px;
+  text-align: center;
+  color: #ffff;
+}
+.purpleSecondLine {
+  width: 507px;
+  border: 4px;
+}

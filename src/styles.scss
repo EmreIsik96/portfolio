@@ -1,4 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-    margin: 0;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-left: 230px;
+  width: fit-content;
+  background: #141D2F;
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+    font-family: 'poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  

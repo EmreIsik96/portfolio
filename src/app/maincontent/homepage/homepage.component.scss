@@ -1,0 +1,185 @@
+.mainContainer {
+  height: 100vh;
+  width: fit-content;
+  gap: 0px;
+  opacity: 0px;
+}
+.mainImagesContainer {
+  display: flex;
+}
+.mainImage {
+  width: 646px;
+  height: 705px;
+  gap: 0px;
+  opacity: 0px;
+}
+.d-flexImgAndTxt {
+  display: flex;
+  align-items: center;
+}
+.bgShadowOnMain {
+  position: absolute;
+  width: 690.7px;
+  height: 671.38px;
+  gap: 0px;
+  margin-left: -60px;
+  margin-top: 90px;
+  opacity: 0px;
+  z-index: -1;
+}
+.mainIamTxtContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  height: 172px;
+}
+.iamTxtContainer {
+  height: 62px;
+  width: 172px;
+  text-wrap: nowrap;
+  transform: rotate(-90deg);
+}
+.iamTxt {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 76.8px;
+  text-align: left;
+  color: white;
+  margin-right: 12px;
+}
+.infoTxtContainer {
+  width: 620px;
+  height: 172px;
+  gap: 0px;
+  opacity: 0px;
+}
+.nameTxtContainer {
+  width: 620px;
+  height: 108px;
+  gap: 0px;
+  opacity: 0px;
+}
+.nameTxt {
+  margin: 0;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 108px;
+  text-align: left;
+  color: white;
+}
+.jobDescriptionContainer {
+  width: 619px;
+  height: 70px;
+  gap: 0px;
+  opacity: 0px;
+}
+.jobDescriptionTxt {
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 69.6px;
+  text-align: left;
+  color: #9747ff;
+  margin: 0;
+}
+.scollDownContainer {
+  width: 28px;
+  height: 160px;
+  position: absolute;
+  top: 773px;
+  left: 1px;
+  gap: 3px;
+  display: flex;
+  align-items: center;
+  text-wrap: nowrap;
+  transform: rotate(90deg);
+}
+.scrollDownTxt {
+  width: 133px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+}
+.arrowDownContainer {
+  width: 24px;
+  height: 24px;
+  padding: 4px 4.22px 4px 4.22px;
+  gap: 0px;
+  opacity: 0px;
+  transform: rotate(-90deg);
+}
+.arrowDownImg {
+  width: 15.56px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+}
+.buttonOnMainContainer {
+  display: flex;
+  justify-content: center;
+  margin-left: 700px;
+  margin-top: -220px;
+}
+.buttonOnMain {
+  width: 165px;
+  height: 58px;
+  padding: 15px 30px 15px 30px;
+  gap: 10px;
+  border-radius: 10px;
+  border: 0;
+  opacity: 0px;
+  background: #70e61c;
+  transform: scale(1);
+  transition: transform 0.1s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    background: #9747ff;
+    transform: scale(1.1);
+  }
+}
+.buttonTxtOnMain {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 27.6px;
+  text-align: left;
+  color: white;
+  text-wrap: nowrap;
+}
+.referencesContainer {
+  width: 566px;
+  height: 230px;
+  gap: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.vectorPurpleContainer {
+  border: 4px 0px 0px 0px;
+  opacity: 0px;
+}
+.vector_purple {
+  border: 4px solid #9747ff;
+}
+.githubIconContainer,
+.emailIconContainer,
+.linkedInIconContainer {
+  width: 30px;
+  height: 30px;
+  gap: 0px;
+  opacity: 0px;
+}
+.emailTxtContainer {
+  width: 248px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+}
+.emailTxt {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 27.6px;
+  text-align: left;
+  color: white;
+  text-wrap: nowrap;
+}

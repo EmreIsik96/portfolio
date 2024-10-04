@@ -1,0 +1,134 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 200px;
+  margin: 0;
+  margin-bottom: 160px;
+  opacity: 0px;
+}
+.skillsIconContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 664px;
+  height: 404px;
+  flex-wrap: wrap;
+  gap: 57px;
+  opacity: 0px;
+}
+.skillsTxtContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: -10px;
+  width: 571px;
+  height: 400px;
+}
+.mySkillsHeaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 495px;
+  height: 108px;
+  gap: 32px;
+  opacity: 0px;
+  margin-bottom: 32px;
+}
+.mySkillsHeader {
+  margin: 0;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 108px;
+  text-align: right;
+  color: #ffff;
+}
+.vectorLayout {
+  width: 68px;
+  border: 4px 0px 0px 0px;
+  opacity: 0px;
+}
+.mySkillsTxtContainer {
+  width: 471px;
+  height: 252px;
+  gap: 24px;
+  opacity: 0px;
+}
+.mySkillsTxt {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: right;
+  color: #ffff;
+  margin-left: -85px;
+  margin-bottom: 30px;
+}
+.getInTouchContainer {
+  width: 410px;
+  height: 190px;
+  gap: 40px;
+  opacity: 0px;
+  margin-left: -28px;
+}
+.lookingForTxtContainer {
+  display: grid;
+  width: 410px;
+  height: 92px;
+  gap: 16px;
+  opacity: 0px;
+}
+.mySkillsMainTxt {
+  text-wrap: nowrap;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: right;
+  color: #ffff;
+}
+.mySkillsSecondTxt {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: right;
+  color: #ffff;
+}
+.anotherSkillTxt {
+  color: #9747ff;
+}
+.mySkillButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 32px;
+}
+.mySkillButton {
+  width: 200px;
+  height: 58px;
+  padding: 15px 30px 15px 30px;
+  gap: 10px;
+  border-radius: 10px;
+  opacity: 0px;
+  background: #70e61c;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 27.6px;
+  text-align: left;
+  color: #ffff;
+  transform: scale(1);
+  transition: transform 0.1s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    background: #9747ff;
+    transform: scale(1.1);
+  }
+}
+.greenShadowBg1 {
+  position: absolute;
+  width: 428.59px;
+  height: 951.44px;
+  top: 1902.96px;
+  left: 0px;
+  backdrop-filter: blur(93px);
+  z-index: -2;
+}

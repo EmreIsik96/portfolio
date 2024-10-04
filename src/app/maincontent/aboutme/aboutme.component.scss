@@ -1,0 +1,201 @@
+.mainAboutMeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+  margin-top: 30px;
+  height: 630px;
+  margin-left: -100px;
+  gap: 200px;
+  opacity: 0px;
+}
+.aboutMeTxtContainer {
+  width: 471px;
+  height: 532px;
+  gap: 0px;
+  opacity: 0px;
+}
+.aboutMeTxtSecondContainer {
+  display: grid;
+  width: 471px;
+  height: 532px;
+  gap: 40px;
+  opacity: 0px;
+}
+.aboutMeHeaderContainer {
+  width: 471px;
+  height: 108px;
+  gap: 0px;
+  opacity: 0px;
+}
+.aboutMeTxt {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 108px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+}
+.aboutMeDescriptionContainer {
+  width: 471px;
+  height: 384px;
+}
+.prefaceContainer {
+  display: grid;
+  width: 471px;
+  height: 76px;
+  gap: 32px;
+  opacity: 0px;
+}
+.prefaceTxt {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffffff;
+}
+.strengthsContainer {
+  display: grid;
+  width: 471px;
+  height: 276px;
+  gap: 32px;
+  opacity: 0px;
+}
+.strength1Container {
+  display: flex;
+  width: 471px;
+  height: 57px;
+  gap: 16px;
+  opacity: 0px;
+}
+.strength2Container {
+  display: flex;
+  width: 471px;
+  height: 57px;
+  gap: 16px;
+  opacity: 0px;
+}
+.strength3Container {
+  display: flex;
+  width: 471px;
+  height: 114px;
+  gap: 16px;
+  opacity: 0px;
+}
+.locationImgContainer {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  padding: 0px 2px 0px 2px;
+  gap: 10px;
+  opacity: 0px;
+}
+.locationImg {
+  width: 25.33px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+}
+.locationTxtContainer {
+  width: 407px;
+  height: 57px;
+  gap: 0px;
+  opacity: 0px;
+}
+.locationTxt {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffffff;
+}
+.bulbImgContainer {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  padding: 0px 2px 0px 2px;
+  gap: 10px;
+  opacity: 0px;
+}
+.bulbImg {
+  width: 22.06px;
+  height: 32px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.bulbTxtContainer {
+  width: 407px;
+  height: 57px;
+  gap: 0px;
+  opacity: 0px;
+}
+.bulbTxt {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffffff;
+}
+.puzzleImgContainer {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  padding: 1px 0px 0px 0px;
+  gap: 10px;
+  opacity: 0px;
+}
+.puzzleImg {
+  width: 30px;
+  height: 30px;
+  gap: 0px;
+  opacity: 0px;
+}
+.puzzleTxtContainer {
+  width: 407px;
+  height: 114px;
+  gap: 0px;
+  opacity: 0px;
+}
+.puzzleTxt {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffffff;
+}
+.profilePictureMainContainer {
+  width: 453px;
+  height: 453px;
+  gap: 0px;
+  opacity: 0px;
+}
+.ellipseGreen {
+  width: 453px;
+  height: 453px;
+  position: absolute;
+  gap: 0px;
+  border: 4px 0px 0px 0px;
+  opacity: 0px;
+}
+.profilePictureContainer {
+  width: 453px;
+  height: 453px;
+  top: 1107px;
+  left: 720px;
+  gap: 0px;
+  opacity: 0px;
+}
+.d-flex-vectorWithProfileCircle {
+  display: flex;
+  align-items: center;
+}
+.purple_shadow {
+  position: absolute;
+  width: 400.03px;
+  height: 600px;
+  top: 750px;
+  left: 1503px;
+  backdrop-filter: blur(93px);
+  z-index: -2;
+}
