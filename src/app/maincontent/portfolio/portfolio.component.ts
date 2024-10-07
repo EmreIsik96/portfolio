@@ -11,19 +11,19 @@ import { Component } from '@angular/core';
 export class PortfolioComponent {
  
   projects = [{
-    images: "./assets/projectsOnLaptop/join.png",
+    images: "./assets/img/portfolioImg/join.png",
     name:  "Join",
     language: "Angular | TypeScript | HTML | CSS | Firebase",
     description: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories."
   },
   {
-    images: "./assets/projectsOnLaptop/sharkie.png",
+    images: "./assets/img/portfolioImg/sharkie.png",
     name: "El Pollo Loco",
     language: "JavaScript | HTML | CSS",
     description: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories."
   },
   {
-    images: "./assets/projectsOnLaptop/pokedex.png",
+    images: "./assets/img/portfolioImg/pokedex.png",
     name: "Pokèdex",
     language: "JavaScript | HTML | CSS | Api",
     description: "Based on the PokéAPI a simple library that provides and catalogues pokemon information.."

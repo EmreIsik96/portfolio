@@ -7,12 +7,13 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { MyskillsComponent } from './myskills/myskills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ReferencesComponent } from './references/references.component';
 
 
 @Component({
   selector: 'app-maincontent',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HomepageComponent, AboutmeComponent, MyskillsComponent, PortfolioComponent, HeaderComponent, FooterComponent],
+  imports: [CommonModule, RouterOutlet, HomepageComponent, AboutmeComponent, MyskillsComponent, PortfolioComponent, ReferencesComponent, HeaderComponent, FooterComponent],
   templateUrl: './maincontent.component.html',
   styleUrl: './maincontent.component.scss'
 })
