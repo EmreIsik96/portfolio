@@ -1,22 +1,45 @@
 <div class="mainContainer">
-
   <div class="headerMainContainer">
     <div class="purpleFirstLine">
-        <img src="./assets/img/portfolioImg/purple_first_line.png">
+      <img src="./assets/img/portfolioImg/purple_first_line.png" />
     </div>
     <div class="headerTxtContainer">
-        <h2 class="portfolioTxt">Portfolio</h2>
+      <h2 class="portfolioTxt">Portfolio</h2>
     </div>
     <div class="purpleSecondLine">
-        <img src="./assets/img/portfolioImg/purple_second_line.png">
+      <img src="./assets/img/portfolioImg/purple_second_line.png" />
     </div>
   </div>
+  <div class="sideTextContainer">
+    <span class="sideText"
+      >Explore a selection of my work here - Interact with projects to see my
+      skills in action.</span
+    >
+  </div>
 
+  <div class="projectContainer">
+    @for (item of projects; track $index) {
+    <div class="projectDisplayFlex{{ $index }}">
+      <div class="projectLeftContainer">
+        <img src="{{ item.images }}" />
+      </div>
 
-
-
-
-
-
-
+      <div class="projectRightContainer">
+        <div class="projectNameContainer">
+          <span class="projectName">{{ item.name }}</span>
+        </div>
+        <div class="projectLanguageContainer">
+          <span class="projectLanguage">{{ item.language }}</span>
+        </div>
+        <div class="projectDescriptionContainer">
+          <span class="projectDescription">{{ item.description }}</span>
+        </div>
+        <div class="projectButtons{{ $index }}">
+          <button class="liveTestButton">Live test</button>
+          <button class="gitHubButton">Github</button>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
 </div>

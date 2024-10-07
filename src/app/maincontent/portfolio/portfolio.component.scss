@@ -2,6 +2,7 @@
   width: 1304px;
   height: 2216.57px;
 }
+
 .headerMainContainer {
   display: flex;
   align-items: center;
@@ -9,15 +10,18 @@
   margin-right: -120px;
   gap: 32px;
 }
+
 .purpleFirstLine {
   width: 100px;
   border: 4px 0px 0px 0px;
 }
+
 .headerTxtContainer {
   width: 389px;
   height: 108px;
   gap: 10px;
 }
+
 .portfolioTxt {
   margin: 0;
   font-size: 90px;
@@ -26,7 +30,143 @@
   text-align: center;
   color: #ffff;
 }
+
 .purpleSecondLine {
   width: 507px;
   border: 4px;
+}
+.sideTextContainer {
+  margin: 64px;
+  display: flex;
+  justify-content: center;
+  margin-right: -32px;
+}
+.sideText {
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+}
+.projectContainer {
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+  margin-left: 140px;
+}
+.projectDisplayFlex0,
+.projectDisplayFlex1,
+.projectDisplayFlex2 {
+  width: 1168px;
+  height: 339.19px;
+  gap: 35px;
+  opacity: 0px;
+}
+
+.projectDisplayFlex0,
+.projectDisplayFlex2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projectDisplayFlex1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  flex-direction: row-reverse;
+}
+.projectDisplayFlex0,
+.projectDisplayFlex1 {
+  margin-bottom: 64px;
+}
+
+.projectLeftContainer {
+}
+
+.projectRightContainer {
+}
+
+.projectNameContainer {
+  margin-bottom: 28px;
+}
+
+.projectName {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: left;
+  color: #9747ff;
+}
+
+.projectLanguageContainer {
+  margin-bottom: 12px;
+}
+
+.projectLanguage {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 27.6px;
+  text-align: left;
+  color: #70e61c;
+}
+
+.projectDescriptionContainer {
+  margin-bottom: 32px;
+}
+
+.projectDescription {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.projectButtons0,
+.projectButtons2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 90px;
+}
+
+.projectButtons1 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 90px;
+}
+
+.liveTestButton {
+  width: 152px;
+  height: 58px;
+  padding: 15px 30px 15px 30px;
+  gap: 10px;
+  border-radius: 10px;
+  opacity: 0px;
+  background-color: #9747ff;
+  color: white;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 27.6px;
+  text-align: left;
+}
+
+.gitHubButton {
+  width: 137px;
+  height: 58px;
+  padding: 15px 30px 15px 30px;
+  gap: 10px;
+  border-radius: 10px;
+  border: 2px 0px;
+  border-color: #70e61c;
+  opacity: 0px;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 27.6px;
+  text-align: left;
+  background-color: transparent;
+  color: #ffff;
 }
