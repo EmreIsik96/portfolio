@@ -8,12 +8,13 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { MyskillsComponent } from './myskills/myskills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ReferencesComponent } from './references/references.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @Component({
   selector: 'app-maincontent',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HomepageComponent, AboutmeComponent, MyskillsComponent, PortfolioComponent, ReferencesComponent, HeaderComponent, FooterComponent],
+  imports: [CommonModule, RouterOutlet, HomepageComponent, AboutmeComponent, MyskillsComponent, PortfolioComponent, ReferencesComponent, ContactComponent, HeaderComponent, FooterComponent],
   templateUrl: './maincontent.component.html',
   styleUrl: './maincontent.component.scss'
 })

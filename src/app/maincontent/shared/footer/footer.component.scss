@@ -1,0 +1,46 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 291px;
+  margin-top: 400px;
+  gap: 0px;
+  border: 4px;
+  opacity: 0px;
+  background: #141d2f;
+  border-top: 4px solid #70e61c;
+  margin-left: -230px;
+  padding-left: 230px;
+  margin-right: -235px;
+  padding-right: 235px;
+}
+.logo {
+  color: #ffff; //hier muss ein Logo von meinem Namen kommen
+}
+.footerLeftSpan {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffff;
+}
+.footerMiddleSpan {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 27.6px;
+  text-align: left;
+  color: #ffff;
+}
+.footerRight {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.gitHubIcon,
+.emailIcon,
+.linkedInIcon {
+  cursor: pointer;
+  &:hover {
+    scale: 1.3;
+  }
+}
