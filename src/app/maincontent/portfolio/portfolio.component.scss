@@ -11,7 +11,6 @@
   justify-content: flex-end;
   gap: 32px;
   margin-bottom: 50px;
- 
 }
 
 .purpleFirstLine {
@@ -38,6 +37,7 @@
   display: flex;
   justify-content: center;
 }
+
 .sideText {
   color: #ffff;
   font-size: 16px;
@@ -45,6 +45,7 @@
   line-height: 19.2px;
   text-align: center;
 }
+
 .projectContainer {
   color: #ffff;
   display: flex;
@@ -52,6 +53,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .projectDisplayFlex0,
 .projectDisplayFlex1,
 .projectDisplayFlex2 {
@@ -67,6 +69,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .projectDisplayFlex1 {
   display: flex;
   justify-content: center;
@@ -74,15 +77,10 @@
   text-align: right;
   flex-direction: row-reverse;
 }
+
 .projectDisplayFlex0,
 .projectDisplayFlex1 {
   margin-bottom: 64px;
-}
-
-.projectLeftContainer {
-}
-
-.projectRightContainer {
 }
 
 .projectNameContainer {
