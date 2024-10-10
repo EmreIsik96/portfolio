@@ -1,17 +1,17 @@
 header {
   z-index: 1000;
   display: flex;
-  padding-top: 37px;
-  height: 50px;
   justify-content: space-between;
+  align-items: center;
+  height: 50px;
   position: sticky;
   top: 0;
-  background-color: #141d2f;
+  background-color: #141D2F;
   backdrop-filter: blur(65px);
-  margin-left: -230px;
-  padding-left: 230px;
-  margin-right: -235px;
-  padding-right: 235px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 37px;
+  padding-bottom: 37px;
 }
 .headerLeft {
   display: flex;

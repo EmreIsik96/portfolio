@@ -1,6 +1,6 @@
 .mainContainer {
   height: 100vh;
-  width: fit-content;
+  margin-top: -10px;
   gap: 0px;
   opacity: 0px;
 }
@@ -15,6 +15,7 @@
 }
 .d-flexImgAndTxt {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .bgShadowOnMain {
@@ -84,13 +85,15 @@
 }
 .scollDownContainer {
   width: 28px;
-  height: 160px;
+  height: 125px;
   position: absolute;
   top: 773px;
-  left: 1px;
+  right: 0px;
+  padding-right: 100px;
   gap: 3px;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-wrap: nowrap;
   transform: rotate(90deg);
 }

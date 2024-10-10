@@ -1,14 +1,17 @@
 .mainContainer {
-  width: 1304px;
-  height: 1600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 200px;
 }
 
 .headerMainContainer {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-right: -120px;
   gap: 32px;
+  margin-bottom: 50px;
+ 
 }
 
 .purpleFirstLine {
@@ -17,7 +20,6 @@
 }
 
 .headerTxtContainer {
-  width: 389px;
   height: 108px;
   gap: 10px;
 }
@@ -31,15 +33,10 @@
   color: #ffff;
 }
 
-.purpleSecondLine {
-  width: 507px;
-  border: 4px;
-}
 .sideTextContainer {
   margin: 64px;
   display: flex;
   justify-content: center;
-  margin-right: -32px;
 }
 .sideText {
   color: #ffff;
@@ -54,8 +51,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: fit-content;
-  margin-left: 140px;
 }
 .projectDisplayFlex0,
 .projectDisplayFlex1,

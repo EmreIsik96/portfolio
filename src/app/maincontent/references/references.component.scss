@@ -1,7 +1,6 @@
 .mainContainer {
   display: flex;
-  justify-content: flex-end;
-  width: 1340px;
+  justify-content: center;
   height: 378px;
   gap: 0px;
   opacity: 0px;
@@ -27,9 +26,8 @@
 .testimonialsContainer {
   display: flex;
   align-items: center;
-  width: 1171.5px;
   height: 272px;
-  gap: 48px;
+  gap: 100px;
   opacity: 0px;
 }
 .testimonials {

@@ -1,7 +1,5 @@
 .mainContainer {
-  width: 1340px;
   height: 747px;
-  top: 5286px;
   gap: 0px;
   opacity: 0px;
   border: Mixed solid #ffffff;
@@ -20,7 +18,8 @@
 }
 .contactDFlex {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 300px;
 }
 .contactInsideContainer {
   display: flex;
