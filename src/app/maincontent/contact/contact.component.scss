@@ -71,8 +71,8 @@
 .inputEmail {
   width: 617px;
   height: 50px;
+  margin-bottom: 28px;
   padding: 15px 25px 15px 25px;
-  gap: 10px;
   border-radius: 10px;
   border: 1px;
   opacity: 0px;
@@ -110,11 +110,12 @@
   height: 202px;
   padding: 15px 25px 15px 25px;
   gap: 10px;
-  border-radius: 10px 0px 0px 0px;
-  border: 1px 0px 0px 0px;
+  border-radius: 10px;
+  border: 1px;
   opacity: 0px;
   background: #141d2f;
   border: 1px solid #9747ff;
+  color: #ffff;
   &::placeholder {
     font-size: 16px;
     font-weight: 400;

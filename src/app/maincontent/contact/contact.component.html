@@ -1,4 +1,4 @@
-<div class="mainContainer">
+<div id="contactButton" class="mainContainer">
   <div class="headerContainer">
     <img src="./assets/img/contact/linie_purple_long.png" />
     <h2 class="header">Contact</h2>
@@ -18,12 +18,13 @@
     </div>
 
     <div class="contactFormularContainer">
-      <input class="inputName" type="text" placeholder="Your name" />
-      <input class="inputEmail" type="text" placeholder="Your email" />
-
-      <div class="inputMessageAndPolicyContainer">
+      <form method="post">
+        <input class="inputName" type="name" placeholder="Your name" required/>
+        <input class="inputEmail" type="email" placeholder="Your email" required />
         <input class="inputMessage" type="text" placeholder="Your message" />
-
+      </form>
+      
+      <div class="inputMessageAndPolicyContainer">
         <div class="privacyPolicyMainContainer">
           <div class="privacyPolicySecondContainer">
             <div class="privacyPolicy">
@@ -35,10 +36,10 @@
             <span style="display: none">Please accept the privacy policy.</span>
           </div>
           <div class="buttonContainer">
-            <button class="sendButton">Send message :)</button>
+            <button (click)="send()" class="sendButton">Send message :)</button>
           </div>
           <div class="goUpButtonContainer">
-            <img class="goUpButton"src="./assets/img/contact/go_up_button.png"/>
+            <img (click)="scrollToHomepage()" class="goUpButton"src="./assets/img/contact/go_up_button.png"/>
           </div>
         </div>
       </div>

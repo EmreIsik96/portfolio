@@ -1,13 +1,10 @@
 .mainAboutMeContainer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 200px;
-  margin-top: 30px;
+  margin-bottom: 180px;
   height: 630px;
   margin-left: 270px;
   margin-right: 270px;
-  opacity: 0px;
 }
 .aboutMeTxtContainer {
   width: 471px;
@@ -56,39 +53,44 @@
 }
 .strengthsContainer {
   display: grid;
-  width: 471px;
-  height: 276px;
   gap: 32px;
   opacity: 0px;
 }
 .strength1Container {
   display: flex;
-  width: 471px;
-  height: 57px;
+  justify-content: center;
+  align-items: center;
+  height: 74px;
   gap: 16px;
   opacity: 0px;
 }
 .strength2Container {
   display: flex;
-  width: 471px;
-  height: 57px;
+  justify-content: center;
+  align-items: center;
+  height: 74px;
   gap: 16px;
   opacity: 0px;
 }
 .strength3Container {
   display: flex;
-  width: 471px;
-  height: 114px;
   gap: 16px;
   opacity: 0px;
 }
 .locationImgContainer {
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 48px;
   height: 48px;
   padding: 0px 2px 0px 2px;
   gap: 10px;
   opacity: 0px;
+  transform: scale(1);
+  transition: transform 0.1s ease-in-out;
+  &:hover {
+    transform: scale(1.4);
+  }
 }
 .locationImg {
   width: 25.33px;
@@ -110,18 +112,24 @@
   color: #ffffff;
 }
 .bulbImgContainer {
-  display: grid;
-  width: 48px;
-  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
   padding: 0px 2px 0px 2px;
   gap: 10px;
   opacity: 0px;
+  transform: scale(1);
+  transition: transform 0.1s ease-in-out;
+  &:hover {
+    transform: scale(1.4);
+  }
 }
 .bulbImg {
-  width: 22.06px;
-  height: 32px;
+  width: 46px;
+  height: 46px;
   gap: 0px;
-  border: 1px 0px 0px 0px;
   opacity: 0px;
 }
 .bulbTxtContainer {
@@ -138,16 +146,23 @@
   color: #ffffff;
 }
 .puzzleImgContainer {
-  display: grid;
-  width: 48px;
-  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
   padding: 1px 0px 0px 0px;
   gap: 10px;
   opacity: 0px;
+  transform: scale(1);
+  transition: transform 0.1s ease-in-out;
+  &:hover {
+    transform: scale(1.4);
+  }
 }
 .puzzleImg {
-  width: 30px;
-  height: 30px;
+  width: 46px;
+  height: 46px;
   gap: 0px;
   opacity: 0px;
 }

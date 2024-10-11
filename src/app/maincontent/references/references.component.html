@@ -6,15 +6,12 @@
   <div class="testimonialsMainContainer">
     <div class="testimonialsContainer">
       <div class="testimonials">
-        <span style="color: #ffff">
-          Michael really kept the team together with his great organization and
-          clear communication. We wouldn't have got this far without his
-          commitment.</span>
+        <span style="color: #ffff" id="referencesID">{{refences[currentIndex].reference}}</span>
           <div class="signatureContainer">
             <div>
                 <img src="./assets/img/references/vector_purple_long.png"/>
             </div>
-            <span style="color: #ffff;">V. Schuster - Team Partner</span>
+            <span style="color: #ffff;">{{refences[currentIndex].name}}</span>
           </div>
       </div>
 
@@ -26,11 +23,11 @@
     </div>
 
     <div class="swipeBarContainer">
-      <img id="arrowBackID" class="arrowBack" src="./assets/img/references/arrow_back.png"/>
-      <img id="ellipse2ID" class="ellipse2" src="./assets/img/references/Ellipse2.png"/>
-      <img id="ellipse3ID" class="ellipse3" src="./assets/img/references/Ellipse3.png"/>
-      <img id="ellipse4ID" class="ellipse4" src="./assets/img/references/Ellipse4.png"/>
-      <img id="arrowForwardID" class="arrowForward" src="./assets/img/references/arrow_forward.png"/>
+      <img (click)="previousReference()" id="arrowBackID" class="arrowBack" src="./assets/img/references/arrow_back.png"/>
+      <img [src]="getEllipseSrc(0)" [ngClass]="{'active': currentIndex === 0}" class="ellipse">
+      <img [src]="getEllipseSrc(1)" [ngClass]="{'active': currentIndex === 1}" class="ellipse">
+      <img [src]="getEllipseSrc(2)" [ngClass]="{'active': currentIndex === 2}" class="ellipse">
+      <img (click)="nextReference()" id="arrowForwardID" class="arrowForward" src="./assets/img/references/arrow_forward.png"/>
     </div>
   </div>
 </div>

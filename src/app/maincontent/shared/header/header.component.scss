@@ -13,6 +13,7 @@ header {
   padding-top: 37px;
   padding-bottom: 37px;
 }
+
 .headerLeft {
   display: flex;
   justify-content: flex-start;
@@ -32,15 +33,20 @@ header {
   gap: 29px;
   opacity: 0px;
 }
+.homepageMyName{
+  text-decoration: none;
+  color: #ffff;
+  font-size: 38px;
+  font-weight: 600;
+  cursor: pointer;
+}
 .headerRightAboutMe {
   width: 114px;
   height: 32px;
   padding: 0px 1px 4px 0px;
-  gap: 0px;
-  opacity: 0px;
-  background: #141d2f;
   color: white;
-  border: 0;
+  text-decoration: none;
+  text-wrap: nowrap;
   &:hover {
     color: #70e61c;
     transition: 300ms;
@@ -51,11 +57,8 @@ header {
   width: 59px;
   height: 32px;
   padding: 0px 4px 4px 0px;
-  gap: 0px;
-  opacity: 0px;
-  background: #141d2f;
+  text-decoration: none;
   color: white;
-  border: 0;
   &:hover {
     color: #70e61c;
     transition: 300ms;
@@ -66,11 +69,8 @@ header {
   width: 95px;
   height: 32px;
   padding: 0px 1px 4px 0px;
-  gap: 0px;
-  opacity: 0px;
-  background: #141d2f;
+  text-decoration: none;
   color: white;
-  border: 0;
   &:hover {
     color: #70e61c;
     transition: 300ms;

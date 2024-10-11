@@ -6,8 +6,26 @@ body {
   font-family: 'poppins', Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
+html {
+  scroll-behavior: smooth;
+}
+#aboutMe {
+  scroll-margin-top: 200px;
+}
+#skills {
+  scroll-margin-top: 200px; 
+}
+#portfolio {
+  scroll-margin-top: 140px; 
+}
+#contactButton {
+  scroll-margin-bottom: 100px;
+}
+#contactIDHref {
+  scroll-margin-top: 30px;
+}
 
 @font-face {
     font-family: 'poppins';
-    src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
 }

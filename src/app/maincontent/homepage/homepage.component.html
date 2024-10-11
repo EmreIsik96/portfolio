@@ -1,4 +1,4 @@
-<div class="mainContainer">
+<div id="homepageID" class="mainContainer">
 
   <div class="d-flexImgAndTxt">
     <div class="mainImagesContainer">
@@ -22,7 +22,7 @@
   </div>
 
   <div class="buttonOnMainContainer">
-    <button class="buttonOnMain">
+    <button (click)="scrollToContact()" class="buttonOnMain">
       <span class="buttonTxtOnMain">Let´s talk!</span>
     </button>
   </div>
@@ -36,23 +36,19 @@
 
   <div class="referencesContainer">
     <div class="vectorPurpleContainer">
-      <img
-        class="vector_purple"
-        src="./assets/img/homepage/vector_purple.png"
-        alt="vector_purple"
-      />
+      <img class="vectorPurple" src="./assets/img/homepage/vector_purple.png"/>
     </div>
     <div class="githubIconContainer">
-      <img src="./assets/img/homepage/githubIcon.png" alt="githubIcon" />
+      <img class="githubIcon" src="./assets/img/homepage/githubIcon.png" alt="githubIcon" />
     </div>
     <div class="emailIconContainer">
-      <img src="./assets/img/homepage/emailIcon.png" alt="githubIcon" />
+      <img class="emailIcon" src="./assets/img/homepage/emailIcon.png" alt="githubIcon" />
     </div>
     <div class="linkedInIconContainer">
-      <img src="./assets/img/homepage/linkedInIcon.png" alt="githubIcon" />
+      <img class="linkedInIcon" src="./assets/img/homepage/linkedInIcon.png" alt="githubIcon" />
     </div>
     <div class="emailTxtContainer">
-      <span class="emailTxt">emre-isik&#64;web.de</span>
+      <a href="#contactIDHref" class="emailTxt">emre-isik&#64;web.de</a>
     </div>
   </div>
 </div>
