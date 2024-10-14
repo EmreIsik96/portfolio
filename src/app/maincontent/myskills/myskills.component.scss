@@ -114,9 +114,12 @@ img{
 }
 
 .mySkillButton {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 58px;
-  padding: 15px 30px 15px 30px;
   gap: 10px;
   border-radius: 10px;
   opacity: 0px;

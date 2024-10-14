@@ -1,4 +1,4 @@
-<div id="contactButton" class="mainContainer">
+<div id="contactMain" class="mainContainer">
   <div class="headerContainer">
     <img src="./assets/img/contact/linie_purple_long.png" />
     <h2 class="header">Contact</h2>
@@ -18,26 +18,38 @@
     </div>
 
     <div class="contactFormularContainer">
-      <form method="post">
-        <input class="inputName" type="name" placeholder="Your name" required/>
-        <input class="inputEmail" type="email" placeholder="Your email" required />
-        <input class="inputMessage" type="text" placeholder="Your message" />
+      <form (ngSubmit)="submit()">
+        <input [(ngModel)]="contactData.name" (click)="inputKlicked()" class="inputName" type="name" placeholder="Your name" required/>
+        <div class="inputNameRequiredContainer">
+          <span id="" style="display: none;">Your name is required</span>
+        </div>
+
+        <input [(ngModel)]="contactData.email" class="inputEmail" type="email" placeholder="Your email" required />
+        <div class="inputEmailRequiredContainer">
+          <span id="inputEmailRequiredSpan" style="display: none;">Your name is required</span>
+        </div>
+
+        <input [(ngModel)]="contactData.message" class="inputMessage" type="text" placeholder="Your message" />
+        <div class="inputMessageRequiredContainer">
+          <span id="inputMessageRequiredSpan" style="display: none;">Your name is required</span>
+        </div>
+
+        <div class="privacyPolicySecondContainer">
+          <div class="privacyPolicy">
+            <input class="checkbox" type="checkbox" />
+            <span class="contactSpan1">I've read the</span>
+            <a href="#" class="textButtonPrivacyPolicy">privacy policy</a>
+            <span class="contactSpan2">and agree to the processing of my data as outlined.</span>
+          </div>
+          <span style="display: none">Please accept the privacy policy.</span>
+        </div>
+
+        <input type="submit" value="Send message :)" class="sendButton">
+
       </form>
       
       <div class="inputMessageAndPolicyContainer">
         <div class="privacyPolicyMainContainer">
-          <div class="privacyPolicySecondContainer">
-            <div class="privacyPolicy">
-              <input class="checkbox" type="checkbox" />
-              <span class="contactSpan1">I've read the</span>
-              <a href="#" class="textButtonPrivacyPolicy">privacy policy</a>
-              <span class="contactSpan2">and agree to the processing of my data as outlined.</span>
-            </div>
-            <span style="display: none">Please accept the privacy policy.</span>
-          </div>
-          <div class="buttonContainer">
-            <button (click)="send()" class="sendButton">Send message :)</button>
-          </div>
           <div class="goUpButtonContainer">
             <img (click)="scrollToHomepage()" class="goUpButton"src="./assets/img/contact/go_up_button.png"/>
           </div>

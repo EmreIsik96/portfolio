@@ -61,17 +61,13 @@
   }
 }
 .contactFormularContainer {
-  display: grid;
   width: 617px;
   height: 508px;
-  gap: 32px;
-  opacity: 0px;
 }
 .inputName,
 .inputEmail {
   width: 617px;
   height: 50px;
-  margin-bottom: 28px;
   padding: 15px 25px 15px 25px;
   border-radius: 10px;
   border: 1px;
@@ -87,6 +83,14 @@
     color: #ffffff;
   }
 }
+.inputNameRequiredContainer,
+.inputEmailRequiredContainer,
+.inputMessageRequiredContainer {
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 28px;
+}
+
 .inputMessageAndPolicyContainer {
   display: grid;
   width: 617px;
@@ -128,8 +132,6 @@
   display: grid;
   width: 617px;
   height: 126px;
-  gap: 16px;
-  opacity: 0px;
 }
 .privacyPolicySecondContainer {
   display: grid;
@@ -187,9 +189,11 @@
 .goUpButtonContainer {
   display: flex;
   justify-content: flex-end;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-right: -50px;
 }
-.goUpButton{
+.goUpButton {
   cursor: pointer;
+  height: 42px;
+  width: 42px;
 }

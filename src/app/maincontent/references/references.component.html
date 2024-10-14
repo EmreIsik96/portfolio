@@ -24,9 +24,9 @@
 
     <div class="swipeBarContainer">
       <img (click)="previousReference()" id="arrowBackID" class="arrowBack" src="./assets/img/references/arrow_back.png"/>
-      <img [src]="getEllipseSrc(0)" [ngClass]="{'active': currentIndex === 0}" class="ellipse">
-      <img [src]="getEllipseSrc(1)" [ngClass]="{'active': currentIndex === 1}" class="ellipse">
-      <img [src]="getEllipseSrc(2)" [ngClass]="{'active': currentIndex === 2}" class="ellipse">
+      <img [src]="getEllipseSrc(0)" [ngClass]="{'active': currentIndex === 0}">
+      <img [src]="getEllipseSrc(1)" [ngClass]="{'active': currentIndex === 1}">
+      <img [src]="getEllipseSrc(2)" [ngClass]="{'active': currentIndex === 2}">
       <img (click)="nextReference()" id="arrowForwardID" class="arrowForward" src="./assets/img/references/arrow_forward.png"/>
     </div>
   </div>

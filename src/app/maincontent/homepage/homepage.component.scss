@@ -125,9 +125,12 @@
   margin-top: -220px;
 }
 .buttonOnMain {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 165px;
   height: 58px;
-  padding: 15px 30px 15px 30px;
   gap: 10px;
   border-radius: 10px;
   border: 0;

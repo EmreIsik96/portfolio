@@ -44,11 +44,4 @@ skillIcons = [
     img:  "./assets/img/skillIcons/learning-Icon.png"
   }
 ]
-
-scrollToContact() {
-  const element = document.getElementById("contactButton");
-  if (element) {
-    element.scrollIntoView({ behavior: "smooth", block: "center" });
-  }
-}
 }
