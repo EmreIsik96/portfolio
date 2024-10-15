@@ -165,7 +165,7 @@
   opacity: 0px;
 }
 .vectorPurple {
-  width: 400px;
+  width: 140px;
   height: 5px;
 }
 .githubIconContainer,
@@ -197,4 +197,9 @@
   &:hover {
     transform: scale(1.4);
   }
+}
+
+@media (max-width:1500px)
+{
+  
 }

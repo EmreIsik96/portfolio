@@ -12,31 +12,37 @@
         knowing your ideas and contributing to your projects with my work.</span>
       <br/>
       <span class="contactInsideSpanTxt2">
-        eed a Frontend developer?
+        Need a Frontend developer?
         <span class="contactMe">Contact me!</span>
     </span>
     </div>
 
     <div class="contactFormularContainer">
-      <form (ngSubmit)="submit()">
-        <input [(ngModel)]="contactData.name" (click)="inputKlicked()" class="inputName" type="name" placeholder="Your name" required/>
+      <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+        <input #name="ngModel" minlength="4" [(ngModel)]="contactData.name" name="name"  class="inputName" type="name" placeholder="Your name" required/>
         <div class="inputNameRequiredContainer">
-          <span id="" style="display: none;">Your name is required</span>
+          @if (!name.valid && name.touched) {
+            <span style="color: red;">Please enter your name</span>
+          }
         </div>
 
-        <input [(ngModel)]="contactData.email" class="inputEmail" type="email" placeholder="Your email" required />
+        <input #email="ngModel" minlength="4" [(ngModel)]="contactData.email" name="email" class="inputEmail" type="email" placeholder="Your email" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"/>
         <div class="inputEmailRequiredContainer">
-          <span id="inputEmailRequiredSpan" style="display: none;">Your name is required</span>
+          @if (!email.valid && email.touched) {
+            <span style="color: red;">Please enter your email adress</span>
+          }
         </div>
 
-        <input [(ngModel)]="contactData.message" class="inputMessage" type="text" placeholder="Your message" />
+        <input #message="ngModel" minlength="4" [(ngModel)]="contactData.message" name="message" class="inputMessage" type="message" placeholder="Your message" required/>
         <div class="inputMessageRequiredContainer">
-          <span id="inputMessageRequiredSpan" style="display: none;">Your name is required</span>
+          @if (!message.valid && message.touched) {
+            <span style="color: red;">Please enter a message</span>
+          }
         </div>
-
+       
         <div class="privacyPolicySecondContainer">
           <div class="privacyPolicy">
-            <input class="checkbox" type="checkbox" />
+            <input class="checkbox" type="checkbox" required/>
             <span class="contactSpan1">I've read the</span>
             <a href="#" class="textButtonPrivacyPolicy">privacy policy</a>
             <span class="contactSpan2">and agree to the processing of my data as outlined.</span>

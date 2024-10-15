@@ -14,18 +14,24 @@ export class PortfolioComponent {
     images: "./assets/img/portfolioImg/join.png",
     name:  "Join",
     language: "Angular | TypeScript | HTML | CSS | Firebase",
-    description: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories."
+    description: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+    linkLiveTest: "https://emre-isik.de/join",
+    linkGitHub: "",
   },
   {
-    images: "./assets/img/portfolioImg/sharkie.png",
+    images: "./assets/img/portfolioImg/polloLoco.png",
     name: "El Pollo Loco",
     language: "JavaScript | HTML | CSS",
-    description: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories."
+    description: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+    linkLiveTest: "https://emre-isik.de/elPolloLoco",
+    linkGitHub: "https://github.com/EmreIsik96/elPolloLoco",
   },
   {
     images: "./assets/img/portfolioImg/pokedex.png",
     name: "Pokèdex",
     language: "JavaScript | HTML | CSS | Api",
-    description: "Based on the PokéAPI a simple library that provides and catalogues pokemon information.."
+    description: "Based on the PokéAPI a simple library that provides and catalogues pokemon information..",
+    linkLiveTest: "https://emre-isik.de/pokedex",
+    linkGitHub: "https://github.com/EmreIsik96/pokedex"
   }]
 }

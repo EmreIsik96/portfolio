@@ -35,8 +35,8 @@
           <span class="projectDescription">{{ item.description }}</span>
         </div>
         <div class="projectButtons{{ $index }}">
-          <a href="#liveTest" class="liveTestButton">Live test</a>
-          <a href="#gitHub" class="gitHubButton">Github</a>
+          <a href="{{projects[$index].linkLiveTest}}" target="_blank" class="liveTestButton">Live test</a>
+          <a href="{{projects[$index].linkGitHub}}" target="_blank" class="gitHubButton">Github</a>
         </div>
       </div>
     </div>
