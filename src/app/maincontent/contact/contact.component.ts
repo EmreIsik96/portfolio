@@ -1,18 +1,30 @@
+import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Component, inject } from '@angular/core';
+import { Component, ElementRef, inject, ViewChild } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [FormsModule],
+  imports: [CommonModule,FormsModule],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
 })
 
 export class ContactComponent {
+  @ViewChild('privacySpan') privacySpan!: ElementRef;
+  accepted: boolean = false; 
 
   http = inject(HttpClient)
+
+  checked()
+  {
+    this.accepted = true; 
+  }
+
+  checkPrivacy(){
+    this.privacySpan.nativeElement.style.display = 'block';
+  }
 
   scrollToHomepage() {
     const element = document.getElementById('homepageID');
@@ -25,8 +37,8 @@ export class ContactComponent {
     name: "",
     email: "",
     message: "",
+    checkbox: false,
   }
-
 
   mailTest = false;
 
@@ -42,20 +54,22 @@ export class ContactComponent {
   };
 
   onSubmit(ngForm: NgForm) {
-    if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
-      this.http.post(this.post.endPoint, this.post.body(this.contactData))
-        .subscribe({
-          next: (response) => {
-            ngForm.resetForm();
-          },
-          error: (error) => {
-            console.error(error);
-          },
-          complete: () => alert('send post complete'),
-        });
-    } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
-
-      ngForm.resetForm();
+    if (this.contactData.checkbox == true) {
+      if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
+        this.http.post(this.post.endPoint, this.post.body(this.contactData))
+          .subscribe({
+            next: (response) => {
+              ngForm.resetForm();
+            },
+            error: (error) => {
+              console.error(error);
+            },
+            complete: () => alert('send post complete'),
+          });
+      } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
+  
+        ngForm.resetForm();
+      }
     }
   }
 }

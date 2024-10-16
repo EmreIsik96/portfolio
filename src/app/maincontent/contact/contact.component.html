@@ -42,16 +42,22 @@
        
         <div class="privacyPolicySecondContainer">
           <div class="privacyPolicy">
-            <input class="checkbox" type="checkbox" required/>
+            <input (click)="checked()" name="checkbox" #checkbox="ngModel" [(ngModel)]="contactData.checkbox" class="checkbox" type="checkbox" required/>
             <span class="contactSpan1">I've read the</span>
-            <a href="#" class="textButtonPrivacyPolicy">privacy policy</a>
+            <a href="privacypolicy" target="_blank" class="textButtonPrivacyPolicy">privacy policy</a>
             <span class="contactSpan2">and agree to the processing of my data as outlined.</span>
           </div>
-          <span style="display: none">Please accept the privacy policy.</span>
+          <div #privacySpan style="display: none;" *ngIf="!accepted">
+            <span style="color: red;">Please accept the privacy policy</span>
+          </div>
         </div>
-
-        <input type="submit" value="Send message :)" class="sendButton">
-
+       
+        @if (!message.valid || !email.valid || !name.valid || !checkbox.touched) {
+          <input (click)="checkPrivacy()" type="submit" value="Send message :)" class="sendButtonDisable">
+        }
+        @else if (message.valid && email.valid && name.valid && checkbox.touched){
+          <input type="submit" value="Send message :)" class="sendButtonActive">
+        }
       </form>
       
       <div class="inputMessageAndPolicyContainer">
