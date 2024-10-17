@@ -213,3 +213,34 @@
   height: 42px;
   width: 42px;
 }
+
+@media(max-width:1500px) {
+  .contactDFlex
+  {
+    gap: 150px;
+  }
+}
+
+@media(max-width: 1353px){
+  .vectorLineHeader{
+    width: 250px;
+    height: 4px;
+  }
+  .contactDFlex{
+    gap: 100px;
+  }
+}
+@media(max-width: 1236px){
+  .header{
+    font-size: 75px;
+  }
+  .contactDFlex{
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+@media (max-width: 1150px) {
+  .header{
+   font-size: 70px;
+  }
+ }

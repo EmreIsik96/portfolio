@@ -12,14 +12,12 @@
   gap: 10px;
   opacity: 0px;
   margin-top: -32px;
-  margin-right: 40px;
   z-index: 1;
 }
 .testimonialsMainContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1171.5px;
   height: 344px;
   gap: 32px;
   opacity: 0px;
@@ -48,7 +46,6 @@
 .imageContainer {
   display: flex;
   align-items: center;
-  width: 372px;
   height: 272px;
 }
 .imageBorder {
@@ -79,5 +76,60 @@
   &:hover{
     border: 2px solid #70e61c;
     border-radius: 100%;
+  }
+}
+
+@media(max-width: 1472px){
+  .mainContainer{
+    width: fit-content;
+    margin-left: 50px;
+  }
+}
+
+@media(max-width: 1376px) {
+  .mainContainer{
+    justify-content: center;
+  }
+  .testimonials{
+    width: 550px;
+    height: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    gap: 44px;
+  }
+  .gooseFeetContainer{
+    width: 66.9px;
+    height: 38.1px;
+    margin-top: 0px;
+  }
+  .gooseFeet{
+    width: 55.9px;
+    height: 38.1px;
+  }
+  .imageBorder{
+    width: 230px;
+    height: 230px;
+  }
+}
+
+@media (max-width: 1093px) {
+  .testimonials{
+    width: 450px;
+    height: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    gap: 44px;
+  }
+  .imageBorder{
+    width: 200px;
+    height: 200px;
+  }
+  .signatureContainer{
+    margin-top: -40px;
+  }
+  .vectorPurple{
+    width: 300px;
   }
 }

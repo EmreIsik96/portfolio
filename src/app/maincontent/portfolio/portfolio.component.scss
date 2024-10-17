@@ -178,3 +178,31 @@
     background: #70E61C;
   }
 }
+@media(max-width: 1353px){
+  .purpleSecondLine{
+    width: 250px;
+    height: 4px;
+  }
+}
+
+@media(max-width: 1236px){
+  .purpleSecondLine{
+    width: 350px;
+    height: 4px;
+  }
+  .portfolioTxt{
+    font-size: 75px;
+  }
+}
+@media(max-width:1170px){
+  .projectDisplayFlex0,
+  .projectDisplayFlex1,
+  .projectDisplayFlex2{
+    width: 100%;
+  }
+}
+@media (max-width: 1150px) {
+  .portfolioTxt{
+   font-size: 70px;
+  }
+ }

@@ -13,13 +13,12 @@ import { FormsModule, NgForm } from '@angular/forms';
 
 export class ContactComponent {
   @ViewChild('privacySpan') privacySpan!: ElementRef;
-  accepted: boolean = false; 
 
   http = inject(HttpClient)
 
   checked()
   {
-    this.accepted = true; 
+    this.contactData.checkbox = true; 
   }
 
   checkPrivacy(){

@@ -107,3 +107,9 @@ header {
   line-height: 27.6px;
   text-align: left;
 }
+@media(max-width: 1477px){
+  header{
+    padding-right: 50px;
+    padding-left: 70px
+  }
+}

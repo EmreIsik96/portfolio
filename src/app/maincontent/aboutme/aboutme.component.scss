@@ -4,7 +4,17 @@
   margin-bottom: 180px;
   height: 630px;
   margin-left: 270px;
-  margin-right: 270px;
+}
+.vectorBlackContainerBack {
+  position: absolute;
+  z-index: -100;
+  left: 0;
+  right: 0;
+  margin-top: -415px;
+}
+.vectorBlackBack {
+  width: 100%;
+  height: 500px;
 }
 .aboutMeTxtContainer {
   width: 471px;
@@ -205,14 +215,94 @@
   display: flex;
   align-items: center;
 }
+.profileAndVectorMaincontainer {
+  display: flex;
+  align-items: center;
+}
 .purple_shadow {
   position: absolute;
-
-  top: 750px;
+  top: 850px;
   right: 0px;
   backdrop-filter: blur(93px);
-  z-index: -2;
+  z-index: -100;
 }
-.vectorGreenLong {
-  width: 267px;
+
+@media (max-width: 1630px) {
+  .mainAboutMeContainer {
+    margin-left: 170px;
+  }
+}
+
+@media (max-width: 1477px) {
+  .mainAboutMeContainer {
+    margin-left: 100px;
+  }
+  .vectorGreenLong {
+    width: 100px;
+    height: 5px;
+  }
+}
+@media (max-width: 1236px) {
+  .aboutMeTxt {
+    font-size: 75px;
+  }
+  .prefaceTxt,
+  .locationTxt,
+  .bulbTxt,
+  .puzzleTxt {
+    font-size: 14px;
+  }
+  .profilePictureMainContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .profilePictureContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -60px;
+  }
+  .ellipseGreen {
+    width: 353px;
+    height: 353px;
+  }
+  .profileImg {
+    height: 300px;
+    width: 300px;
+  }
+  .vectorGreenLong {
+    width: 150px;
+    height: 5px;
+  }
+}
+
+@media (max-width: 1162px) {
+  .mainAboutMeContainer {
+    margin-left: 50px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1150px) {
+  .aboutMeTxt {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .vectorGreenLong {
+    width: 72px;
+  }
+}
+
+@media (max-width: 1050px) {
+  
+}
+
+@media (max-width: 1040px) {
+  .vectorBlackContainerBack {
+    margin-top: -403px;
+    rotate: (4deg);
+  }
 }

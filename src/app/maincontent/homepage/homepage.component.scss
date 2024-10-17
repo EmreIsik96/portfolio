@@ -6,6 +6,7 @@
 }
 .mainImagesContainer {
   display: flex;
+  z-index: -100;
 }
 .mainImage {
   width: 646px;
@@ -49,18 +50,6 @@
   color: white;
   margin-right: 12px;
 }
-.infoTxtContainer {
-  width: 620px;
-  height: 172px;
-  gap: 0px;
-  opacity: 0px;
-}
-.nameTxtContainer {
-  width: 620px;
-  height: 108px;
-  gap: 0px;
-  opacity: 0px;
-}
 .nameTxt {
   margin: 0;
   font-size: 90px;
@@ -68,12 +57,6 @@
   line-height: 108px;
   text-align: left;
   color: white;
-}
-.jobDescriptionContainer {
-  width: 619px;
-  height: 70px;
-  gap: 0px;
-  opacity: 0px;
 }
 .jobDescriptionTxt {
   font-size: 58px;
@@ -191,7 +174,9 @@
   text-wrap: nowrap;
   cursor: pointer;
 }
-.githubIcon,.emailIcon,.linkedInIcon {
+.githubIcon,
+.emailIcon,
+.linkedInIcon {
   transform: scale(1);
   transition: transform 0.1s ease-in-out;
   &:hover {
@@ -199,7 +184,94 @@
   }
 }
 
-@media (max-width:1500px)
-{
-  
+@media (max-width: 1477px) {
+  .mainIamTxtContainer {
+    width: 50px;
+  }
+  .buttonOnMainContainer {
+    margin-left: 580px;
+  }
+  .scollDownContainer {
+    top: 800px;
+    right: 25px;
+    height: 0;
+  }
+  .referencesContainer {
+    height: 0;
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 1341px) {
+  .jobDescriptionTxt {
+    text-wrap: nowrap;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1236px) {
+  .nameTxt {
+    font-size: 75px;
+    text-wrap: nowrap;
+    margin-top: 10px;
+    margin-bottom: -5px;
+  }
+  .iamTxt {
+    line-height: 100px;
+    font-size: 60px;
+  }
+  .jobDescriptionTxt {
+    font-size: 45px;
+  }
+  .mainIamTxtContainer {
+    margin-left: -50px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .iamTxt {
+    line-height: 100px;
+    font-size: 60px;
+  }
+  .nameTxt {
+    font-size: 70px;
+    margin-bottom: -10px;
+  }
+  .jobDescriptionTxt {
+    font-size: 40px;
+  }
+  .iamTxt {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 1093px) {
+  .iamTxt {
+    font-size: 55px;
+  }
+  .nameTxt {
+    font-size: 60px;
+    margin-bottom: -15px;
+  }
+  .jobDescriptionTxt {
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+  .iamTxt {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .mainImage {
+    height: 600px;
+    width: 559px;
+    margin-top: 10px;
+  }
+  .referencesContainer {
+    margin-top: 230px;
+  }
+  .buttonOnMainContainer {
+    margin-right: 60px;
+  }
 }

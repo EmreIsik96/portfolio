@@ -1,6 +1,6 @@
 <div id="contactMain" class="mainContainer">
   <div class="headerContainer">
-    <img src="./assets/img/contact/linie_purple_long.png" />
+    <img class="vectorLineHeader" src="./assets/img/contact/linie_purple_long.png" />
     <h2 class="header">Contact</h2>
   </div>
 
@@ -47,15 +47,15 @@
             <a href="privacypolicy" target="_blank" class="textButtonPrivacyPolicy">privacy policy</a>
             <span class="contactSpan2">and agree to the processing of my data as outlined.</span>
           </div>
-          <div #privacySpan style="display: none;" *ngIf="!accepted">
+          <div #privacySpan style="display: none;" *ngIf="!contactData.checkbox">
             <span style="color: red;">Please accept the privacy policy</span>
           </div>
         </div>
        
-        @if (!message.valid || !email.valid || !name.valid || !checkbox.touched) {
+        @if (!message.valid || !email.valid || !name.valid || !contactData.checkbox) {
           <input (click)="checkPrivacy()" type="submit" value="Send message :)" class="sendButtonDisable">
         }
-        @else if (message.valid && email.valid && name.valid && checkbox.touched){
+        @else if (message.valid && email.valid && name.valid && contactData.checkbox){
           <input type="submit" value="Send message :)" class="sendButtonActive">
         }
       </form>

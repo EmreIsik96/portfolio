@@ -152,3 +152,39 @@ img{
   width: 180px;
   height: 5px;  
 }
+
+@media(max-width:1477px)
+{
+  .skillsIconContainer{
+    margin-left: 100px;
+  }
+}
+
+@media(max-width: 1250px){
+
+  .mySkillsHeader
+  {
+    font-size: 75px;
+    text-align: start;
+    text-wrap: nowrap;
+  }
+  .mySkillsTxt,.mySkillsSecondTxt{
+    font-size: 14px;
+  }
+  .mySkillsTxt{
+    margin-left: -30px;
+  }
+
+  .mySkillsMainTxt{
+    font-size: 30px;
+  }
+  .skillsIconContainer{
+    flex: auto;
+  }
+}
+
+@media (max-width: 1150px) {
+  .mySkillsHeader{
+   font-size: 70px;
+  }
+ }
