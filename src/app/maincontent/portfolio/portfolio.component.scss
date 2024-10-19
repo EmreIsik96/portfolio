@@ -59,7 +59,7 @@
 .projectDisplayFlex2 {
   width: 1168px;
   height: 339.19px;
-  gap: 35px;
+  gap: 170px;
   opacity: 0px;
 }
 
@@ -68,6 +68,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: -200px;
 }
 
 .projectDisplayFlex1 {
@@ -76,6 +77,7 @@
   align-items: center;
   text-align: right;
   flex-direction: row-reverse;
+  margin-left: -350px;
 }
 
 .projectDisplayFlex0,
@@ -85,6 +87,14 @@
 
 .projectNameContainer {
   margin-bottom: 28px;
+}
+
+.laptopImages0,
+.laptopImages1,
+.laptopImages2 {
+  &:hover {
+    scale: 1.2;
+  }
 }
 
 .projectName {
@@ -149,9 +159,9 @@
   line-height: 27.6px;
   border: 0;
   text-align: left;
-  &:hover{
+  &:hover {
     cursor: pointer;
-    background: #70E61C;
+    background: #70e61c;
   }
 }
 
@@ -173,36 +183,183 @@
   text-align: left;
   background-color: transparent;
   color: #ffff;
-  &:hover{
+  &:hover {
     cursor: pointer;
-    background: #70E61C;
+    background: #70e61c;
   }
 }
-@media(max-width: 1353px){
-  .purpleSecondLine{
+@media (max-width: 1584px) {
+  .purpleSecondLine {
+    width: 400px;
+  }
+}
+@media (max-width: 1522px) {
+  .projectDescriptionContainer {
+    text-wrap: wrap;
+    width: 400px;
+  }
+  .projectDisplayFlex1 {
+    margin-left: 0px;
+  }
+  .projectDisplayFlex2 {
+    margin-left: -100px;
+  }
+}
+@media (max-width: 1372px) {
+  .projectDescriptionContainer {
+    text-wrap: wrap;
+    width: 400px;
+  }
+  .projectDisplayFlex0,
+  .projectDisplayFlex2 {
+    margin-right: -50px;
+  }
+  .projectDisplayFlex1 {
+    margin-left: -100px;
+  }
+}
+@media (max-width: 1353px) {
+  .purpleSecondLine {
     width: 250px;
     height: 4px;
   }
 }
-
-@media(max-width: 1236px){
-  .purpleSecondLine{
-    width: 350px;
+@media (max-width: 1236px) {
+  .purpleSecondLine {
+    width: 250px;
     height: 4px;
   }
-  .portfolioTxt{
+  .portfolioTxt {
     font-size: 75px;
   }
-}
-@media(max-width:1170px){
+  .projectDescriptionContainer {
+    text-wrap: wrap;
+    width: 400px;
+  }
   .projectDisplayFlex0,
   .projectDisplayFlex1,
-  .projectDisplayFlex2{
+  .projectDisplayFlex2 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .sideTextContainer {
+    margin-top: 0;
+  }
+}
+@media (max-width: 1210px) {
+  .projectDescription0,
+  .projectDescription2 {
+    display: block;
+    font-size: 14px;
+    width: 400px;
+    text-wrap: wrap;
+    text-align: start;
+  }
+  .projectDescription1 {
+    display: block;
+    font-size: 14px;
+    width: 400px;
+    text-wrap: wrap;
+    text-align: end;
+  }
+}
+@media (max-width: 1170px) {
+  .projectDisplayFlex0,
+  .projectDisplayFlex1,
+  .projectDisplayFlex2 {
     width: 100%;
   }
 }
 @media (max-width: 1150px) {
-  .portfolioTxt{
-   font-size: 70px;
+  .portfolioTxt {
+    font-size: 70px;
   }
- }
+}
+@media (max-width: 1058px) {
+  .projectLanguageContainer {
+    text-wrap: wrap;
+    width: 400px;
+  }
+  .projectDisplayFlex0,
+  .projectDisplayFlex1,
+  .projectDisplayFlex2 {
+    gap: 60px;
+  }
+}
+@media (max-width: 990px) {
+  .projectNameContainer {
+    margin-bottom: 10px;
+  }
+  .projectName {
+    font-size: 30px;
+  }
+  .projectLanguage {
+    font-size: 18px;
+  }
+  .projectDescription0,
+  .projectDescription1,
+  .projectDescription2 {
+    font-size: 12px;
+  }
+  .laptopImages0,
+  .laptopImages1,
+  .laptopImages2 {
+    height: 200px;
+  }
+  .liveTestButton,
+  .gitHubButton {
+    width: 132px;
+    height: 50px;
+  }
+}
+@media (max-width: 960px) {
+  .portfolioTxt {
+    font-size: 50px;
+  }
+}
+@media (max-width: 860px) {
+  .purpleSecondLine {
+    width: 200px;
+  }
+  .sideText {
+    font-size: 14px;
+  }
+}
+@media (max-width: 840px) {
+  .portfolioTxt {
+    font-size: 45px;
+  }
+  .projectName{
+    font-size: 28px;
+  }
+}
+@media (max-width: 773px) {
+  .projectName {
+    font-size: 25px;
+  }
+  .projectDescriptionContainer {
+    margin-bottom: 20px;
+  }
+  .projectLanguage {
+    font-size: 16px;
+  }
+  .laptopImages0,
+  .laptopImages1,
+  .laptopImages2 {
+    height: 180px;
+  }
+  .liveTestButton,
+  .gitHubButton {
+    width: 110px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .projectRightContainer,
+  .projectLanguageContainer,
+  .projectDescriptionContainer,
+  .projectDescription0,
+  .projectDescription1,
+  .projectDescription2 {
+    width: 350px;
+  }
+}

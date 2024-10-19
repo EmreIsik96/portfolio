@@ -17,7 +17,7 @@
   margin-left: 270px;
 }
 
-img{
+img {
   transform: scale(1);
   transition: transform 0.1s ease-in-out;
   &:hover {
@@ -150,41 +150,192 @@ img{
 
 .vectorPurpleSmall {
   width: 180px;
-  height: 5px;  
+  height: 5px;
 }
 
-@media(max-width:1477px)
-{
-  .skillsIconContainer{
+@media (max-width: 1477px) {
+  .skillsIconContainer {
     margin-left: 100px;
   }
 }
 
-@media(max-width: 1250px){
-
-  .mySkillsHeader
-  {
+@media (max-width: 1250px) {
+  .mySkillsHeader {
     font-size: 75px;
     text-align: start;
     text-wrap: nowrap;
   }
-  .mySkillsTxt,.mySkillsSecondTxt{
+  .mySkillsTxt,
+  .mySkillsSecondTxt {
     font-size: 14px;
   }
-  .mySkillsTxt{
+  .mySkillsTxt {
     margin-left: -30px;
   }
 
-  .mySkillsMainTxt{
+  .mySkillsMainTxt {
     font-size: 30px;
   }
-  .skillsIconContainer{
+  .skillsIconContainer {
     flex: auto;
   }
 }
 
 @media (max-width: 1150px) {
-  .mySkillsHeader{
-   font-size: 70px;
+  .mySkillsHeader {
+    font-size: 70px;
   }
- }
+}
+
+@media (max-width: 1058px) {
+  .vectorPurpleSmall {
+    width: 140px;
+  }
+  .mySkillsHeaderContainer {
+    margin-right: -17px;
+  }
+  .mySkillsTxtContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mySkillsTxt,
+  .mySkillsSecondTxt {
+    font-size: 12px;
+  }
+  .mySkillsTxt {
+    margin-left: 30px;
+    margin-bottom: 0;
+  }
+  .mySkillsSecondTxt {
+    width: 400px;
+  }
+  .mainContainer {
+    gap: 80px;
+  }
+  img {
+    width: 70px;
+  }
+  .skillsTxtContainer {
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 975px) {
+  .mySkillsHeader {
+    font-size: 50px;
+  }
+  .mySkillsHeaderContainer {
+    margin-bottom: 0px;
+    margin-left: -20px;
+  }
+  .mySkillsTxtContainer {
+    width: 370px;
+  }
+  .skillsIconContainer {
+    margin-left: 50px;
+  }
+  .mySkillsMainTxt {
+    font-size: 25px;
+    width: 320px;
+  }
+  .mySkillsSecondTxt {
+    width: 320px;
+  }
+  .mySkillsTxt {
+    text-wrap: wrap;
+    width: 370px;
+    margin: 0;
+    margin-left: -40px;
+  }
+  .skillsTxtContainer {
+    margin-top: -40px;
+    margin-left: -50px;
+  }
+  .lookingForTxtContainer {
+    width: 320px;
+  }
+  .getInTouchContainer {
+    width: 320px;
+  }
+  img {
+    width: 65px;
+  }
+}
+
+@media (max-width: 909px) {
+  .mySkillsHeader {
+    font-size: 50px;
+  }
+  .mySkillsHeaderContainer {
+    margin-bottom: 0px;
+    margin-left: -300px;
+    margin-right: 0;
+  }
+  .mySkillsMainTxt {
+    font-size: 25px;
+  }
+  .mySkillsTxt {
+    width: 360px;
+  }
+  .skillsTxtContainer {
+    width: 400px;
+    margin-top: -40px;
+    align-items: end;
+  }
+  .mySkillsTxtContainer {
+    width: 320px;
+  }
+  .skillsIconContainer {
+    margin-left: 50px;
+    width: 400px;
+  }
+  img {
+    width: 65px;
+  }
+  .vectorPurpleSmall {
+    width: 120px;
+  }
+}
+@media (max-width: 840px) {
+  .mySkillsHeader {
+    font-size: 45px;
+  }
+  .mySkillsMainTxt{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 830px) {
+  .vectorPurpleSmall {
+    width: 80px;
+  }
+  .mySkillsTxtContainer {
+    width: 320px;
+    display: flex;
+    align-items: center;
+  }
+  .mySkillsTxt {
+    margin: 0;
+    width: 270px;
+    text-align: center;
+  }
+  .mySkillsSecondTxt {
+    text-align: center;
+  }
+  .mySkillsMainTxt {
+    width: 320px;
+  }
+  .lookingForTxtContainer {
+    width: 320px;
+  }
+  .skillsIconContainer {
+    width: 420px;
+  }
+  .mySkillButtonContainer {
+    justify-content: center;
+  }
+}

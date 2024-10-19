@@ -21,7 +21,7 @@
     @for (item of projects; track $index) {
     <div class="projectDisplayFlex{{ $index }}">
       <div class="projectLeftContainer">
-        <img class="laptopImages" src="{{ item.images }}" />
+        <img class="laptopImages{{$index}}" src="{{ item.images }}" />
       </div>
 
       <div class="projectRightContainer">
@@ -32,7 +32,7 @@
           <span class="projectLanguage">{{ item.language }}</span>
         </div>
         <div class="projectDescriptionContainer">
-          <span class="projectDescription">{{ item.description }}</span>
+          <span class="projectDescription{{$index}}">{{ item.description }}</span>
         </div>
         <div class="projectButtons{{ $index }}">
           <a href="{{projects[$index].linkLiveTest}}" target="_blank" class="liveTestButton">Live test</a>

@@ -275,3 +275,88 @@
     margin-right: 60px;
   }
 }
+
+@media (max-width: 960px) {
+  .mainImage {
+    height: 550px;
+    width: 510px;
+    margin-top: 0px;
+    margin-left: -50px;
+  }
+  .nameTxt {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: -35px;
+  }
+  .jobDescriptionTxt{
+    font-size: 30px;
+  }
+  .iamTxt{
+    font-size: 40px;
+  }
+  .buttonOnMainContainer{
+    margin-top: -200px;
+    margin-right: 140px;
+  }
+  .bgShadowOnMain{
+    margin-left: -95px;
+    margin-top: 90px;
+  }
+  .scollDownContainer{
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 840px) {
+  .mainImage {
+    height: 500px;
+    width: 460px;
+    margin-top: 0px;
+    margin-left: -50px;
+  }
+  .nameTxt {
+    font-size: 45px;
+    margin-top: 6px;
+    margin-bottom: -40px;
+  }
+  .jobDescriptionTxt{
+    font-size: 25px;
+  }
+  .iamTxt{
+    font-size: 35px;
+  }
+  .buttonOnMainContainer{
+    margin-top: -180px;
+    margin-right: 100px;
+    width: 200px;
+  }
+  .buttonOnMain{
+    margin-left: -150px;
+  }
+  .bgShadowOnMain{
+    margin-left: -150px;
+    margin-top: 90px;
+  }
+  .scollDownContainer{
+    margin-top: -80px;
+  }
+  .referencesContainer{
+    gap: 20px;
+  }
+  .vectorPurple{
+    width: 60px;
+    margin-left: -74px;
+  }
+}
+
+@media(max-width: 779px) {
+  .buttonOnMainContainer{
+    width: 120px;
+  }
+}
+
+@media(max-width: 730px) {
+  .buttonOnMainContainer{
+    width: 50px;
+  }
+}

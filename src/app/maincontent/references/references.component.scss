@@ -12,6 +12,7 @@
   gap: 10px;
   opacity: 0px;
   margin-top: -32px;
+  margin-right: -32px;
   z-index: 1;
 }
 .testimonialsMainContainer {
@@ -88,7 +89,10 @@
 
 @media(max-width: 1376px) {
   .mainContainer{
+    width: 100%;
     justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
   }
   .testimonials{
     width: 550px;
@@ -101,7 +105,8 @@
   .gooseFeetContainer{
     width: 66.9px;
     height: 38.1px;
-    margin-top: 0px;
+    margin-top: 10px;
+    margin-right: -36px;
   }
   .gooseFeet{
     width: 55.9px;
@@ -131,5 +136,32 @@
   }
   .vectorPurple{
     width: 300px;
+  }
+}
+
+@media (max-width: 970px) {
+  .mainContainer{
+    margin-bottom: 80px;
+  }
+  span{
+    font-size: 12px;
+  }
+  .testimonials{
+    width: 300px;
+    height: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    gap: 44px;
+    text-wrap: wrap;
+  } 
+  .vectorPurple{
+    width: 150px;
+  }
+}
+
+@media (max-width: 770px) {
+  .testimonialsContainer{
+    gap: 50px;
   }
 }

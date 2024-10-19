@@ -230,7 +230,8 @@
     gap: 100px;
   }
 }
-@media(max-width: 1236px){
+
+@media(max-width: 1280px){
   .header{
     font-size: 75px;
   }
@@ -238,9 +239,174 @@
     margin-left: 60px;
     margin-right: 60px;
   }
+  .inputName,.inputEmail,.inputMessage{
+    width: 450px;
+  }
+  .privacyPolicy,.privacyPolicySecondContainer{
+    width: 500px;
+    font-size: 12px;
+  }
+  .privacyPolicySecondContainer{
+    height: 24px;
+  }
+  .contactSpan1,.textButtonPrivacyPolicy,.contactSpan2{
+    text-wrap: nowrap;
+  }
+  .inputMessageRequiredContainer{
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .sendButtonDisable,.sendButtonActive{
+    width: 200px;
+    height: 58px;
+    padding: 10px 10px 10px 10px;
+  }
+  .goUpButtonContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-right: 0px;
+  }
+  .contactFormularContainer {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
 }
+
 @media (max-width: 1150px) {
   .header{
    font-size: 70px;
   }
+}
+
+@media (max-width: 1080px) {
+ .contactFormularContainer{
+  width: 520px;
  }
+}
+
+@media (max-width: 985px) {
+  .contactFormularContainer{
+   width: 460px;
+  }
+}
+
+@media(max-width: 960px) {
+  .header{
+    font-size: 50px;
+  }
+  .contactDFlex{
+    margin-left: 30px;
+    margin-right: 0;
+  }
+  form{
+    width: 450px;
+  }
+  .inputName,.inputEmail{
+    width: 360px;
+    height: 30px;
+  }
+  .inputMessage{
+    width: 360px;
+    height: 130px;
+  }
+  .contactSpan2{     
+    margin-top: 40px;
+    margin-left: -180px;    
+  }
+  .privacyPolicy{
+    width: 350px;
+  }
+  .privacyPolicySecondContainer{
+    width: 350px;
+    height: 24px;
+    margin-bottom: 40px;
+  }
+  .inputMessageRequiredContainer{
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .sendButtonDisable,.sendButtonActive{
+    width: 160px;
+    height: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  .goUpButtonContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-right: 60px;
+  }
+  .contactFormularContainer {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+}
+
+@media(max-width: 840px) {
+  .header{
+    font-size: 45px;
+  }
+  .contactDFlex{
+    margin-left: 30px;
+    margin-right: 0;
+  }
+  .contactInsideSpanTxt1,.contactInsideSpanTxt2{
+    font-size: 12px;
+  }
+  .contactInsideHeaderTxt{
+    font-size: 25px;
+  }
+  .contactMe{
+    font-size: 14px;
+  }
+  form{
+    width: 380px;
+  }
+  .inputName,.inputEmail{
+    width: 300px;
+  }
+  .inputMessage{
+    width: 300px;
+    height: 130px;
+  }
+  .contactFormularContainer {
+    margin-top: 45px;
+    width: 380px;
+  }
+}
+
+@media(max-width: 720px) {
+  .header{
+    margin-bottom: 0;
+  }
+  form{
+    width: 330px;
+  }
+  .inputName,.inputEmail{
+    width: 250px;
+  }
+  .inputMessage{
+    width: 250px;
+    height: 130px;
+  }
+  .contactFormularContainer {
+    margin-top: 45px;
+    width: 310px;
+  }
+  .privacyPolicy,.privacyPolicySecondContainer{
+    width: 300px;
+  }
+  .contactSpan2{
+    margin-left: -205px;
+  }
+}

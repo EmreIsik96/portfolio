@@ -26,3 +26,15 @@ html {
     font-family: 'poppins';
     src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
 }
+
+@media(max-width: 960px){
+  #aboutMe {
+    scroll-margin-top: 120px;
+  }
+  #skills {
+    scroll-margin-top: 120px; 
+  }
+  #portfolio {
+    scroll-margin-top: 120px; 
+  }
+}
