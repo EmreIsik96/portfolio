@@ -188,11 +188,13 @@
     background: #70e61c;
   }
 }
+
 @media (max-width: 1584px) {
   .purpleSecondLine {
     width: 400px;
   }
 }
+
 @media (max-width: 1522px) {
   .projectDescriptionContainer {
     text-wrap: wrap;
@@ -205,6 +207,7 @@
     margin-left: -100px;
   }
 }
+
 @media (max-width: 1372px) {
   .projectDescriptionContainer {
     text-wrap: wrap;
@@ -218,12 +221,14 @@
     margin-left: -100px;
   }
 }
+
 @media (max-width: 1353px) {
   .purpleSecondLine {
     width: 250px;
     height: 4px;
   }
 }
+
 @media (max-width: 1236px) {
   .purpleSecondLine {
     width: 250px;
@@ -246,6 +251,7 @@
     margin-top: 0;
   }
 }
+
 @media (max-width: 1210px) {
   .projectDescription0,
   .projectDescription2 {
@@ -263,6 +269,7 @@
     text-align: end;
   }
 }
+
 @media (max-width: 1170px) {
   .projectDisplayFlex0,
   .projectDisplayFlex1,
@@ -270,11 +277,13 @@
     width: 100%;
   }
 }
+
 @media (max-width: 1150px) {
   .portfolioTxt {
     font-size: 70px;
   }
 }
+
 @media (max-width: 1058px) {
   .projectLanguageContainer {
     text-wrap: wrap;
@@ -286,6 +295,7 @@
     gap: 60px;
   }
 }
+
 @media (max-width: 990px) {
   .projectNameContainer {
     margin-bottom: 10px;
@@ -312,11 +322,13 @@
     height: 50px;
   }
 }
+
 @media (max-width: 960px) {
   .portfolioTxt {
     font-size: 50px;
   }
 }
+
 @media (max-width: 860px) {
   .purpleSecondLine {
     width: 200px;
@@ -325,6 +337,7 @@
     font-size: 14px;
   }
 }
+
 @media (max-width: 840px) {
   .portfolioTxt {
     font-size: 45px;
@@ -333,6 +346,7 @@
     font-size: 28px;
   }
 }
+
 @media (max-width: 773px) {
   .projectName {
     font-size: 25px;
@@ -362,4 +376,29 @@
   .projectDescription2 {
     width: 350px;
   }
+}
+
+@media (max-width: 730px) {
+  .sideTextContainer{
+    margin-bottom: 0px;
+  }
+  .projectDisplayFlex0,.projectDisplayFlex1{
+    margin-bottom: 0px;
+  }
+  .mainContainer{
+    margin-bottom: 100px;
+  }
+  .projectRightContainer,.projectNameContainer,.projectLanguageContainer,.projectLanguage,.projectDescriptionContainer,.projectDescription0,.projectDescription1,.projectDescription2{
+    width: 300px;
+  }
+  .laptopImages0,.laptopImages1,.laptopImages2{
+    height: 160px;
+  }
+  .projectDisplayFlex0,.projectDisplayFlex1,.projectDisplayFlex2 {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 630px) {
+  
 }

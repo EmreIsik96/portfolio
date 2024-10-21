@@ -74,27 +74,27 @@
 .arrowBack,
 .arrowForward {
   cursor: pointer;
-  &:hover{
+  &:hover {
     border: 2px solid #70e61c;
     border-radius: 100%;
   }
 }
 
-@media(max-width: 1472px){
-  .mainContainer{
+@media (max-width: 1472px) {
+  .mainContainer {
     width: fit-content;
     margin-left: 50px;
   }
 }
 
-@media(max-width: 1376px) {
-  .mainContainer{
+@media (max-width: 1376px) {
+  .mainContainer {
     width: 100%;
     justify-content: center;
     margin-left: 0;
     margin-right: 0;
   }
-  .testimonials{
+  .testimonials {
     width: 550px;
     height: 150px;
     padding-left: 40px;
@@ -102,24 +102,24 @@
     padding-top: 20px;
     gap: 44px;
   }
-  .gooseFeetContainer{
+  .gooseFeetContainer {
     width: 66.9px;
     height: 38.1px;
     margin-top: 10px;
     margin-right: -36px;
   }
-  .gooseFeet{
+  .gooseFeet {
     width: 55.9px;
     height: 38.1px;
   }
-  .imageBorder{
+  .imageBorder {
     width: 230px;
     height: 230px;
   }
 }
 
 @media (max-width: 1093px) {
-  .testimonials{
+  .testimonials {
     width: 450px;
     height: 150px;
     padding-left: 40px;
@@ -127,26 +127,26 @@
     padding-top: 20px;
     gap: 44px;
   }
-  .imageBorder{
+  .imageBorder {
     width: 200px;
     height: 200px;
   }
-  .signatureContainer{
+  .signatureContainer {
     margin-top: -40px;
   }
-  .vectorPurple{
+  .vectorPurple {
     width: 300px;
   }
 }
 
 @media (max-width: 970px) {
-  .mainContainer{
+  .mainContainer {
     margin-bottom: 80px;
   }
-  span{
+  span {
     font-size: 12px;
   }
-  .testimonials{
+  .testimonials {
     width: 300px;
     height: 150px;
     padding-left: 40px;
@@ -154,14 +154,35 @@
     padding-top: 20px;
     gap: 44px;
     text-wrap: wrap;
-  } 
-  .vectorPurple{
+  }
+  .vectorPurple {
     width: 150px;
   }
 }
 
 @media (max-width: 770px) {
-  .testimonialsContainer{
+  .testimonialsContainer {
     gap: 50px;
   }
+}
+
+@media (max-width: 730px) {
+  .mainContainer {
+    margin-bottom: 100px;
+  }
+  .gooseFeetContainer {
+    margin-top: -10px;
+  }
+  .testimonials {
+    width: 250px;
+    height: 200px;
+  }
+  .imageBorder {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 630px) {
+ 
 }

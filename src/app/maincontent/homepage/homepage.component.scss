@@ -288,21 +288,21 @@
     margin-top: 5px;
     margin-bottom: -35px;
   }
-  .jobDescriptionTxt{
+  .jobDescriptionTxt {
     font-size: 30px;
   }
-  .iamTxt{
+  .iamTxt {
     font-size: 40px;
   }
-  .buttonOnMainContainer{
+  .buttonOnMainContainer {
     margin-top: -200px;
     margin-right: 140px;
   }
-  .bgShadowOnMain{
+  .bgShadowOnMain {
     margin-left: -95px;
     margin-top: 90px;
   }
-  .scollDownContainer{
+  .scollDownContainer {
     margin-top: -50px;
   }
 }
@@ -319,44 +319,160 @@
     margin-top: 6px;
     margin-bottom: -40px;
   }
-  .jobDescriptionTxt{
+  .jobDescriptionTxt {
     font-size: 25px;
   }
-  .iamTxt{
+  .iamTxt {
     font-size: 35px;
   }
-  .buttonOnMainContainer{
+  .buttonOnMainContainer {
     margin-top: -180px;
     margin-right: 100px;
     width: 200px;
   }
-  .buttonOnMain{
+  .buttonOnMain {
     margin-left: -150px;
   }
-  .bgShadowOnMain{
+  .bgShadowOnMain {
     margin-left: -150px;
     margin-top: 90px;
   }
-  .scollDownContainer{
+  .scollDownContainer {
     margin-top: -80px;
   }
-  .referencesContainer{
+  .referencesContainer {
     gap: 20px;
   }
-  .vectorPurple{
+  .vectorPurple {
     width: 60px;
     margin-left: -74px;
   }
 }
 
-@media(max-width: 779px) {
-  .buttonOnMainContainer{
+@media (max-width: 779px) {
+  .buttonOnMainContainer {
     width: 120px;
   }
 }
 
-@media(max-width: 730px) {
-  .buttonOnMainContainer{
-    width: 50px;
+@media (max-width: 730px) {
+  .mainContainer {
+    margin-top: 100px;
+  }
+  .buttonOnMain {
+    margin-left: -120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+  }
+  .buttonOnMainContainer {
+    width: 0;
+  }
+  .mainImage {
+    height: 400px;
+    width: 380px;
+    margin-top: 0px;
+    margin-left: -100px;
+  }
+  .bgShadowOnMain {
+    margin-left: -250px;
+    margin-top: 0px;
+  }
+  .scollDownContainer {
+    margin-top: -100px;
+    margin-right: -30px;
+  }
+  .referencesContainer {
+    margin-top: 150px;
+  }
+  .vectorPurple {
+    width: 60px;
+    margin-left: -74px;
+  }
+
+  .d-flexImgAndTxt {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 690px) {
+  .buttonOnMain {
+    margin-left: -180px;
+  }
+}
+
+@media (max-width: 650px) {
+  .buttonOnMain {
+    margin-left: -230px;
+  }
+}
+
+@media (max-width: 630px) {
+  .mainContainer {
+    margin: 0;
+    height: 100vh;
+    margin-bottom: 200px;
+  }
+  .d-flexImgAndTxt {
+    display: block;
+    height: 90vh;
+    margin: 0;
+  }
+  .mainImagesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .bgShadowOnMain {
+    width: 100%;
+    margin: 0;
+    z-index: -3;
+  }
+  .mainImage {
+    z-index: -2;
+    margin: 0;
+    margin-right: -40px;
+    height: 450px;
+    width: 430px;
+  }
+  .nameTxtContainer{
+    width: 200px;
+  }
+  .nameTxt {
+    font-size: 45px;
+    margin: 0;
+    line-height: 35px;
+    width: 200px;
+  }
+  .jobDescriptionContainer,.jobDescriptionTxt{
+    width: 280px;
+  }
+  .infoTxtContainer {
+    margin-top: -160px;
+    margin-left: 230px;
+    width: 280px;
+  }
+  .buttonOnMain{
+    margin-left: -500px;
+    margin-top: 0px; 
+    margin-bottom: 60px;
+  }
+  .mainIamTxtContainer {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .iamTxtContainer{
+    margin-left: 300px;
+    margin-top: -68px;
+  }
+  .iamTxt{
+    margin: 0;
+  }
+  .scollDownContainer{
+    display: none;
+  }
+  .referencesContainer{
+    margin-top: 0;
   }
 }

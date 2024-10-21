@@ -276,19 +276,19 @@
 
 }
 
-@media (max-width: 1150px) {
+@media(max-width: 1150px) {
   .header{
    font-size: 70px;
   }
 }
 
-@media (max-width: 1080px) {
+@media(max-width: 1080px) {
  .contactFormularContainer{
   width: 520px;
  }
 }
 
-@media (max-width: 985px) {
+@media(max-width: 985px) {
   .contactFormularContainer{
    width: 460px;
   }
@@ -409,4 +409,8 @@
   .contactSpan2{
     margin-left: -205px;
   }
+}
+
+@media (max-width: 630px) {
+ 
 }

@@ -6,7 +6,7 @@ header {
   height: 50px;
   position: sticky;
   top: 0;
-  background-color: #141D2F;
+  background-color: #141d2f;
   backdrop-filter: blur(65px);
   padding-left: 100px;
   padding-right: 100px;
@@ -33,7 +33,7 @@ header {
   gap: 29px;
   opacity: 0px;
 }
-.homepageMyName{
+.homepageMyName {
   text-decoration: none;
   color: #ffff;
   font-size: 38px;
@@ -41,6 +41,8 @@ header {
   cursor: pointer;
 }
 .headerRightAboutMe {
+  display: flex;
+  align-items: flex-end;
   width: 114px;
   height: 32px;
   padding: 0px 1px 4px 0px;
@@ -54,6 +56,8 @@ header {
   }
 }
 .headerRightSkills {
+  display: flex;
+  align-items: flex-end;
   width: 59px;
   height: 32px;
   padding: 0px 4px 4px 0px;
@@ -66,6 +70,8 @@ header {
   }
 }
 .headerRightPortfolio {
+  display: flex;
+  align-items: flex-end;
   width: 95px;
   height: 32px;
   padding: 0px 1px 4px 0px;
@@ -107,18 +113,30 @@ header {
   line-height: 27.6px;
   text-align: left;
 }
-@media(max-width: 1477px){
-  header{
+@media (max-width: 1477px) {
+  header {
     padding-right: 50px;
-    padding-left: 70px
+    padding-left: 70px;
   }
 }
 
-@media(max-width: 1000px){
-  .homepageMyName{
-   font-size: 34px;
+@media (max-width: 1000px) {
+  .homepageMyName {
+    font-size: 34px;
   }
-  .aboutMeTxt,.skillsTxt,.portfolioTxt{
+  .aboutMeTxt,
+  .skillsTxt,
+  .portfolioTxt {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 840px) {
+  .headerRight {
+    gap: 18px;
+  }
+  header {
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
