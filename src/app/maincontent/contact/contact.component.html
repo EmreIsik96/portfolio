@@ -47,7 +47,7 @@
             <a href="privacypolicy" target="_blank" class="textButtonPrivacyPolicy">privacy policy</a>
             <span class="contactSpan2">and agree to the processing of my data as outlined.</span>
           </div>
-          <div #privacySpan style="display: none;" *ngIf="!contactData.checkbox">
+          <div class="checkboxRequiredSpanContainer" #privacySpan style="display: none;" *ngIf="!contactData.checkbox">
             <span style="color: red;">Please accept the privacy policy</span>
           </div>
         </div>

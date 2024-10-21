@@ -26,6 +26,7 @@
 .testimonialsContainer {
   display: flex;
   align-items: center;
+  flex-direction: row-reverse;
   height: 272px;
   gap: 100px;
   opacity: 0px;
@@ -184,5 +185,46 @@
 }
 
 @media (max-width: 630px) {
- 
+  .mainContainer{
+    margin-bottom: 200px;
+  }
+  .testimonialsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .gooseFeetContainer{
+    margin-top: 100px;
+  }
+  .swipeBarContainer{
+    margin-top: 120px;
+  }
 }
+
+@media (max-width: 390px) {
+  .gooseFeetContainer{
+    margin-right: -64px;
+  }
+}
+
+@media (max-width: 340px) {
+  .testimonials{
+    width: 200px;
+    height: 220px;
+  }
+  .vectorPurple{
+    width: 50px;
+  }
+  .signatureSecondContainer{
+    display: flex;
+  }
+  .gooseFeet{
+    width: 46px;
+    height: 28px;
+  }
+  .gooseFeetContainer{
+    margin-right: -64px;
+  }
+}
+

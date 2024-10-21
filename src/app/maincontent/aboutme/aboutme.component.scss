@@ -484,34 +484,173 @@
 }
 
 @media (max-width: 630px) {
-  .mainAboutMeContainer,.aboutMeTxtMainContainer,.aboutMeTxtSecondContainer{
+  .mainAboutMeContainer,
+  .aboutMeTxtMainContainer,
+  .aboutMeTxtSecondContainer {
     z-index: 100;
   }
+  .mainAboutMeContainer {
+    margin-bottom: 150px;
+  }
   .vectorBlackContainerBack {
-    margin-top: -764px;
+    margin-top: -692px;
     z-index: -1;
     rotate: (0deg);
   }
-  .ellipseGreen,.profilePictureContainer,.profileImg,.vectorGreenLongContainer{
+  .ellipseGreen,
+  .profilePictureContainer,
+  .profileImg,
+  .vectorGreenLongContainer {
     display: none;
   }
-  .prefaceContainer,.strength1Container,.strength2Container,.strength3Container{
-   width: 500px;
-   margin: 0;
-   justify-content: center;
+  .prefaceContainer,
+  .strength1Container,
+  .strength2Container,
+  .strength3Container {
+    width: 500px;
+    margin: 0;
+    justify-content: center;
   }
-  .locationImgContainer{
+  .locationImgContainer {
     margin: 0;
     width: 46px;
   }
-  .prefaceTxt,.locationTxt,.bulbTxt,.puzzleTxt{
+  .prefaceTxt,
+  .locationTxt,
+  .bulbTxt,
+  .puzzleTxt {
     font-size: 16px;
   }
-  .strength2Container,.strength3Container{
+  .strength2Container,
+  .strength3Container {
     margin-left: 2px;
   }
-  .puzzleImgContainer{
+  .puzzleImgContainer {
     width: 46px;
   }
 }
 
+@media (max-width: 552px) {
+  .prefaceContainer,
+  .aboutMeTxtSecondContainer,
+  .aboutMeHeaderContainer {
+    width: 400px;
+  }
+  .strength1Container,
+  .strength2Container,
+  .strength3Container {
+    justify-content: flex-start;
+    width: 350px;
+  }
+  .locationTxtContainer,
+  .bulbTxtContainer,
+  .puzzleTxtContainer {
+    width: 300px;
+  }
+  .prefaceTxt,
+  .locationTxt,
+  .bulbTxt,
+  .puzzleTxt {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .mainAboutMeContainer {
+    margin-left: 30px;
+  }
+  .vectorBlackContainerBack {
+    margin-top: -728px;
+    z-index: -1;
+    rotate: (0deg);
+  }
+}
+
+@media (max-width: 430px) {
+  .prefaceContainer,
+  .aboutMeTxtSecondContainer,
+  .aboutMeHeaderContainer {
+    width: 350px;
+  }
+  .strength1Container,
+  .strength2Container,
+  .strength3Container {
+    justify-content: flex-start;
+    width: 320px;
+  }
+  .locationTxtContainer,
+  .bulbTxtContainer,
+  .puzzleTxtContainer {
+    width: 300px;
+  }
+  .aboutMeHeaderContainer,
+  .aboutMeTxt {
+    width: 320px;
+  }
+  .prefaceTxt,
+  .locationTxt,
+  .bulbTxt,
+  .puzzleTxt {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .mainAboutMeContainer {
+    margin-left: 20px;
+  }
+  .aboutMeDescriptionContainer,.profileAndVectorMaincontainer {
+    width: 320px;
+  }
+  .vectorBlackContainerBack {
+    margin-top: -760px;
+    z-index: -1;
+    rotate: (0deg);
+  }
+}
+
+@media (max-width: 390px) {
+  .mainAboutMeContainer{
+    margin-left: 15px;
+    margin-bottom: 100px;
+  }
+  .prefaceContainer,.aboutMeTxtSecondContainer{
+    width: 320px;
+  }
+  .locationImg{
+    height: 28px;
+    width: 21px;
+  }
+  .bulbImg,.puzzleImg{
+    height: 42px;
+    width: 42px;
+  }
+  .vectorBlackContainerBack {
+    margin-top: -774px;
+    z-index: -1;
+    rotate: (0deg);
+  }
+}
+
+@media(max-width: 340px) {
+  .mainAboutMeContainer {
+    margin-left: 18px;
+  }
+  .prefaceContainer{
+    width: 280px;
+  }
+  .locationImgContainer,.bulbImgContainer,.puzzleImgContainer {
+    padding: 0px;
+    width: 18px;
+  }
+  .strengthsContainer,.strength1Container,.strength2Container,.strength3Container{
+    margin: 0;
+    width: 300px;
+  }
+  .locationTxtContainer,.bulbTxtContainer,.puzzleTxtContainer,.aboutMeHeaderContainer,.aboutMeTxtSecondContainer,.aboutMeTxt{
+    width: 260px;
+  }
+  .aboutMeDescriptionContainer {
+    width: 280px;
+  }
+}

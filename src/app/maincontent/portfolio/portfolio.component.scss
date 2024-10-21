@@ -400,5 +400,40 @@
 }
 
 @media (max-width: 630px) {
-  
+  .purpleFirstLine,.purpleSecondLine{
+    display: none;
+  }
+  .headerMainContainer{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .portfolioTxt{
+    margin-left: 40px;
+  }
+  .sideTextContainer{
+    margin-bottom: 100px;
+  }
+  .projectNameContainer,.projectLanguageContainer,.projectDescriptionContainer,.projectDescription0,.projectDescription1,.projectDescription2{
+    width: 100%;
+    text-align: center;
+  }
+  .projectButtons0,.projectButtons1,.projectButtons2 {
+    gap: 50px;
+  }
+  .projectDisplayFlex0,.projectDisplayFlex1,.projectDisplayFlex2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .projectDisplayFlex0,.projectDisplayFlex1{
+    margin-bottom: 180px;
+  }
+  .projectDisplayFlex2{
+    margin-bottom: 200px;
+  }
+  .projectButtons0,.projectButtons1,.projectButtons2{
+    justify-content: center;
+  }
 }

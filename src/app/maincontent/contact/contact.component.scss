@@ -172,7 +172,7 @@
   display: flex;
   justify-content: center;
 }
-.sendButtonActive{
+.sendButtonActive {
   width: 253px;
   height: 58px;
   padding: 15px 30px 15px 30px;
@@ -214,54 +214,59 @@
   width: 42px;
 }
 
-@media(max-width:1500px) {
-  .contactDFlex
-  {
+@media (max-width: 1500px) {
+  .contactDFlex {
     gap: 150px;
   }
 }
 
-@media(max-width: 1353px){
-  .vectorLineHeader{
+@media (max-width: 1353px) {
+  .vectorLineHeader {
     width: 250px;
     height: 4px;
   }
-  .contactDFlex{
+  .contactDFlex {
     gap: 100px;
   }
 }
 
-@media(max-width: 1280px){
-  .header{
+@media (max-width: 1280px) {
+  .header {
     font-size: 75px;
   }
-  .contactDFlex{
+  .contactDFlex {
     margin-left: 60px;
     margin-right: 60px;
   }
-  .inputName,.inputEmail,.inputMessage{
+  .inputName,
+  .inputEmail,
+  .inputMessage {
     width: 450px;
   }
-  .privacyPolicy,.privacyPolicySecondContainer{
+  .privacyPolicy,
+  .privacyPolicySecondContainer {
     width: 500px;
     font-size: 12px;
   }
-  .privacyPolicySecondContainer{
+  .privacyPolicySecondContainer {
     height: 24px;
   }
-  .contactSpan1,.textButtonPrivacyPolicy,.contactSpan2{
+  .contactSpan1,
+  .textButtonPrivacyPolicy,
+  .contactSpan2 {
     text-wrap: nowrap;
   }
-  .inputMessageRequiredContainer{
+  .inputMessageRequiredContainer {
     font-size: 12px;
     margin-bottom: 5px;
   }
-  .sendButtonDisable,.sendButtonActive{
+  .sendButtonDisable,
+  .sendButtonActive {
     width: 200px;
     height: 58px;
     padding: 10px 10px 10px 10px;
   }
-  .goUpButtonContainer{
+  .goUpButtonContainer {
     display: flex;
     justify-content: flex-end;
     margin-top: 50px;
@@ -273,63 +278,64 @@
     flex-direction: column;
     margin-top: 50px;
   }
-
 }
 
-@media(max-width: 1150px) {
-  .header{
-   font-size: 70px;
+@media (max-width: 1150px) {
+  .header {
+    font-size: 70px;
   }
 }
 
-@media(max-width: 1080px) {
- .contactFormularContainer{
-  width: 520px;
- }
-}
-
-@media(max-width: 985px) {
-  .contactFormularContainer{
-   width: 460px;
+@media (max-width: 1080px) {
+  .contactFormularContainer {
+    width: 520px;
   }
 }
 
-@media(max-width: 960px) {
-  .header{
+@media (max-width: 985px) {
+  .contactFormularContainer {
+    width: 460px;
+  }
+}
+
+@media (max-width: 960px) {
+  .header {
     font-size: 50px;
   }
-  .contactDFlex{
+  .contactDFlex {
     margin-left: 30px;
     margin-right: 0;
   }
-  form{
+  form {
     width: 450px;
   }
-  .inputName,.inputEmail{
+  .inputName,
+  .inputEmail {
     width: 360px;
     height: 30px;
   }
-  .inputMessage{
+  .inputMessage {
     width: 360px;
     height: 130px;
   }
-  .contactSpan2{     
+  .contactSpan2 {
     margin-top: 40px;
-    margin-left: -180px;    
+    margin-left: -180px;
   }
-  .privacyPolicy{
+  .privacyPolicy {
     width: 350px;
   }
-  .privacyPolicySecondContainer{
+  .privacyPolicySecondContainer {
     width: 350px;
     height: 24px;
     margin-bottom: 40px;
   }
-  .inputMessageRequiredContainer{
+  .inputMessageRequiredContainer {
     font-size: 12px;
     margin-bottom: 5px;
   }
-  .sendButtonDisable,.sendButtonActive{
+  .sendButtonDisable,
+  .sendButtonActive {
     width: 160px;
     height: 48px;
     padding-left: 10px;
@@ -338,7 +344,7 @@
     padding-bottom: 10px;
     font-size: 18px;
   }
-  .goUpButtonContainer{
+  .goUpButtonContainer {
     display: flex;
     justify-content: flex-end;
     margin-top: 50px;
@@ -352,30 +358,32 @@
   }
 }
 
-@media(max-width: 840px) {
-  .header{
+@media (max-width: 840px) {
+  .header {
     font-size: 45px;
   }
-  .contactDFlex{
+  .contactDFlex {
     margin-left: 30px;
     margin-right: 0;
   }
-  .contactInsideSpanTxt1,.contactInsideSpanTxt2{
+  .contactInsideSpanTxt1,
+  .contactInsideSpanTxt2 {
     font-size: 12px;
   }
-  .contactInsideHeaderTxt{
+  .contactInsideHeaderTxt {
     font-size: 25px;
   }
-  .contactMe{
+  .contactMe {
     font-size: 14px;
   }
-  form{
+  form {
     width: 380px;
   }
-  .inputName,.inputEmail{
+  .inputName,
+  .inputEmail {
     width: 300px;
   }
-  .inputMessage{
+  .inputMessage {
     width: 300px;
     height: 130px;
   }
@@ -385,17 +393,18 @@
   }
 }
 
-@media(max-width: 720px) {
-  .header{
+@media (max-width: 720px) {
+  .header {
     margin-bottom: 0;
   }
-  form{
+  form {
     width: 330px;
   }
-  .inputName,.inputEmail{
+  .inputName,
+  .inputEmail {
     width: 250px;
   }
-  .inputMessage{
+  .inputMessage {
     width: 250px;
     height: 130px;
   }
@@ -403,14 +412,253 @@
     margin-top: 45px;
     width: 310px;
   }
-  .privacyPolicy,.privacyPolicySecondContainer{
+  .privacyPolicy,
+  .privacyPolicySecondContainer {
     width: 300px;
   }
-  .contactSpan2{
+  .contactSpan2 {
     margin-left: -205px;
   }
 }
 
 @media (max-width: 630px) {
- 
+  .headerContainer {
+    display: flex;
+    align-items: center;
+  }
+  .header {
+    margin: 0;
+  }
+  .vectorLineHeader {
+    width: 60px;
+  }
+  .contactDFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactInsideHeaderTxt {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .contactInsideContainer {
+    margin-bottom: 20px;
+  }
+  .inputName,
+  .inputEmail,
+  .inputMessage {
+    width: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form,
+  .contactFormularContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .inputMessageRequiredContainer {
+    font-size: 16px;
+  }
+  .contactSpan2 {
+    margin-bottom: 16px;
+  }
+  .privacyPolicySecondContainer {
+    margin-bottom: 50px;
+  }
+  .privacyPolicy,
+  .privacyPolicySecondContainer {
+    margin-left: -60px;
+  }
+  .contactSpan1,
+  .contactSpan2,
+  .textButtonPrivacyPolicy {
+    font-size: 16px;
+  }
+  .contactSpan2 {
+    margin-left: -218px;
+    margin-top: 50px;
+  }
+  .checkboxRequiredSpanContainer {
+    margin-top: 8px;
+    margin-left: -32px;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .privacyPolicyMainContainer,
+  .inputMessageAndPolicyContainer {
+    width: 400px;
+  }
+  .goUpButtonContainer {
+    margin-top: 50px;
+    margin-right: -30px;
+  }
+}
+
+@media (max-width: 520px) {
+  .inputName,
+  .inputEmail,
+  .inputMessage {
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactFormularContainer {
+    width: 330px;
+  }
+  .contactInsideContainer {
+    display: flex;
+    align-items: center;
+    width: 300px;
+  }
+  .privacyPolicySecondContainer {
+    margin-bottom: 50px;
+  }
+  .privacyPolicy,
+  .privacyPolicySecondContainer {
+    margin-left: -26px;
+  }
+  .contactSpan1,
+  .contactSpan2,
+  .textButtonPrivacyPolicy,
+  .inputMessageRequiredContainer
+    .inputEmailRequiredContainer
+    .inputNameRequiredContainer,
+  .checkboxRequiredSpanContainer {
+    font-size: 14px;
+  }
+  .contactSpan2 {
+    margin-bottom: 16px;
+    margin-left: -192px;
+    margin-top: 50px;
+  }
+  .checkboxRequiredSpanContainer {
+    margin-left: 0px;
+  }
+  .goUpButtonContainer {
+    margin-right: 0px;
+  }
+  .contactInsideHeaderTxt,
+  .contactInsideSpanTxt2 {
+    width: 300px;
+  }
+  .contactInsideSpanTxt1 {
+    text-wrap: wrap;
+    width: 400px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 470px) {
+  .inputName,
+  .inputEmail,
+  .inputMessage {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactDFlex {
+    margin: 0;
+  }
+  .contactFormularContainer {
+    width: 300px;
+  }
+  .privacyPolicy,
+  .privacyPolicySecondContainer {
+    margin-left: -16px;
+  }
+  .contactSpan1,
+  .contactSpan2,
+  .textButtonPrivacyPolicy,
+  .inputMessageRequiredContainer
+    .inputEmailRequiredContainer
+    .inputNameRequiredContainer,
+  .checkboxRequiredSpanContainer {
+    font-size: 12px;
+  }
+  .contactSpan2 {
+    margin-bottom: 16px;
+    margin-left: -165px;
+    margin-top: 50px;
+  }
+  .contactInsideHeaderTxt,
+  .contactInsideSpanTxt2 {
+    width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contactInsideSpanTxt1 {
+    width: 260px;
+  }
+  .contactInsideSpanTxt2,.contactInsideHeaderTxt {
+    text-align: center;
+  }
+  .privacyPolicyMainContainer,
+  .goUpButtonContainer,
+  .inputMessageAndPolicyContainer {
+    width: 320px;
+  }
+}
+
+@media (max-width: 390px) {
+  .inputName,
+  .inputEmail,
+  .inputMessage {
+    width: 260px;
+  }
+  .contactFormularContainer {
+    width: 260px;
+    margin-top: 120px;
+  }
+  .privacyPolicy,
+  .privacyPolicySecondContainer {
+    margin-left: -8px;
+    width: 320px;
+  }
+  .contactSpan2 {
+    margin-bottom: 16px;
+    margin-left: -165px;
+    margin-top: 50px;
+  }
+  .contactInsideHeaderTxt,
+  .contactInsideSpanTxt2 {
+    width: 260px;
+  }
+}
+@media (max-width: 340px) {
+  .inputName,
+  .inputEmail,
+  .inputMessage {
+    width: 240px;
+  }
+  .contactFormularContainer {
+    width: 240px;
+    margin-top: 120px;
+  }
+  .privacyPolicy,
+  .privacyPolicySecondContainer {
+    margin-left: 0px;
+    width: 320px;
+  }
+  .contactSpan2 {
+    margin-bottom: 16px;
+    margin-left: -190px;
+    margin-top: 50px;
+  }
+  .contactInsideHeaderTxt,
+  .contactInsideSpanTxt2 {
+    width: 260px;
+  }
+  .vectorLineHeader{
+    width: 40px;
+  }
+  .privacyPolicyMainContainer,.goUpButtonContainer{
+    width: 300px;
+  }
 }

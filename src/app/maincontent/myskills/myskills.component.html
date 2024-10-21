@@ -1,9 +1,4 @@
 <div class="mainContainer">
-  <div class="skillsIconContainer">
-    @for (item of skillIcons; track item.img) {
-    <img src="{{ item.img }}" alt="skill Icons" />
-    }
-  </div>
 
   <img class="greenShadowBg1" src="./assets/img/skillIcons/green_shadow_bg1.png" alt="">
 
@@ -21,7 +16,7 @@
       <div class="getInTouchContainer">
         <div class="lookingForTxtContainer">
             <span class="mySkillsMainTxt"> 
-                Looking for <span class="anotherSkillTxt">another skill</span>? 
+                Looking for<span class="anotherSkillTxt">another skill</span>? 
             </span>
     
             <span class="mySkillsSecondTxt">
@@ -34,5 +29,11 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="skillsIconContainer">
+    @for (item of skillIcons; track item.img) {
+    <img src="{{ item.img }}" alt="skill Icons" />
+    }
   </div>
 </div>

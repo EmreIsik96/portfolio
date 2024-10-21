@@ -56,8 +56,47 @@
     margin-bottom: 0;
   }
 }
+
 @media(max-width: 960px){
   .mainContainer {
     margin-top: 250px;
   }
+}
+
+@media(max-width: 630px){
+  .mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .logo{
+    margin: 0;
+    font-size: 54px;
+    margin-top: -60px;
+  }
+  .footerLeftSpan{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 70px;
+  }
+}
+
+@media(max-width: 400px){
+  .logo{
+    font-size: 34px;
+  }
+  .footerMiddleSpan{
+    font-size: 18px;
+  }
+  .gitHubIcon,.emailIcon,.linkedInIcon {
+    height: 20px;
+  }
+  .footerLeftSpan{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 25px;
+  }
+
 }
