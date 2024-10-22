@@ -7,6 +7,12 @@
         <a href="#aboutMe" class="headerRightAboutMe"><span class="aboutMeTxt">About me</span></a>
         <a href="#skills" class="headerRightSkills"><span class="skillsTxt">Skills</span></a>
         <a href="#portfolio" class="headerRightPortfolio"><span class="portfolioTxt">Portfolio</span></a>
-        <button class="buttonBurgerContainer" onclick=""><img class="buttonBurgerImg" src="./assets/img/header/burger-menu.png" alt=""></button>
+        <button class="buttonBurgerContainer" (click)="openMenu()"><img class="buttonBurgerImg" src="./assets/img/header/burger-menu.png" alt=""></button>
+    </div>
+    <div *ngIf="isMenuOpen" class="bgMenuContainer">
+        <a href="#aboutMe" (click)="closeMenu()" class="buttonBurgerAboutme">About me</a>
+        <a href="#skills" (click)="closeMenu()" class="buttonBurgerMySkills">My skills</a>
+        <a href="#portfolio" (click)="closeMenu()" class="buttonBurgerPortfolio">Portfolio</a>
+        <a href="#contact" (click)="closeMenu()" class="buttonBurgerContact">Contact</a>
     </div>
     </header>
