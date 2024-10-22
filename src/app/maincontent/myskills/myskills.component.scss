@@ -430,6 +430,13 @@ img {
   }
 }
 
+@media (max-width: 450px) {
+  .mainContainer {
+   margin-bottom: 380px;
+  }
+}
+
+
 @media (max-width: 430px) {
   .skillsIconContainer {
     width: 100%;

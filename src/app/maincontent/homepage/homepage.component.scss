@@ -411,7 +411,7 @@
   .mainContainer {
     margin: 0;
     height: 100vh;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
     margin-top: -80px;
     display: flex;
     justify-content: center;
@@ -559,9 +559,10 @@
     height: 400px;
     width: 370px;
     margin: 0;
+    margin-top: -25px;
   }
   .buttonOnMainContainer {
-    margin-top: -220px;
+    margin-top: -240px;
     margin-right: 0;
     margin-left: -220px;
     width: 100%;
@@ -569,13 +570,14 @@
     justify-content: flex-end;
     align-items: center;
   }
+  .bgShadowOnMain{
+    margin-top: -20px;
+  }
 }
 
 @media (max-width: 400px) {
   .mainImage {
-    height: 400px;
-    width: 370px;
-    margin: 0;
+    margin-top: 0px;
   }
   .buttonOnMainContainer {
     margin-top: -160px;
@@ -587,18 +589,24 @@
     align-items: center;
   }
   .iamTxtContainer{
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 0px;
   }
   .infoTxtContainer{
     width: 280px;
     margin-left: 80px;
-    margin-top: -100px;
+    margin-top: -123px;
+  }
+  .nameTxtContainer{
+    margin-bottom: -4px;
   }
   .jobDescriptionContainer,.jobDescriptionTxt{
     height: 35px;
     margin: 0;
     margin-top: -2px;
+  }
+  .bgShadowOnMain{
+    margin-top: -20px;
   }
   .githubIcon,
   .linkedInIcon,
@@ -659,6 +667,9 @@
   .buttonOnMainContainer{
     margin-left: -200px;
     margin-top: -200px;
+  }
+  .bgShadowOnMain {
+    margin-top: -20px;
   }
 }
 

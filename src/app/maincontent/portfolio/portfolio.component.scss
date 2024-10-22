@@ -342,7 +342,7 @@
   .portfolioTxt {
     font-size: 45px;
   }
-  .projectName{
+  .projectName {
     font-size: 28px;
   }
 }
@@ -379,61 +379,86 @@
 }
 
 @media (max-width: 730px) {
-  .sideTextContainer{
+  .sideTextContainer {
     margin-bottom: 0px;
   }
-  .projectDisplayFlex0,.projectDisplayFlex1{
+  .projectDisplayFlex0,
+  .projectDisplayFlex1 {
     margin-bottom: 0px;
   }
-  .mainContainer{
+  .mainContainer {
     margin-bottom: 100px;
   }
-  .projectRightContainer,.projectNameContainer,.projectLanguageContainer,.projectLanguage,.projectDescriptionContainer,.projectDescription0,.projectDescription1,.projectDescription2{
+  .projectRightContainer,
+  .projectNameContainer,
+  .projectLanguageContainer,
+  .projectLanguage,
+  .projectDescriptionContainer,
+  .projectDescription0,
+  .projectDescription1,
+  .projectDescription2 {
     width: 300px;
   }
-  .laptopImages0,.laptopImages1,.laptopImages2{
+  .laptopImages0,
+  .laptopImages1,
+  .laptopImages2 {
     height: 160px;
   }
-  .projectDisplayFlex0,.projectDisplayFlex1,.projectDisplayFlex2 {
+  .projectDisplayFlex0,
+  .projectDisplayFlex1,
+  .projectDisplayFlex2 {
     gap: 40px;
   }
 }
 
 @media (max-width: 630px) {
-  .purpleFirstLine,.purpleSecondLine{
+  .purpleFirstLine,
+  .purpleSecondLine {
     display: none;
   }
-  .headerMainContainer{
+  .headerMainContainer {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
   }
-  .portfolioTxt{
+  .portfolioTxt {
     margin-left: 40px;
   }
-  .sideTextContainer{
+  .sideTextContainer {
     margin-bottom: 100px;
   }
-  .projectNameContainer,.projectLanguageContainer,.projectDescriptionContainer,.projectDescription0,.projectDescription1,.projectDescription2{
+  .projectNameContainer,
+  .projectLanguageContainer,
+  .projectDescriptionContainer,
+  .projectDescription0,
+  .projectDescription1,
+  .projectDescription2 {
     width: 100%;
     text-align: center;
   }
-  .projectButtons0,.projectButtons1,.projectButtons2 {
+  .projectButtons0,
+  .projectButtons1,
+  .projectButtons2 {
     gap: 50px;
   }
-  .projectDisplayFlex0,.projectDisplayFlex1,.projectDisplayFlex2{
+  .projectDisplayFlex0,
+  .projectDisplayFlex1,
+  .projectDisplayFlex2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 100%;
   }
-  .projectDisplayFlex0,.projectDisplayFlex1{
+  .projectDisplayFlex0,
+  .projectDisplayFlex1 {
     margin-bottom: 180px;
   }
-  .projectDisplayFlex2{
+  .projectDisplayFlex2 {
     margin-bottom: 200px;
   }
-  .projectButtons0,.projectButtons1,.projectButtons2{
+  .projectButtons0,
+  .projectButtons1,
+  .projectButtons2 {
     justify-content: center;
   }
 }

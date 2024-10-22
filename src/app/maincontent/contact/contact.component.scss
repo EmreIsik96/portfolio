@@ -424,13 +424,14 @@
 @media (max-width: 630px) {
   .headerContainer {
     display: flex;
+    justify-content: center;
     align-items: center;
   }
   .header {
     margin: 0;
   }
   .vectorLineHeader {
-    width: 60px;
+    display: none;
   }
   .contactDFlex {
     display: flex;
@@ -592,6 +593,12 @@
   }
 }
 
+@media (max-width: 450px) {
+  .header {
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 400px) {
   .contactInsideSpanTxt1 {
     width: 260px;
@@ -631,6 +638,7 @@
     width: 260px;
   }
 }
+
 @media (max-width: 340px) {
   .inputName,
   .inputEmail,
