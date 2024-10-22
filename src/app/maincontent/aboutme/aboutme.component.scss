@@ -491,6 +491,7 @@
   }
   .mainAboutMeContainer {
     margin-bottom: 150px;
+    margin-top: -150px;
   }
   .vectorBlackContainerBack {
     margin-top: -692px;
@@ -552,6 +553,19 @@
   .bulbTxt,
   .puzzleTxt {
     font-size: 14px;
+  }
+  .vectorBlackContainerBack {
+    margin-top: -696px;
+    z-index: -1;
+    rotate: (0deg);
+  }
+}
+
+@media(max-width: 470px){
+  .vectorBlackContainerBack {
+    margin-top: -700px;
+    z-index: -1;
+    rotate: (0deg);
   }
 }
 
