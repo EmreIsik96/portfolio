@@ -4,6 +4,7 @@
   margin-bottom: 180px;
   height: 630px;
   margin-left: 270px;
+  max-width: 1920px;
 }
 .vectorBlackContainerBack {
   position: absolute;
@@ -227,10 +228,30 @@
   z-index: -100;
 }
 
-@media (max-width: 1630px) {
+@media(max-height: 825px){
+  .vectorBlackContainerBack {
+      margin-top: -420px;
+  }
+}
+
+@media(max-width: 3760px){
+  .vectorBlackContainerBack{
+    margin-top: -1140px;
+  }  
+  .mainAboutMeContainer{
+    margin-top: -500px;
+  }
+}
+
+@media (max-width: 1920px) {
   .mainAboutMeContainer {
     margin-left: 170px;
+    margin-top: 100px;
   }
+
+  .vectorBlackContainerBack{
+    margin-top: -408px;
+  }  
 }
 
 @media (max-width: 1477px) {
@@ -242,6 +263,7 @@
     height: 5px;
   }
 }
+
 @media (max-width: 1236px) {
   .aboutMeTxt {
     font-size: 75px;
@@ -277,7 +299,7 @@
   }
 }
 
-@media (max-width: 1162px) {
+@media (max-width: 1174px) {
   .mainAboutMeContainer {
     margin-left: 50px;
     justify-content: space-between;
@@ -338,7 +360,7 @@
 
 @media (max-width: 960px) {
   .vectorBlackContainerBack {
-    margin-top: -475px;
+    margin-top: -470px;
     rotate: (0deg);
   }
   .mainAboutMeContainer {
@@ -494,7 +516,7 @@
     margin-top: -150px;
   }
   .vectorBlackContainerBack {
-    margin-top: -692px;
+    margin-top: -700px;
     z-index: -1;
     rotate: (0deg);
   }
@@ -668,3 +690,4 @@
     width: 280px;
   }
 }
+

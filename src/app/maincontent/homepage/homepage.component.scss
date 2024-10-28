@@ -50,8 +50,12 @@
   color: white;
   margin-right: 12px;
 }
+.infoTxtContainer{
+  margin-bottom: -10px;
+}
 .nameTxt {
   margin: 0;
+  margin-bottom: -5px;
   font-size: 90px;
   font-weight: 700;
   line-height: 108px;
@@ -70,7 +74,7 @@
   width: 28px;
   height: 125px;
   position: absolute;
-  top: 773px;
+  top: 800px;
   right: 0px;
   padding-right: 100px;
   gap: 3px;
@@ -142,6 +146,7 @@
   display: flex;
   justify-content: center;
   align-items: end;
+  margin-top: -10px;
 }
 .vectorPurpleContainer {
   border: 4px 0px 0px 0px;
@@ -184,12 +189,32 @@
   }
 }
 
+@media(max-height: 825px){
+  .mainContainer{
+    margin-top: -25px;
+  }
+  .mainImage{
+    width: 546px;
+    height: 605px;
+  }
+  .scollDownContainer{
+    top: 700px;
+  }
+  .referencesContainer{
+    margin-top: -30px;
+  }
+  .buttonOnMainContainer{
+    margin-top: -180px;
+    margin-left: 600px;
+  }
+}
+
 @media (max-width: 1477px) {
   .mainIamTxtContainer {
     width: 50px;
   }
   .buttonOnMainContainer {
-    margin-left: 580px;
+    margin-left: 480px;
   }
   .scollDownContainer {
     top: 800px;
@@ -198,7 +223,7 @@
   }
   .referencesContainer {
     height: 0;
-    margin-top: 150px;
+    margin-top: 200px;
   }
 }
 
@@ -213,7 +238,6 @@
   .nameTxt {
     font-size: 75px;
     text-wrap: nowrap;
-    margin-top: 10px;
     margin-bottom: -5px;
   }
   .iamTxt {
@@ -225,6 +249,9 @@
   }
   .mainIamTxtContainer {
     margin-left: -50px;
+  }
+  .buttonOnMainContainer{
+    margin-left: 430px;
   }
 }
 
@@ -243,6 +270,15 @@
   .iamTxt {
     font-size: 55px;
   }
+  .buttonOnMain{
+    width: 145px;
+    height: 52px;
+    margin-top: -20px;
+    margin-right: -10px;
+  }
+  .referencesContainer{
+    margin-top: 220px;
+  }
 }
 
 @media (max-width: 1093px) {
@@ -260,6 +296,10 @@
   .iamTxt {
     font-size: 50px;
   }
+  .buttonOnMain{
+    width: 140px;
+    height: 48px;
+  }
 }
 
 @media (max-width: 1040px) {
@@ -271,17 +311,20 @@
   .referencesContainer {
     margin-top: 230px;
   }
-  .buttonOnMainContainer {
-    margin-right: 60px;
-  }
 }
 
 @media (max-width: 960px) {
   .mainImage {
     height: 550px;
     width: 510px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-left: -50px;
+  }
+  .infoTxtContainer{
+    margin-bottom: -60px;
+  }
+  .mainIamTxtContainer{
+    margin-bottom: -60px;
   }
   .nameTxt {
     font-size: 50px;
@@ -292,11 +335,11 @@
     font-size: 30px;
   }
   .iamTxt {
-    font-size: 40px;
+    font-size: 38px;
   }
   .buttonOnMainContainer {
-    margin-top: -200px;
-    margin-right: 140px;
+    margin-top: -150px;
+    margin-right: 90px;
   }
   .bgShadowOnMain {
     margin-left: -95px;
@@ -325,10 +368,11 @@
   .iamTxt {
     font-size: 35px;
   }
-  .buttonOnMainContainer {
-    margin-top: -180px;
-    margin-right: 100px;
-    width: 200px;
+  .buttonOnMain{
+    width: 130px;
+    height: 46px;
+    margin-top: 3px;
+    margin-right: -120px;
   }
   .buttonOnMain {
     margin-left: -150px;
@@ -349,21 +393,15 @@
   }
 }
 
-@media (max-width: 779px) {
-  .buttonOnMainContainer {
-    width: 120px;
-  }
-}
-
 @media (max-width: 730px) {
   .mainContainer {
     margin-top: 100px;
   }
   .buttonOnMain {
-    margin-left: -120px;
+    margin-left: -20px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 60px;
+    margin-top: 50px;
   }
   .buttonOnMainContainer {
     width: 0;
@@ -397,13 +435,13 @@
 
 @media (max-width: 690px) {
   .buttonOnMain {
-    margin-left: -180px;
+    margin-left: -100px;
   }
 }
 
 @media (max-width: 650px) {
   .buttonOnMain {
-    margin-left: -230px;
+    margin-left: -130px;
   }
 }
 
@@ -460,6 +498,7 @@
   }
   .mainIamTxtContainer {
     margin: 0;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
   }
@@ -536,7 +575,10 @@
   }
   .buttonOnMainContainer {
     margin-right: 0;
-    margin-left: 460px;
+    margin-left: 350px;
+  }
+  .referencesContainer{
+    margin-top: -20px;
   }
 }
 
@@ -559,16 +601,13 @@
     height: 400px;
     width: 370px;
     margin: 0;
-    margin-top: -25px;
+    margin-top: -32px;
   }
   .buttonOnMainContainer {
-    margin-top: -240px;
     margin-right: 0;
-    margin-left: -220px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    margin-left: 350px;
+    margin-top: -230px;
+    margin-bottom: 10px;
   }
   .bgShadowOnMain{
     margin-top: -30px;
@@ -580,13 +619,10 @@
     margin-top: 0px;
   }
   .buttonOnMainContainer {
-    margin-top: -160px;
     margin-right: 0;
-    margin-left: -200px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    margin-left: 350px;
+    margin-top: -150px;
+    margin-bottom: 10px;
   }
   .iamTxtContainer{
     margin-top: 0px;
@@ -664,9 +700,11 @@
     width: 20px;
     margin: 0;
   }
-  .buttonOnMainContainer{
-    margin-left: -200px;
-    margin-top: -200px;
+  .buttonOnMainContainer {
+    margin-right: 0;
+    margin-left: 350px;
+    margin-top: -190px;
+    margin-bottom: 20px;
   }
   .bgShadowOnMain {
     margin-top: -30px;
@@ -677,13 +715,6 @@
   .referencesContainer {
     margin-left: -48px;
     width: 280px;
-  }
-  .vectorPurple {
-    width: 20px;
-    margin: 0;
-  }
-  .buttonOnMainContainer{
-    margin-left: -140px;
   }
 }
 
@@ -724,15 +755,23 @@
     width: 320px;
   }
   .referencesContainer {
-    margin-left: -20px;
+    margin-left: 0px;
     width: 320px;
   }
   .vectorPurple {
-    width: 20px;
-    margin: 0;
+    display: none;
   }
   .buttonOnMainContainer{
-    margin-left: -140px;
     margin-top: -200px;
+    margin-left: -200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonOnMain{
+    width: 270px;
+    margin-right: -670px;
   }
 }
+

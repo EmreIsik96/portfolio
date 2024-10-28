@@ -214,6 +214,19 @@
   width: 42px;
 }
 
+
+@media(max-width: 3760px){
+  .mainContainer{
+    margin-top: 450px;
+  }  
+}
+
+@media(max-width: 1920px){
+  .mainContainer{
+    margin-top: 300px;
+  }  
+}
+
 @media (max-width: 1500px) {
   .contactDFlex {
     gap: 150px;
