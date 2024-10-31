@@ -6,6 +6,7 @@
   margin-left: 270px;
   max-width: 1920px;
 }
+
 .vectorBlackContainerBack {
   position: absolute;
   z-index: -100;
@@ -13,16 +14,19 @@
   right: 0;
   margin-top: -415px;
 }
+
 .vectorBlackBack {
   width: 100%;
   height: 500px;
 }
+
 .aboutMeTxtContainer {
   width: 471px;
   height: 532px;
   gap: 0px;
   opacity: 0px;
 }
+
 .aboutMeTxtSecondContainer {
   display: grid;
   width: 471px;
@@ -30,12 +34,14 @@
   gap: 40px;
   opacity: 0px;
 }
+
 .aboutMeHeaderContainer {
   width: 471px;
   height: 108px;
   gap: 0px;
   opacity: 0px;
 }
+
 .aboutMeTxt {
   font-size: 90px;
   font-weight: 700;
@@ -44,10 +50,12 @@
   color: #ffffff;
   margin: 0;
 }
+
 .aboutMeDescriptionContainer {
   width: 471px;
   height: 384px;
 }
+
 .prefaceContainer {
   display: grid;
   width: 471px;
@@ -55,6 +63,7 @@
   gap: 32px;
   opacity: 0px;
 }
+
 .prefaceTxt {
   font-size: 16px;
   font-weight: 400;
@@ -62,11 +71,13 @@
   text-align: left;
   color: #ffffff;
 }
+
 .strengthsContainer {
   display: grid;
   gap: 32px;
   opacity: 0px;
 }
+
 .strength1Container {
   display: flex;
   justify-content: center;
@@ -75,6 +86,7 @@
   gap: 16px;
   opacity: 0px;
 }
+
 .strength2Container {
   display: flex;
   justify-content: center;
@@ -83,11 +95,13 @@
   gap: 16px;
   opacity: 0px;
 }
+
 .strength3Container {
   display: flex;
   gap: 16px;
   opacity: 0px;
 }
+
 .locationImgContainer {
   display: flex;
   align-items: center;
@@ -103,18 +117,21 @@
     transform: scale(1.4);
   }
 }
+
 .locationImg {
   width: 25.33px;
   height: 32px;
   gap: 0px;
   opacity: 0px;
 }
+
 .locationTxtContainer {
   width: 407px;
   height: 57px;
   gap: 0px;
   opacity: 0px;
 }
+
 .locationTxt {
   font-size: 16px;
   font-weight: 400;
@@ -122,6 +139,7 @@
   text-align: left;
   color: #ffffff;
 }
+
 .bulbImgContainer {
   display: flex;
   justify-content: center;
@@ -137,18 +155,21 @@
     transform: scale(1.4);
   }
 }
+
 .bulbImg {
   width: 46px;
   height: 46px;
   gap: 0px;
   opacity: 0px;
 }
+
 .bulbTxtContainer {
   width: 407px;
   height: 57px;
   gap: 0px;
   opacity: 0px;
 }
+
 .bulbTxt {
   font-size: 16px;
   font-weight: 400;
@@ -156,6 +177,7 @@
   text-align: left;
   color: #ffffff;
 }
+
 .puzzleImgContainer {
   display: flex;
   justify-content: center;
@@ -171,18 +193,21 @@
     transform: scale(1.4);
   }
 }
+
 .puzzleImg {
   width: 46px;
   height: 46px;
   gap: 0px;
   opacity: 0px;
 }
+
 .puzzleTxtContainer {
   width: 407px;
   height: 114px;
   gap: 0px;
   opacity: 0px;
 }
+
 .puzzleTxt {
   font-size: 16px;
   font-weight: 400;
@@ -190,12 +215,14 @@
   text-align: left;
   color: #ffffff;
 }
+
 .profilePictureMainContainer {
   width: 453px;
   height: 453px;
   gap: 0px;
   opacity: 0px;
 }
+
 .ellipseGreen {
   width: 453px;
   height: 453px;
@@ -204,6 +231,7 @@
   border: 4px 0px 0px 0px;
   opacity: 0px;
 }
+
 .profilePictureContainer {
   width: 453px;
   height: 453px;
@@ -212,14 +240,17 @@
   gap: 0px;
   opacity: 0px;
 }
+
 .d-flex-vectorWithProfileCircle {
   display: flex;
   align-items: center;
 }
+
 .profileAndVectorMaincontainer {
   display: flex;
   align-items: center;
 }
+
 .purple_shadow {
   position: absolute;
   top: 850px;
@@ -227,8 +258,6 @@
   backdrop-filter: blur(93px);
   z-index: -100;
 }
-
-
 
 @media (max-width: 3760px) and (max-height: 825px){
   .vectorBlackContainerBack{
@@ -681,4 +710,129 @@
     width: 280px;
   }
 }
+
+// @MEDIA -> MAX-HEIGHT
+
+@media (max-height: 915px) and (max-width: 440px) {
+  .vectorBlackContainerBack{
+    margin-top: -800px;
+  }
+}
+
+@media (max-height: 905px) and (max-width: 440px) {
+  .vectorBlackContainerBack{
+    margin-top: -792px;
+  }
+}
+
+@media (max-height: 893px) and (max-width: 440px) {
+  .vectorBlackContainerBack{
+    margin-top: -784px;
+  }
+}
+
+@media (max-height: 878px) and (max-width: 440px) {
+  .vectorBlackContainerBack{
+    margin-top: -775px;
+  }
+}
+
+@media (max-height: 862px) and (max-width: 440px) {
+  .vectorBlackContainerBack{
+    margin-top: -767px;
+  }
+}
+
+@media (max-height: 849px) and (max-width: 440px) {
+  .vectorBlackContainerBack{
+    margin-top: -764px;
+  }
+}
+
+@media (max-height: 836px) and (max-width: 440px) {
+  .vectorBlackContainerBack{
+    margin-top: -755px;
+  }
+}
+
+@media (max-height: 820px) {
+  .vectorBlackContainerBack{
+    margin-top: -735px;
+  }
+}
+
+@media (max-height: 810px) {
+  .vectorBlackContainerBack{
+    margin-top: -736px;
+  }
+}
+
+@media (max-height: 800px) {
+  .vectorBlackContainerBack{
+    margin-top: -735px;
+  }
+}
+
+@media (max-height: 785px) {
+  .vectorBlackContainerBack{
+    margin-top: -722px;
+  }
+}
+
+@media (max-height: 774px) {
+  .vectorBlackContainerBack{
+    margin-top: -716px;
+  }
+}
+
+@media (max-height: 762px) {
+  .vectorBlackContainerBack{
+    margin-top: -704px;
+  }
+}
+
+@media (max-height: 750px) {
+  .vectorBlackContainerBack{
+    margin-top: -704px;
+  }
+}
+
+@media (max-height: 737px) {
+  .vectorBlackContainerBack{
+    margin-top: -694px;
+  }
+}
+
+@media (max-height: 724px) {
+  .vectorBlackContainerBack{
+    margin-top: -680px;
+  }
+}
+
+@media (max-height: 712px) {
+  .vectorBlackContainerBack{
+    margin-top: -664px;
+  }
+}
+
+@media (max-height: 700px) {
+  .vectorBlackContainerBack{
+    margin-top: -658px;
+  }
+}
+
+@media (max-height: 688px) {
+  .vectorBlackContainerBack{
+    margin-top: -648px;
+  }
+}
+
+@media (max-height: 676px) {
+  .vectorBlackContainerBack{
+    margin-top: -640px;
+  }
+}
+
+
+
 

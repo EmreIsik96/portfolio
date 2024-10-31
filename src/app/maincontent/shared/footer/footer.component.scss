@@ -12,9 +12,11 @@
   padding-left: 100px;
   padding-right: 100px;
 }
+
 .logo {
   color: #ffff; //hier muss ein Logo von meinem Namen kommen
 }
+
 .footerLeftSpan {
   font-size: 16px;
   font-weight: 400;
@@ -23,6 +25,7 @@
   text-decoration: none;
   color: #ffff;
 }
+
 .footerMiddleSpan {
   font-size: 23px;
   font-weight: 400;
@@ -30,11 +33,13 @@
   text-align: left;
   color: #ffff;
 }
+
 .footerRight {
   display: flex;
   align-items: center;
   gap: 50px;
 }
+
 .gitHubIcon,
 .emailIcon,
 .linkedInIcon {
