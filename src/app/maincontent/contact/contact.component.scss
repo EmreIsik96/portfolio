@@ -248,8 +248,7 @@
     font-size: 75px;
   }
   .contactDFlex {
-    margin-left: 60px;
-    margin-right: 60px;
+    width: 100%;
   }
   .inputName,
   .inputEmail,
@@ -291,6 +290,9 @@
     flex-direction: column;
     margin-top: 50px;
   }
+  .contactInsideContainer{
+    width: 300px;
+  }
 }
 
 @media (max-width: 1150px) {
@@ -316,11 +318,11 @@
     font-size: 50px;
   }
   .contactDFlex {
-    margin-left: 30px;
+    margin-left: 0;
     margin-right: 0;
   }
   form {
-    width: 450px;
+    width: 412px;
   }
   .inputName,
   .inputEmail {
@@ -369,6 +371,9 @@
     flex-direction: column;
     margin-top: 50px;
   }
+  .contactInsideContainer{
+    margin-right: -60px;
+  }
 }
 
 @media (max-width: 840px) {
@@ -376,7 +381,7 @@
     font-size: 45px;
   }
   .contactDFlex {
-    margin-left: 30px;
+    margin-left: 0px;
     margin-right: 0;
   }
   .contactInsideSpanTxt1,
@@ -390,7 +395,8 @@
     font-size: 14px;
   }
   form {
-    width: 380px;
+    width: 360px;
+    margin-top: -8px;
   }
   .inputName,
   .inputEmail {
@@ -402,11 +408,15 @@
   }
   .contactFormularContainer {
     margin-top: 45px;
-    width: 380px;
+    width: 360px;
+  }
+  .contactInsideContainer{
+    margin-right: -30px;
+    width: 260px;
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 780px) {
   .header {
     margin-bottom: 0;
   }
@@ -451,13 +461,24 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 20px;
   }
   .contactInsideHeaderTxt {
     margin-top: 0;
     margin-bottom: 20px;
+    width: 320px;
+    text-align: center;
   }
   .contactInsideContainer {
-    margin-bottom: 20px;
+    width: 100%;
+    margin: 0;
+    height: max-content;
+    display: flex;
+    align-items: center;
+  }
+  .contactInsideSpanTxt1,.contactInsideSpanTxt2{
+    width: 320px;
+    text-align: center;
   }
   .inputName,
   .inputEmail,

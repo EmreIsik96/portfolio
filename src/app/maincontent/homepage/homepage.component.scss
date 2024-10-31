@@ -563,6 +563,19 @@
     width: 60px;
     margin: 0;
   }
+  .buttonOnMainContainer{
+    width: 100%;
+    height: fit-content;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonOnMain{
+    margin: 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -574,8 +587,7 @@
     width: 430px;
   }
   .buttonOnMainContainer {
-    margin-right: 0;
-    margin-left: 350px;
+    margin-bottom: 60px;
   }
   .referencesContainer{
     margin-top: -20px;
@@ -604,10 +616,8 @@
     margin-top: -32px;
   }
   .buttonOnMainContainer {
-    margin-right: 0;
-    margin-left: 350px;
     margin-top: -230px;
-    margin-bottom: 10px;
+    
   }
   .bgShadowOnMain{
     margin-top: -30px;
@@ -619,10 +629,8 @@
     margin-top: 0px;
   }
   .buttonOnMainContainer {
-    margin-right: 0;
-    margin-left: 350px;
     margin-top: -150px;
-    margin-bottom: 10px;
+    margin-bottom: 80px;
   }
   .iamTxtContainer{
     margin-top: 0px;
@@ -701,10 +709,8 @@
     margin: 0;
   }
   .buttonOnMainContainer {
-    margin-right: 0;
-    margin-left: 350px;
     margin-top: -190px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
   }
   .bgShadowOnMain {
     margin-top: -30px;
@@ -760,18 +766,6 @@
   }
   .vectorPurple {
     display: none;
-  }
-  .buttonOnMainContainer{
-    margin-top: -200px;
-    margin-left: -200px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .buttonOnMain{
-    width: 270px;
-    margin-right: -670px;
   }
 }
 

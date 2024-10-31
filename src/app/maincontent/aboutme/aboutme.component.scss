@@ -228,13 +228,9 @@
   z-index: -100;
 }
 
-@media(max-height: 825px){
-  .vectorBlackContainerBack {
-      margin-top: -420px;
-  }
-}
 
-@media(max-width: 3760px){
+
+@media (max-width: 3760px) and (max-height: 825px){
   .vectorBlackContainerBack{
     margin-top: -1140px;
   }  
@@ -248,10 +244,12 @@
     margin-left: 170px;
     margin-top: 100px;
   }
+}
 
-  .vectorBlackContainerBack{
-    margin-top: -408px;
-  }  
+@media (max-height: 825px) and (max-width: 1920px){
+  .vectorBlackContainerBack {
+      margin-top: -420px;
+  }
 }
 
 @media (max-width: 1477px) {
@@ -348,13 +346,6 @@
   }
   .profileAndVectorMaincontainer {
     margin-left: -300px;
-  }
-}
-
-@media (max-width: 1040px) {
-  .vectorBlackContainerBack {
-    margin-top: -403px;
-    rotate: (0deg);
   }
 }
 
@@ -516,7 +507,7 @@
     margin-top: -150px;
   }
   .vectorBlackContainerBack {
-    margin-top: -700px;
+    margin-top: -710px;
     z-index: -1;
     rotate: (0deg);
   }
@@ -576,14 +567,14 @@
   .puzzleTxt {
     font-size: 14px;
   }
+
   .vectorBlackContainerBack {
-    margin-top: -696px;
-    z-index: -1;
-    rotate: (0deg);
+    margin-top: -705px;
   }
+ 
 }
 
-@media(max-width: 470px){
+@media (max-width: 470px){
   .vectorBlackContainerBack {
     margin-top: -700px;
     z-index: -1;
@@ -668,7 +659,7 @@
   }
 }
 
-@media(max-width: 340px) {
+@media (max-width: 340px) {
   .mainAboutMeContainer {
     margin-left: 18px;
   }

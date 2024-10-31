@@ -158,6 +158,16 @@ header {
   }
 }
 
+@media (max-width: 716px) {
+  .headerLeft{
+    width: 200px;
+  }
+  .headerRight {
+    gap: 10px;
+  }
+  
+}
+
 @media (max-width: 630px) {
   .buttonBurgerContainer {
     background-color: transparent;
@@ -190,6 +200,15 @@ header {
     }
   }
 }
+
+@media (max-width: 600px) {
+  
+  .headerRight,.headerLeft{
+    width: fit-content;
+  }
+  
+}
+
 
 @media (max-width: 400px) {
   header {
