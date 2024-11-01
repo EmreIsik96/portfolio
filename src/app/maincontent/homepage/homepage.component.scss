@@ -213,27 +213,9 @@
   }
 }
 
-@media (max-height: 825px) {
-  .mainContainer {
-    margin-top: -25px;
-  }
-  .mainImage {
-    width: 546px;
-    height: 605px;
-  }
-  .scollDownContainer {
-    top: 700px;
-  }
-  .referencesContainer {
-    margin-top: -30px;
-  }
-  .buttonOnMainContainer {
-    margin-top: -180px;
-    margin-left: 600px;
-  }
-}
+// Max-Height: 915px
 
-@media (max-width: 1477px) {
+@media (max-height: 915px) and (max-width: 1477px) {
   .mainIamTxtContainer {
     width: 50px;
   }
@@ -251,14 +233,14 @@
   }
 }
 
-@media (max-width: 1341px) {
+@media (max-height: 915px) and (max-width: 1341px) {
   .jobDescriptionTxt {
     text-wrap: nowrap;
     font-size: 50px;
   }
 }
 
-@media (max-width: 1236px) {
+@media (max-height: 915px) and (max-width: 1236px) {
   .nameTxt {
     font-size: 75px;
     text-wrap: nowrap;
@@ -279,7 +261,7 @@
   }
 }
 
-@media (max-width: 1150px) {
+@media (max-height: 915px) and (max-width: 1150px) {
   .iamTxt {
     line-height: 100px;
     font-size: 60px;
@@ -305,7 +287,7 @@
   }
 }
 
-@media (max-width: 1093px) {
+@media (max-height: 915px) and (max-width: 1093px) {
   .iamTxt {
     font-size: 55px;
   }
@@ -326,7 +308,648 @@
   }
 }
 
-@media (max-width: 1040px) {
+@media (max-height: 915px) and (max-width: 1040px) {
+  .mainImage {
+    height: 600px;
+    width: 559px;
+    margin-top: 10px;
+  }
+  .buttonOnMainContainer{
+    margin-top: -180px;
+  }
+  .scollDownContainer {
+    top: 810px;
+    right: 25px;
+    height: 0;
+  }
+  .referencesContainer {
+    margin-top: 240px;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 960px) {
+  .mainImage {
+    height: 550px;
+    width: 510px;
+    margin-top: 5px;
+    margin-left: -50px;
+  }
+  .infoTxtContainer {
+    margin-bottom: -60px;
+  }
+  .mainIamTxtContainer {
+    margin-bottom: -60px;
+  }
+  .nameTxt {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: -35px;
+  }
+  .jobDescriptionTxt {
+    font-size: 30px;
+  }
+  .iamTxt {
+    font-size: 38px;
+  }
+  .buttonOnMainContainer {
+    margin-top: -150px;
+    margin-right: 90px;
+  }
+  .bgShadowOnMain {
+    margin-left: -95px;
+    margin-top: 90px;
+  }
+  .scollDownContainer {
+    margin-top: -30px;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 840px) {
+  .mainContainer {
+    margin-top: 20px;
+  }
+  .mainImage {
+    height: 500px;
+    width: 460px;
+    margin-top: 0px;
+    margin-left: -50px;
+  }
+  .nameTxt {
+    font-size: 45px;
+    margin-top: 6px;
+    margin-bottom: -40px;
+  }
+  .jobDescriptionTxt {
+    font-size: 25px;
+  }
+  .iamTxt {
+    font-size: 35px;
+  }
+  .buttonOnMain {
+    width: 130px;
+    height: 46px;
+    margin-top: 3px;
+    margin-right: -120px;
+  }
+  .buttonOnMain {
+    margin-left: -150px;
+  }
+  .bgShadowOnMain {
+    margin-left: -150px;
+    margin-top: 90px;
+  }
+  .scollDownContainer {
+    margin-top: -40px;
+  }
+  .referencesContainer {
+    gap: 20px;
+  }
+  .vectorPurple {
+    width: 60px;
+    margin-left: -74px;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 730px) {
+  .mainContainer {
+    margin-top: 100px;
+  }
+  .buttonOnMain {
+    margin-left: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+  }
+  .buttonOnMainContainer {
+    width: 0;
+  }
+  .mainImage {
+    height: 400px;
+    width: 380px;
+    margin-top: 0px;
+    margin-left: -100px;
+  }
+  .bgShadowOnMain {
+    margin-left: -250px;
+    margin-top: 0px;
+  }
+  .scollDownContainer {
+    margin-top: -100px;
+    margin-right: -30px;
+  }
+  .referencesContainer {
+    margin-top: 150px;
+  }
+  .vectorPurple {
+    width: 60px;
+    margin-left: -74px;
+  }
+
+  .d-flexImgAndTxt {
+    margin-left: 50px;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 690px) {
+  .buttonOnMain {
+    margin-left: -100px;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 650px) {
+  .buttonOnMain {
+    margin-left: -130px;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 630px) {
+  .mainContainer {
+    margin: 0;
+    height: 100vh;
+    margin-bottom: 200px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .d-flexImgAndTxt {
+    display: block;
+    height: 90vh;
+    margin: 0;
+  }
+  .mainImagesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .bgShadowOnMain {
+    width: 100%;
+    margin: 0;
+    z-index: -3;
+  }
+  .mainImage {
+    z-index: -2;
+    margin: 0;
+    margin-right: -40px;
+    height: 450px;
+    width: 430px;
+  }
+  .nameTxtContainer {
+    width: 200px;
+  }
+  .nameTxt {
+    font-size: 45px;
+    margin: 0;
+    line-height: 35px;
+    width: 200px;
+  }
+  .jobDescriptionContainer,
+  .jobDescriptionTxt {
+    width: 280px;
+  }
+  .infoTxtContainer {
+    margin-top: -160px;
+    margin-left: 100px;
+    width: 280px;
+  }
+  .mainIamTxtContainer {
+    margin: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .iamTxtContainer {
+    margin-left: 60px;
+    margin-top: -68px;
+  }
+  .iamTxt {
+    margin: 0;
+  }
+  .buttonOnMain {
+    margin-left: -470px;
+    margin-top: -85px;
+    margin-bottom: 0px;
+  }
+  .scollDownContainer {
+    display: none;
+  }
+  .referencesContainer {
+    margin-top: 30px;
+    width: 400px;
+    margin-left: -82px;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 610px) {
+  .referencesContainer {
+    gap: 16px;
+    width: 400px;
+    margin-left: -200px;
+  }
+  .vectorPurple {
+    width: 60px;
+    margin: 0;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 550px) {
+  .vectorPurple {
+    width: 120px;
+    margin: 0;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 530px) {
+  .githubIcon,
+  .linkedInIcon,
+  .emailIcon {
+    height: 26px;
+  }
+  .emailTxt {
+    font-size: 22px;
+  }
+  .referencesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -122px;
+    width: 400px;
+  }
+  .vectorPurple {
+    width: 60px;
+    margin: 0;
+  }
+  .buttonOnMainContainer {
+    width: 100%;
+    height: fit-content;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -230px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonOnMain {
+    margin: 0;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 480px) {
+  .mainImage {
+    z-index: -2;
+    margin: 0;
+    margin-right: -25px;
+    height: 450px;
+    width: 430px;
+  }
+  .buttonOnMainContainer {
+    margin-bottom: 60px;
+  }
+  .referencesContainer {
+    margin-top: -20px;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 470px) {
+  .referencesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -122px;
+    width: 200px;
+  }
+  .vectorPurple {
+    width: 100px;
+    margin: 0;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 450px) {
+  .mainImage {
+    height: 400px;
+    width: 370px;
+    margin: 0;
+    margin-top: -32px;
+  }
+  .buttonOnMainContainer {
+    margin-top: -320px;
+  }
+  .bgShadowOnMain {
+    margin-top: -30px;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 440px) {
+  .referencesContainer {
+    margin-top: 0px;
+  }
+  .buttonOnMainContainer {
+    margin-top: -300px;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 400px) {
+  .mainImage {
+    margin-top: 15px;
+  }
+  .buttonOnMainContainer {
+    margin-top: -230px;
+    margin-bottom: 80px;
+  }
+  .iamTxtContainer {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .infoTxtContainer {
+    width: 280px;
+    margin-left: 80px;
+    margin-top: -123px;
+  }
+  .nameTxtContainer {
+    margin-bottom: -4px;
+  }
+  .jobDescriptionContainer,
+  .jobDescriptionTxt {
+    height: 35px;
+    margin: 0;
+    margin-top: -2px;
+  }
+  .bgShadowOnMain {
+    margin-top: -20px;
+  }
+  .githubIcon,
+  .linkedInIcon,
+  .emailIcon {
+    height: 20px;
+    margin-top: 6px;
+  }
+  .emailTxtContainer {
+    margin-top: 6px;
+  }
+  .emailTxt {
+    font-size: 18px;
+  }
+  .referencesContainer {
+    margin-left: -80px;
+    width: 320px;
+    margin-top: -30px;
+  }
+  .vectorPurple {
+    width: 20px;
+    margin: 0;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 390px) {
+  .mainImagesContainer {
+    width: 320px;
+    margin-top: 16px;
+  }
+  .mainImage {
+    height: 350px;
+    width: 320px;
+  }
+  .mainIamTxtContainer {
+    width: 0;
+    margin-left: 0px;
+  }
+  .iamTxtContainer {
+    margin-top: 0px;
+  }
+  .infoTxtContainer {
+    width: 280px;
+    margin-left: 50px;
+    margin-top: -124px;
+  }
+  .jobDescriptionContainer,
+  .jobDescriptionTxt {
+    height: 35px;
+    margin: 0;
+    margin-top: -2px;
+  }
+  .referencesContainer {
+    margin-left: -70px;
+    width: 320px;
+  }
+  .vectorPurple {
+    width: 20px;
+    margin: 0;
+  }
+  .buttonOnMainContainer {
+    margin-top: -270px;
+    margin-bottom: 80px;
+  }
+  .bgShadowOnMain {
+    margin-top: -30px;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 360px) {
+  .referencesContainer {
+    margin-left: -48px;
+    width: 280px;
+  }
+}
+
+@media (max-height: 915px) and (max-width: 340px) {
+  .nameTxt {
+    font-size: 40px;
+  }
+  .jobDescriptionTxt {
+    font-size: 20px;
+  }
+  .iamTxt {
+    font-size: 32px;
+  }
+  .mainImagesContainer {
+    width: 320px;
+    margin-top: 16px;
+    margin-left: 0px;
+  }
+  .mainIamTxtContainer {
+    width: 0;
+  }
+  .iamTxtContainer {
+    margin-left: 0px;
+    margin-right: -50px;
+  }
+  .infoTxtContainer {
+    width: 200px;
+    margin-left: 80px;
+    margin-top: -124px;
+  }
+  .jobDescriptionContainer,
+  .jobDescriptionTxt {
+    width: 200px;
+    height: 35px;
+    margin: 0;
+    margin-top: -2px;
+  }
+  .bgShadowOnMain {
+    width: 320px;
+  }
+  .referencesContainer {
+    margin-left: 0px;
+    width: 320px;
+  }
+  .vectorPurple {
+    display: none;
+  }
+}
+
+//Max-Height: 915 END
+
+@media (max-height: 905px) and (max-width: 440px) {
+  .referencesContainer {
+    margin-top: 0px;
+  }
+  .buttonOnMainContainer {
+    margin-top: -300px;
+  }
+}
+
+@media (max-height: 893px) and (max-width: 440px) {
+  .buttonOnMainContainer {
+    margin-top: -290px;
+  }
+}
+
+@media (max-height: 878px) and (max-width: 440px) {
+  .buttonOnMainContainer {
+    margin-top: -280px;
+  }
+}
+
+@media (max-height: 849px) and (max-width: 440px) {
+  .buttonOnMainContainer {
+    margin-top: -250px;
+  }
+}
+
+@media (max-height: 836px) and (max-width: 440px) {
+  .buttonOnMainContainer {
+    margin-top: -240px;
+  }
+}
+
+// Max-Height: 825px
+
+@media (max-height: 825px) and (max-width: 1920px) {
+  .mainContainer {
+    margin-top: -25px;
+  }
+  .mainImage {
+    width: 546px;
+    height: 605px;
+  }
+  .scollDownContainer {
+    top: 700px;
+  }
+  .referencesContainer {
+    margin-top: -30px;
+  }
+  .buttonOnMainContainer {
+    margin-top: -180px;
+    margin-left: 600px;
+  }
+}
+
+@media (max-height: 825px) and (max-width: 1477px) {
+  .mainIamTxtContainer {
+    width: 50px;
+  }
+  .buttonOnMainContainer {
+    margin-left: 480px;
+  }
+  .scollDownContainer {
+    top: 800px;
+    right: 25px;
+    height: 0;
+  }
+  .referencesContainer {
+    height: 0;
+    margin-top: 200px;
+  }
+}
+
+@media (max-height: 825px) and (max-width: 1341px) {
+  .jobDescriptionTxt {
+    text-wrap: nowrap;
+    font-size: 50px;
+  }
+}
+
+@media (max-height: 825px) and (max-width: 1236px) {
+  .nameTxt {
+    font-size: 75px;
+    text-wrap: nowrap;
+    margin-bottom: -5px;
+  }
+  .iamTxt {
+    line-height: 100px;
+    font-size: 60px;
+  }
+  .jobDescriptionTxt {
+    font-size: 45px;
+  }
+  .mainIamTxtContainer {
+    margin-left: -50px;
+  }
+  .buttonOnMainContainer {
+    margin-left: 430px;
+  }
+}
+
+@media (max-height: 825px) and (max-width: 1150px) {
+  .iamTxt {
+    line-height: 100px;
+    font-size: 60px;
+  }
+  .nameTxt {
+    font-size: 70px;
+    margin-bottom: -10px;
+  }
+  .jobDescriptionTxt {
+    font-size: 40px;
+  }
+  .iamTxt {
+    font-size: 55px;
+  }
+  .buttonOnMain {
+    width: 145px;
+    height: 52px;
+    margin-top: -20px;
+    margin-right: -10px;
+  }
+  .referencesContainer {
+    margin-top: 220px;
+  }
+}
+
+@media (max-height: 825px) and (max-width: 1093px) {
+  .iamTxt {
+    font-size: 55px;
+  }
+  .nameTxt {
+    font-size: 60px;
+    margin-bottom: -15px;
+  }
+  .jobDescriptionTxt {
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+  .iamTxt {
+    font-size: 50px;
+  }
+  .buttonOnMain {
+    width: 140px;
+    height: 48px;
+  }
+}
+
+@media (max-height: 825px) and (max-width: 1040px) {
   .mainImage {
     height: 600px;
     width: 559px;
@@ -337,7 +960,7 @@
   }
 }
 
-@media (max-width: 960px) {
+@media (max-height: 825px) and (max-width: 960px) {
   .mainImage {
     height: 550px;
     width: 510px;
@@ -374,7 +997,7 @@
   }
 }
 
-@media (max-width: 840px) {
+@media (max-height: 825px) and (max-width: 840px) {
   .mainImage {
     height: 500px;
     width: 460px;
@@ -417,7 +1040,7 @@
   }
 }
 
-@media (max-width: 730px) {
+@media (max-height: 825px) and (max-width: 730px) {
   .mainContainer {
     margin-top: 100px;
   }
@@ -457,19 +1080,19 @@
   }
 }
 
-@media (max-width: 690px) {
+@media (max-height: 825px) and (max-width: 690px) {
   .buttonOnMain {
     margin-left: -100px;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-height: 825px) and (max-width: 650px) {
   .buttonOnMain {
     margin-left: -130px;
   }
 }
 
-@media (max-width: 630px) {
+@media (max-height: 825px) and (max-width: 630px) {
   .mainContainer {
     margin: 0;
     height: 100vh;
@@ -548,7 +1171,7 @@
   }
 }
 
-@media (max-width: 610px) {
+@media (max-height: 825px) and (max-width: 610px) {
   .referencesContainer {
     gap: 16px;
     width: 400px;
@@ -560,14 +1183,14 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-height: 825px) and (max-width: 550px) {
   .vectorPurple {
     width: 120px;
     margin: 0;
   }
 }
 
-@media (max-width: 530px) {
+@media (max-height: 825px) and (max-width: 530px) {
   .githubIcon,
   .linkedInIcon,
   .emailIcon {
@@ -602,7 +1225,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-height: 825px) and (max-width: 480px) {
   .mainImage {
     z-index: -2;
     margin: 0;
@@ -618,7 +1241,7 @@
   }
 }
 
-@media (max-width: 470px) {
+@media (max-height: 825px) and (max-width: 470px) {
   .referencesContainer {
     display: flex;
     justify-content: center;
@@ -632,7 +1255,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-height: 825px) and (max-width: 450px) {
   .mainImage {
     height: 400px;
     width: 370px;
@@ -647,9 +1270,11 @@
   }
 }
 
-@media (max-width: 400px) {
+// @MEDIA -> Handy
+
+@media (max-height: 825px) and (max-width: 400px) {
   .mainImage {
-    margin-top: 0px;
+    margin-top: 15px;
   }
   .buttonOnMainContainer {
     margin-top: -150px;
@@ -691,6 +1316,7 @@
   .referencesContainer {
     margin-left: -80px;
     width: 320px;
+    margin-top: -30px;
   }
   .vectorPurple {
     width: 20px;
@@ -698,7 +1324,7 @@
   }
 }
 
-@media (max-width: 390px) {
+@media (max-height: 825px) and (max-width: 390px) {
   .mainImagesContainer {
     width: 320px;
     margin-top: 16px;
@@ -742,14 +1368,14 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-height: 825px) and (max-width: 360px) {
   .referencesContainer {
     margin-left: -48px;
     width: 280px;
   }
 }
 
-@media (max-width: 340px) {
+@media (max-height: 825px) and (max-width: 340px) {
   .nameTxt {
     font-size: 40px;
   }
@@ -795,59 +1421,19 @@
   }
 }
 
-// @MEDIA -> MAX-HEIGHT
-@media (max-height: 915px) and (max-width: 440px)  {
+@media (max-height: 810px) and (max-width: 440px) {
+  .mainContainer {
+    margin-top: -50px;
+  }
   .referencesContainer {
-    margin-top: 0px;
-  }
-  .buttonOnMainContainer {
-    margin-top: -300px;
-  }
-}
-
-@media (max-height: 905px) and (max-width: 440px)  {
-  .referencesContainer {
-    margin-top: 0px;
-  }
-  .buttonOnMainContainer {
-    margin-top: -300px;
-  }
-}
-
-@media (max-height: 893px) and (max-width: 440px)  {
-  .buttonOnMainContainer {
-    margin-top: -290px;
-  }
-}
-
-@media (max-height: 878px) and (max-width: 440px)  {
-  .buttonOnMainContainer {
-    margin-top: -280px;
-  }
-}
-
-@media (max-height: 849px) and (max-width: 440px)  {
-  .buttonOnMainContainer {
-    margin-top: -250px;
-  }
-}
-
-@media (max-height: 836px) and (max-width: 440px)  {
-  .buttonOnMainContainer {
-    margin-top: -240px;
-  }
-}
-
-@media (max-height: 810px) {
-  .referencesContainer {
-    margin-top: -10px;
+    margin-top: -20px;
   }
   .buttonOnMainContainer {
     margin-top: -220px;
   }
 }
 
-@media (max-height: 800px) {
+@media (max-height: 800px) and (max-width: 440px) {
   .referencesContainer {
     margin-top: 0px;
   }
@@ -856,20 +1442,20 @@
   }
 }
 
-@media (max-height: 785px) {
+@media (max-height: 785px) and (max-width: 440px) {
   .referencesContainer {
     margin-top: 0px;
   }
   .buttonOnMainContainer {
     margin-top: -210px;
   }
-  .mainIamTxtContainer{
+  .mainIamTxtContainer {
     margin-top: 0;
   }
 }
 
-@media (max-height: 774px) {
-  .mainContainer{
+@media (max-height: 774px) and (max-width: 440px) {
+  .mainContainer {
     margin-top: -70px;
   }
   .referencesContainer {
@@ -880,8 +1466,8 @@
   }
 }
 
-@media (max-height: 750px) {
-  .mainContainer{
+@media (max-height: 750px) and (max-width: 440px) {
+  .mainContainer {
     margin-top: -60px;
   }
   .buttonOnMainContainer {
@@ -889,8 +1475,8 @@
   }
 }
 
-@media (max-height: 737px) {
-  .mainContainer{
+@media (max-height: 737px) and (max-width: 440px) {
+  .mainContainer {
     margin-top: -50px;
   }
   .buttonOnMainContainer {
@@ -898,8 +1484,8 @@
   }
 }
 
-@media (max-height: 724px) {
-  .mainContainer{
+@media (max-height: 724px) and (max-width: 440px) {
+  .mainContainer {
     margin-top: -50px;
   }
   .referencesContainer {
@@ -910,7 +1496,7 @@
   }
 }
 
-@media (max-height: 712px) {
+@media (max-height: 712px) and (max-width: 440px) {
   .referencesContainer {
     margin-top: -20px;
   }
@@ -919,7 +1505,7 @@
   }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 700px) and (max-width: 440px) {
   .referencesContainer {
     margin-top: -20px;
   }
@@ -928,7 +1514,7 @@
   }
 }
 
-@media (max-height: 688px) {
+@media (max-height: 688px) and (max-width: 440px) {
   .referencesContainer {
     margin-top: -30px;
   }
@@ -937,11 +1523,30 @@
   }
 }
 
-@media (max-height: 676px) {
+@media (max-height: 676px) and (max-width: 440px) {
   .referencesContainer {
     margin-top: -30px;
   }
   .buttonOnMainContainer {
     margin-top: -135px;
+  }
+}
+
+@media (max-height: 667px) and (max-width: 375px) {
+  .mainContainer {
+    margin-top: -80px;
+  }
+  .mainIamTxtContainer {
+    margin-top: -40px;
+  }
+  .referencesContainer {
+    margin-top: -40px;
+    margin-right: -80px;
+  }
+  .buttonOnMainContainer {
+    margin-top: -110px;
+  }
+  .vectorPurpleContainer {
+    display: none;
   }
 }

@@ -1,8 +1,8 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background: #141D2F;
-  font-family: 'poppins', Arial, Helvetica, sans-serif;
+  background: #141d2f;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
   display: flex;
   justify-content: center;
@@ -17,11 +17,11 @@ html {
 }
 
 #skills {
-  scroll-margin-top: 200px; 
+  scroll-margin-top: 200px;
 }
 
 #portfolio {
-  scroll-margin-top: 140px; 
+  scroll-margin-top: 140px;
 }
 
 #contact {
@@ -29,25 +29,30 @@ html {
 }
 
 @font-face {
-    font-family: 'poppins';
-    src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-family: "poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
 }
 
-@media(max-width: 960px){
+@media (max-width: 3760px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
   #aboutMe {
     scroll-margin-top: 90px;
   }
   #skills {
-    scroll-margin-top: 250px; 
+    scroll-margin-top: 250px;
   }
   #portfolio {
-    scroll-margin-top: 120px; 
+    scroll-margin-top: 120px;
   }
 }
 
-@media(max-width: 630px){
+@media (max-width: 630px) {
   #contact {
-    scroll-margin-top:100px;
+    scroll-margin-top: 100px;
   }
 }
-

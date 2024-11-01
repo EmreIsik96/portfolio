@@ -469,6 +469,9 @@
 }
 
 @media (max-width: 630px) {
+  .mainContainer{
+    margin-top: 250px;
+  }
   .headerContainer {
     display: flex;
     justify-content: center;
