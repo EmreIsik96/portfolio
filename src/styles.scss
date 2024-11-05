@@ -51,8 +51,14 @@ html {
   }
 }
 
-@media (max-width: 630px) {
+@media (max-height: 825px) and (max-width: 630px) {
   #contact {
     scroll-margin-top: 100px;
+  }
+  #skills {
+    scroll-margin-top: 100px;
+  }
+  #aboutMe {
+    scroll-margin-top: 150px;
   }
 }

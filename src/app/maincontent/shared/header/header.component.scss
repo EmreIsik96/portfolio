@@ -240,7 +240,73 @@ header {
   }
   .bgMenuContainer{
     height: 95vh;
-    margin-top: 850px;
+    margin-top: 810px;
     margin-left: -30px;
+  }
+}
+
+@media (max-height: 757px) {
+  .bgMenuContainer{
+    margin-top: 800px;
+  }
+}
+
+@media (max-height: 748px) {
+  .bgMenuContainer{
+    margin-top: 790px;
+  }
+}
+
+@media (max-height: 737px) {
+  .bgMenuContainer{
+    margin-top: 780px;
+  }
+}
+
+@media (max-height: 727px) {
+  .bgMenuContainer{
+    margin-top: 770px;
+  }
+}
+
+@media (max-height: 716px) {
+  .bgMenuContainer{
+    margin-top: 760px;
+  }
+}
+
+@media (max-height: 705px) {
+  .bgMenuContainer{
+    margin-top: 750px;
+  }
+}
+
+@media (max-height: 696px) {
+  .bgMenuContainer{
+    margin-top: 740px;
+  }
+}
+
+@media (max-height: 685px) {
+  .bgMenuContainer{
+    margin-top: 730px;
+  }
+}
+
+@media (max-height: 674px) {
+  .bgMenuContainer{
+    margin-top: 720px;
+  }
+}
+
+@media (max-height: 664px) {
+  .bgMenuContainer{
+    margin-top: 710px;
+  }
+}
+
+@media (max-height: 653px) {
+  .bgMenuContainer{
+    margin-top: 700px;
   }
 }

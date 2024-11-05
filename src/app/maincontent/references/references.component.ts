@@ -24,8 +24,10 @@ export class ReferencesComponent {
       Seine schnelle Auffassungsgabe und proaktive Herangehensweise tragen erheblich zum Teamerfolg bei.`,
     },
     {
-      name: 'bla3',
-      reference: 'richtigCool3',
+      name: 'Enver Shala',
+      reference: `Emre Isik war einer meiner Team-Kollegen während des JOIN Projekts. 
+      Er war zuverlässig & kommunikativ, so dass die Zusammenarbeit sehr angenehm war. 
+      Er ist eine Person, mit der ich weitere Zusammenarbeiten jederzeit begrüßen würde.`,
     },
   ];
 
