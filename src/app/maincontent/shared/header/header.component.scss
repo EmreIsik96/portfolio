@@ -122,11 +122,11 @@ header {
   text-align: left;
 }
 
-.buttonBurgerContainer{
+.buttonBurgerContainer {
   display: none;
 }
 
-.bgMenuContainer{
+.bgMenuContainer {
   display: none;
 }
 
@@ -159,13 +159,12 @@ header {
 }
 
 @media (max-width: 716px) {
-  .headerLeft{
+  .headerLeft {
     width: 200px;
   }
   .headerRight {
     gap: 10px;
   }
-  
 }
 
 @media (max-width: 630px) {
@@ -174,10 +173,12 @@ header {
     border: 0;
     display: block;
   }
-  .headerRightAboutMe,.headerRightSkills,.headerRightPortfolio{
+  .headerRightAboutMe,
+  .headerRightSkills,
+  .headerRightPortfolio {
     display: none;
   }
-  .bgMenuContainer{
+  .bgMenuContainer {
     position: absolute;
     height: 88vh;
     width: 100%;
@@ -191,10 +192,13 @@ header {
     overflow-y: hidden;
     gap: 29px;
     font-size: 26px;
-    .buttonBurgerAboutme,.buttonBurgerMySkills,.buttonBurgerPortfolio,.buttonBurgerContact{
+    .buttonBurgerAboutme,
+    .buttonBurgerMySkills,
+    .buttonBurgerPortfolio,
+    .buttonBurgerContact {
       text-decoration: none;
       color: #ffff;
-      &:hover{
+      &:hover {
         cursor: pointer;
       }
     }
@@ -202,11 +206,10 @@ header {
 }
 
 @media (max-width: 600px) {
-  
-  .headerRight,.headerLeft{
+  .headerRight,
+  .headerLeft {
     width: fit-content;
   }
-  
 }
 
 @media (max-width: 400px) {
@@ -214,99 +217,15 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .homepageMyName{
+  .homepageMyName {
     font-size: 28px;
   }
-  .buttonBurgerImg{
+  .buttonBurgerImg {
     height: 24px;
   }
-  .bgMenuContainer{
+  .bgMenuContainer {
     height: 95vh;
     margin-top: 850px;
     margin-left: -30px;
-  }
-}
-
-@media (max-height: 780px) {
-  header {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .homepageMyName{
-    font-size: 28px;
-  }
-  .buttonBurgerImg{
-    height: 24px;
-  }
-  .bgMenuContainer{
-    height: 95vh;
-    margin-top: 810px;
-    margin-left: -30px;
-  }
-}
-
-@media (max-height: 757px) {
-  .bgMenuContainer{
-    margin-top: 800px;
-  }
-}
-
-@media (max-height: 748px) {
-  .bgMenuContainer{
-    margin-top: 790px;
-  }
-}
-
-@media (max-height: 737px) {
-  .bgMenuContainer{
-    margin-top: 780px;
-  }
-}
-
-@media (max-height: 727px) {
-  .bgMenuContainer{
-    margin-top: 770px;
-  }
-}
-
-@media (max-height: 716px) {
-  .bgMenuContainer{
-    margin-top: 760px;
-  }
-}
-
-@media (max-height: 705px) {
-  .bgMenuContainer{
-    margin-top: 750px;
-  }
-}
-
-@media (max-height: 696px) {
-  .bgMenuContainer{
-    margin-top: 740px;
-  }
-}
-
-@media (max-height: 685px) {
-  .bgMenuContainer{
-    margin-top: 730px;
-  }
-}
-
-@media (max-height: 674px) {
-  .bgMenuContainer{
-    margin-top: 720px;
-  }
-}
-
-@media (max-height: 664px) {
-  .bgMenuContainer{
-    margin-top: 710px;
-  }
-}
-
-@media (max-height: 653px) {
-  .bgMenuContainer{
-    margin-top: 700px;
   }
 }
