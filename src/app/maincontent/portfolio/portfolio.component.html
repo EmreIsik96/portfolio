@@ -1,8 +1,5 @@
 <div class="mainContainer">
-  <div data-aos="fade-left"
-  data-aos-offset="300"
-  data-aos-easing="ease-in-sine" 
-  class="headerMainContainer">
+  <div class="headerMainContainer" data-aos="fade-left">
     <div class="purpleFirstLine">
       <img src="./assets/img/portfolioImg/purple_first_line.png" />
     </div>
@@ -13,10 +10,7 @@
       <img class="purpleSecondLine" src="./assets/img/portfolioImg/purple_second_line.png" />
     </div>
   </div>
-  <div data-aos="fade-in"
-  data-aos-offset="300"
-  data-aos-easing="ease-in-sine"
-  class="sideTextContainer">
+  <div class="sideTextContainer" data-aos="fade-in">
     <span class="sideText"
       >Explore a selection of my work here - Interact with projects to see my
       skills in action.</span
@@ -26,17 +20,11 @@
   <div class="projectContainer">
     @for (item of projects; track $index) {
     <div class="projectDisplayFlex{{ $index }}">
-      <div data-aos="fade-right"
-      data-aos-offset="300"
-      data-aos-easing="ease-in-sine" 
-      class="projectLeftContainer">
+      <div class="projectLeftContainer" data-aos="fade-right"  data-aos-offset="0" data-aos-easing="ease-in-sine">
         <img class="laptopImages{{$index}}" src="{{ item.images }}" />
       </div>
 
-      <div data-aos="fade-left"
-      data-aos-offset="300"
-      data-aos-easing="ease-in-sine"
-      class="projectRightContainer">
+      <div class="projectRightContainer" data-aos="fade-left">
         <div class="projectNameContainer">
           <span class="projectName">{{ item.name }}</span>
         </div>
