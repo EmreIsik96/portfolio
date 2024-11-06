@@ -9,7 +9,8 @@ import { MyskillsComponent } from './myskills/myskills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ReferencesComponent } from './references/references.component';
 import { ContactComponent } from './contact/contact.component';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 @Component({
   selector: 'app-maincontent',
@@ -19,5 +20,7 @@ import { ContactComponent } from './contact/contact.component';
   styleUrl: './maincontent.component.scss'
 })
 export class   MaincontentComponent {
-
+  ngOnInit() {
+    AOS.init();
+  }
 }

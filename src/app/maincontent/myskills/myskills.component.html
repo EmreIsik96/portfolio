@@ -2,7 +2,7 @@
 
   <img class="greenShadowBg1" src="./assets/img/skillIcons/green_shadow_bg1.png" alt="">
 
-  <div class="skillsTxtContainer">
+  <div class="skillsTxtContainer" data-aos="fade-left">
     <div class="mySkillsHeaderContainer">
       <h2 class="mySkillsHeader">My skills</h2>
       <img class="vectorPurpleSmall" src="./assets/img/skillIcons/vector_purple_small.png"/>
@@ -31,7 +31,7 @@
     </div>
   </div>
 
-  <div class="skillsIconContainer">
+  <div class="skillsIconContainer" data-aos="fade-right">
     @for (item of skillIcons; track item.img) {
     <img src="{{ item.img }}" alt="skill Icons" />
     }

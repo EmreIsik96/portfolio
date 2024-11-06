@@ -1,18 +1,18 @@
 <div class="mainContainer">
-  <div class="gooseFeetContainer">
+  <div class="gooseFeetContainer" data-aos="fade-in">
     <img class="gooseFeet" src="./assets/img/references/goose-feet.png" />
   </div>
 
   <div class="testimonialsMainContainer">
     <div class="testimonialsContainer">
       
-      <div class="imageContainer">
+      <div class="imageContainer" data-aos="fade-left">
         <div class="imageBorder">
           <img src=""/>
         </div>
       </div>
 
-      <div class="testimonials">
+      <div class="testimonials" data-aos="fade-right">
         <span style="color: #ffff" id="referencesID">{{refences[currentIndex].reference}}</span>
           <div class="signatureContainer">
             <div class="signatureSecondContainer">
@@ -25,7 +25,7 @@
       
     </div>
 
-    <div class="swipeBarContainer">
+    <div class="swipeBarContainer" data-aos="fade-in">
       <img (click)="previousReference()" id="arrowBackID" class="arrowBack" src="./assets/img/references/arrow_back.png"/>
       <img [src]="getEllipseSrc(0)" [ngClass]="{'active': currentIndex === 0}">
       <img [src]="getEllipseSrc(1)" [ngClass]="{'active': currentIndex === 1}">
