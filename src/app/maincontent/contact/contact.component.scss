@@ -236,17 +236,16 @@
   width: 42px;
 }
 
-
-@media(max-width: 3760px){
-  .mainContainer{
+@media (max-width: 3760px) {
+  .mainContainer {
     margin-top: 450px;
-  }  
+  }
 }
 
-@media(max-width: 1920px){
-  .mainContainer{
+@media (max-width: 1920px) {
+  .mainContainer {
     margin-top: 300px;
-  }  
+  }
 }
 
 @media (max-width: 1500px) {
@@ -312,7 +311,7 @@
     flex-direction: column;
     margin-top: 50px;
   }
-  .contactInsideContainer{
+  .contactInsideContainer {
     width: 300px;
   }
 }
@@ -393,7 +392,7 @@
     flex-direction: column;
     margin-top: 50px;
   }
-  .contactInsideContainer{
+  .contactInsideContainer {
     margin-right: -60px;
   }
 }
@@ -432,7 +431,7 @@
     margin-top: 45px;
     width: 360px;
   }
-  .contactInsideContainer{
+  .contactInsideContainer {
     margin-right: -30px;
     width: 260px;
   }
@@ -467,7 +466,7 @@
 }
 
 @media (max-width: 630px) {
-  .mainContainer{
+  .mainContainer {
     margin-top: 250px;
   }
   .headerContainer {
@@ -501,7 +500,8 @@
     display: flex;
     align-items: center;
   }
-  .contactInsideSpanTxt1,.contactInsideSpanTxt2{
+  .contactInsideSpanTxt1,
+  .contactInsideSpanTxt2 {
     width: 320px;
     text-align: center;
   }
@@ -662,7 +662,8 @@
   .contactInsideSpanTxt1 {
     width: 260px;
   }
-  .contactInsideSpanTxt2,.contactInsideHeaderTxt {
+  .contactInsideSpanTxt2,
+  .contactInsideHeaderTxt {
     text-align: center;
   }
   .privacyPolicyMainContainer,
@@ -722,10 +723,11 @@
   .contactInsideSpanTxt2 {
     width: 260px;
   }
-  .vectorLineHeader{
+  .vectorLineHeader {
     width: 40px;
   }
-  .privacyPolicyMainContainer,.goUpButtonContainer{
+  .privacyPolicyMainContainer,
+  .goUpButtonContainer {
     width: 300px;
   }
 }
