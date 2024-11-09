@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Component, ElementRef, inject, ViewChild } from '@angular/core';
+import { Component, ElementRef, inject, viewChild, ViewChild } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 
 @Component({
@@ -12,6 +12,7 @@ import { FormsModule, NgForm } from '@angular/forms';
 })
 
 export class ContactComponent {
+  @ViewChild('sendPopUpID') sendPopUpID!: ElementRef;
   @ViewChild('privacySpan') privacySpan!: ElementRef;
 
   http = inject(HttpClient)
@@ -30,6 +31,17 @@ export class ContactComponent {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+  }
+
+
+  sendPostPopUp() {
+    let displayStyle = 'none';
+    this.sendPopUpID.nativeElement.style.display = displayStyle = 'flex';
+  }
+
+  closePopUp() {
+    let displayStyle = 'block';
+    this.sendPopUpID.nativeElement.style.display = displayStyle = 'none';
   }
 
   contactData = {
@@ -63,7 +75,7 @@ export class ContactComponent {
             error: (error) => {
               console.error(error);
             },
-            complete: () => alert('send post complete'),
+            complete: () => this.sendPostPopUp(),
           });
       } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
   

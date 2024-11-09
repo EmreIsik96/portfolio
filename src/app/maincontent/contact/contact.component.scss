@@ -236,6 +236,39 @@
   width: 42px;
 }
 
+.sendPostPopUpContainer {
+  position: fixed;
+  top: 40%;
+  bottom: 50%;
+  left: 40%;
+  color: #9747ff;
+  width: 26%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #70e61c;
+  border: 5px solid #9747ff;
+  border-radius: 15px;
+}
+.OKButton{
+  width: 100px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffff;
+  background-color: #9747ff;
+  &:hover{
+    cursor: pointer;
+    transition: 50ms ease-in-out;
+    scale: 1.2;
+  }
+}
+
 @media (max-width: 3760px) {
   .mainContainer {
     margin-top: 450px;
