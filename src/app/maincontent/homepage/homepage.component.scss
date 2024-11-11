@@ -1,3 +1,16 @@
+// Variablen
+$white: #ffffff;
+$purple: #9747ff;
+$green: #70e61c;
+
+// Mixin für Hover-Skalierung
+@mixin hover-scale($color) {
+  cursor: pointer;
+  background: $color;
+  transform: scale(1.1);
+}
+
+// Hauptcontainer
 .mainContainer {
   height: 100vh;
 }
@@ -5,19 +18,187 @@
 .mainImagesContainer {
   display: flex;
   z-index: -100;
+
+  .mainImage {
+    width: 646px;
+    height: 705px;
+    gap: 0px;
+  }
 }
 
-.mainImage {
-  width: 646px;
-  height: 705px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.d-flexImgAndTxt {
+.d-flexImgAndTxt,
+.mainTextContainer,
+.mainIamTxtContainer,
+.scollDownContainer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+// Titel Container
+.titelTxtContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -70px;
+
+  .nameTxt {
+    margin: 0 0 -10px 0;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 108px;
+    color: $white;
+  }
+
+  .jobDescriptionTxt {
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 69.6px;
+    color: $purple;
+    margin: 0;
+  }
+}
+
+.mainIamTxtContainer {
+  height: 172px;
+
+  .iamTxt {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 76.8px;
+    text-align: left;
+    color: white;
+    text-wrap: nowrap;
+    transform: rotate(-90deg);
+  }
+}
+
+// Scroll-Down Container
+.scollDownContainer {
+  width: 28px;
+  height: 125px;
+  position: absolute;
+  top: 700px;
+  right: 0;
+  padding-right: 100px;
+  gap: 3px;
+  transform: rotate(90deg);
+
+  .scrollDownTxt,
+  .arrowDownContainer,
+  .arrowDownImg {
+    color: $white;
+    gap: 0;
+  }
+
+  .scrollDownTxt {
+    width: 133px;
+    height: 28px;
+    text-wrap: nowrap;
+  }
+
+  .arrowDownContainer {
+    width: 24px;
+    height: 24px;
+    padding: 4px 4.22px 4px 4.22px;
+    transform: rotate(-90deg);
+
+    .arrowDownImg {
+      width: 15.56px;
+      height: 16px;
+    }
+  }
+}
+
+// Button auf Hauptseite
+.buttonOnMainContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  .buttonOnMain {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 58px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 0;
+    background: $green;
+    transform: scale(1);
+    transition: transform 0.1s ease-in-out;
+
+    &:hover {
+      @include hover-scale($purple);
+    }
+
+    .buttonTxtOnMain {
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 27.6px;
+      color: $white;
+      text-wrap: nowrap;
+    }
+  }
+}
+
+// Referenzen Container
+.referencesContainer {
+  width: 566px;
+  height: 50px;
+  gap: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  .vectorPurpleContainer {
+    border: 4px 0 0 0;
+
+    .vectorPurple {
+      width: 140px;
+      height: 5px;
+    }
+  }
+}
+
+// Icons
+.githubIconContainer,
+.emailIconContainer,
+.linkedInIconContainer {
+  width: 30px;
+  height: 30px;
+  gap: 0px;
+
+  .githubIcon,
+  .emailIcon,
+  .linkedInIcon {
+    transform: scale(1);
+    transition: transform 0.1s ease-in-out;
+    &:hover {
+      transform: scale(1.4);
+    }
+  }
+}
+
+// Email
+.emailTxtContainer {
+  width: 248px;
+  height: 28px;
+  gap: 0px;
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  .emailTxt {
+    font-size: 23px;
+    line-height: 27.6px;
+    color: $white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: left;
+    text-wrap: nowrap;
+  }
 }
 
 .bgShadowOnMain {
@@ -31,289 +212,130 @@
   z-index: -1;
 }
 
-.mainTextContainer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.titelTxtContainer{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: -70px;
-}
-
-.mainIamTxtContainer {
-  height: 172px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.iamTxt {
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 76.8px;
-  text-align: left;
-  color: white;
-  text-wrap: nowrap;
-  transform: rotate(-90deg);
-}
-
-.nameTxt {
-  margin: 0;
-  margin-bottom: -10px;
-  font-size: 90px;
-  font-weight: 700;
-  line-height: 108px;
-  text-align: left;
-  color: white;
-}
-
-.jobDescriptionTxt {
-  font-size: 58px;
-  font-weight: 400;
-  line-height: 69.6px;
-  text-align: left;
-  color: #9747ff;
-  margin: 0;
-}
-
-.scollDownContainer {
-  width: 28px;
-  height: 125px;
-  position: absolute;
-  top: 700px;
-  right: 0px;
-  padding-right: 100px;
-  gap: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-wrap: nowrap;
-  transform: rotate(90deg);
-}
-
-.scrollDownTxt {
-  width: 133px;
-  height: 28px;
-  gap: 0px;
-  opacity: 0px;
-  color: white;
-}
-
-.arrowDownContainer {
-  width: 24px;
-  height: 24px;
-  padding: 4px 4.22px 4px 4.22px;
-  gap: 0px;
-  opacity: 0px;
-  transform: rotate(-90deg);
-}
-
-.arrowDownImg {
-  width: 15.56px;
-  height: 16px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.buttonOnMainContainer {
-  display: flex;
-  justify-content: center;  
-  margin-top: 20px;
-}
-
-.buttonOnMain {
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 165px;
-  height: 58px;
-  gap: 10px;
-  border-radius: 10px;
-  border: 0;
-  background: #70e61c;
-  transform: scale(1);
-  transition: transform 0.1s ease-in-out;
-  &:hover {
-    cursor: pointer;
-    background: #9747ff;
-    transform: scale(1.1);
-  }
-}
-
-.buttonTxtOnMain {
-  font-size: 23px;
-  font-weight: 400;
-  line-height: 27.6px;
-  text-align: left;
-  color: white;
-  text-wrap: nowrap;
-}
-
-.referencesContainer {
-  width: 566px;
-  height: 50px;
-  gap: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.vectorPurpleContainer {
-  border: 4px 0px 0px 0px;
-  opacity: 0px;
-}
-
-.vectorPurple {
-  width: 140px;
-  height: 5px;
-}
-
-.githubIconContainer,
-.emailIconContainer,
-.linkedInIconContainer {
-  width: 30px;
-  height: 30px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.emailTxtContainer {
-  width: 248px;
-  height: 28px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.emailTxt {
-  font-size: 23px;
-  line-height: 27.6px;
-  text-decoration: none;
-  text-align: left;
-  color: white;
-  text-wrap: nowrap;
-  cursor: pointer;
-}
-
-.githubIcon,
-.emailIcon,
-.linkedInIcon {
-  transform: scale(1);
-  transition: transform 0.1s ease-in-out;
-  &:hover {
-    transform: scale(1.4);
-  }
-}
-
 @media (max-width: 1920px) {
-  .mainImage {
-    width: 546px;
-    height: 605px;
+  .mainImagesContainer {
+    .mainImage {
+      width: 546px;
+      height: 605px;
+    }
   }
 }
 
 @media (max-width: 1341px) {
-  .jobDescriptionTxt {
-    text-wrap: nowrap;
-    font-size: 50px;
+  .titelTxtContainer {
+    .jobDescriptionTxt {
+      text-wrap: nowrap;
+      font-size: 50px;
+    }
   }
 }
 
 @media (max-width: 1236px) {
-  .nameTxt {
-    font-size: 75px;
-    text-wrap: nowrap;
-    margin-bottom: -5px;
-  }
-  .iamTxt {
-    line-height: 100px;
-    font-size: 60px;
-  }
-  .jobDescriptionTxt {
-    font-size: 45px;
+  .titelTxtContainer {
+    .nameTxt {
+      font-size: 75px;
+      text-wrap: nowrap;
+      margin-bottom: -5px;
+    }
+    .jobDescriptionTxt {
+      font-size: 45px;
+    }
   }
   .mainIamTxtContainer {
     margin-left: -50px;
+    .iamTxt {
+      line-height: 100px;
+      font-size: 60px;
+    }
   }
-
 }
 
 @media (max-width: 1150px) {
-  .iamTxt {
-    line-height: 100px;
-    font-size: 60px;
+  .mainIamTxtContainer {
+    .iamTxt {
+      line-height: 100px;
+      font-size: 55px;
+    }
   }
-  .nameTxt {
-    font-size: 70px;
-    margin-bottom: -10px;
+  .titelTxtContainer {
+    .nameTxt {
+      font-size: 70px;
+      margin-bottom: -10px;
+    }
+    .jobDescriptionTxt {
+      font-size: 40px;
+    }
   }
-  .jobDescriptionTxt {
-    font-size: 40px;
-  }
-  .iamTxt {
-    font-size: 55px;
-  }
-  .buttonOnMain {
-    width: 145px;
-    height: 52px;
+  .buttonOnMainContainer {
+    .buttonOnMain {
+      width: 145px;
+      height: 52px;
+    }
   }
 }
 
 @media (max-width: 1093px) {
-  .iamTxt {
-    font-size: 55px;
+  .mainIamTxtContainer {
+    .iamTxt {
+      font-size: 50px;
+    }
   }
-  .nameTxt {
-    font-size: 60px;
-    margin-bottom: -15px;
+  .titelTxtContainer {
+    .nameTxt {
+      font-size: 60px;
+      margin-bottom: -15px;
+    }
+    .jobDescriptionTxt {
+      font-size: 35px;
+      margin-bottom: 5px;
+    }
   }
-  .jobDescriptionTxt {
-    font-size: 35px;
-    margin-bottom: 5px;
-  }
-  .iamTxt {
-    font-size: 50px;
-  }
-  .buttonOnMain {
-    width: 140px;
-    height: 48px;
+  .buttonOnMainContainer {
+    .buttonOnMain {
+      width: 140px;
+      height: 48px;
+    }
   }
 }
 
 @media (max-width: 1040px) {
-  .mainImage {
-    height: 600px;
-    width: 559px;
-    margin-top: 10px;
+  .mainImagesContainer {
+    .mainImage {
+      height: 600px;
+      width: 559px;
+      margin-top: 10px;
+    }
   }
-  .mainTextContainer
-  {
+  .mainTextContainer {
     margin-left: -50px;
   }
 }
 
 @media (max-width: 960px) {
-  .mainImage {
-    height: 550px;
-    width: 510px;
-    margin-top: 5px;
-    margin-left: -50px;
+  .mainImagesContainer {
+    .mainImage {
+      height: 550px;
+      width: 510px;
+      margin-top: 5px;
+      margin-left: -50px;
+    }
   }
-  .nameTxt {
-    font-size: 50px;
-    margin-top: -25px;
-    margin-bottom: -38px;
+  .titelTxtContainer {
+    .nameTxt {
+      font-size: 50px;
+      margin-top: -25px;
+      margin-bottom: -38px;
+    }
+    .jobDescriptionTxt {
+      font-size: 30px;
+    }
   }
-  .jobDescriptionTxt {
-    font-size: 30px;
+  .mainIamTxtContainer {
+    .iamTxt {
+      font-size: 38px;
+    }
   }
-  .iamTxt {
-    font-size: 38px;
-  }
-  .buttonOnMainContainer{
+  .buttonOnMainContainer {
     margin-top: 0;
   }
   .bgShadowOnMain {
@@ -326,29 +348,37 @@
 }
 
 @media (max-width: 840px) {
-  .mainImage {
-    height: 500px;
-    width: 460px;
-    margin-top: 0px;
-    margin-left: -50px;
+  .mainImagesContainer {
+    .mainImage {
+      height: 500px;
+      width: 460px;
+      margin-top: 0px;
+      margin-left: -50px;
+    }
   }
-  .nameTxt {
-    font-size: 45px;
-    margin-top: -25px;
-    margin-bottom: -38px;
+  .titelTxtContainer {
+    .nameTxt {
+      font-size: 45px;
+      margin-top: -25px;
+      margin-bottom: -38px;
+    }
+    .jobDescriptionTxt {
+      font-size: 25px;
+    }
   }
-  .jobDescriptionTxt {
-    font-size: 25px;
+  .mainIamTxtContainer {
+    .iamTxt {
+      font-size: 35px;
+    }
   }
-  .iamTxt {
-    font-size: 35px;
-  }
-  .mainTextContainer{
+  .mainTextContainer {
     margin-left: 0;
   }
-  .buttonOnMain {
-    width: 130px;
-    height: 46px;
+  .buttonOnMainContainer {
+    .buttonOnMain {
+      width: 130px;
+      height: 46px;
+    }
   }
   .bgShadowOnMain {
     margin-left: -150px;
@@ -359,10 +389,10 @@
   }
   .referencesContainer {
     gap: 20px;
-  }
-  .vectorPurple {
-    width: 60px;
-    margin-left: -74px;
+    .vectorPurple {
+      width: 60px;
+      margin-left: -74px;
+    }
   }
 }
 
@@ -370,11 +400,13 @@
   .mainContainer {
     margin-top: 100px;
   }
-  .mainImage {
-    height: 400px;
-    width: 380px;
-    margin-top: 0px;
-    margin-left: -100px;
+  .mainImagesContainer {
+    .mainImage {
+      height: 400px;
+      width: 380px;
+      margin-top: 0px;
+      margin-left: -100px;
+    }
   }
   .bgShadowOnMain {
     margin-left: -250px;
@@ -385,12 +417,11 @@
   }
   .referencesContainer {
     margin-top: 90px;
+    .vectorPurple {
+      width: 60px;
+      margin-left: -74px;
+    }
   }
-  .vectorPurple {
-    width: 60px;
-    margin-left: -74px;
-  }
-
   .d-flexImgAndTxt {
     margin-left: 50px;
   }
@@ -412,38 +443,38 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    .mainImage {
+      z-index: -2;
+      margin: 0;
+      margin-right: -40px;
+      height: 450px;
+      width: 430px;
+    }
   }
   .bgShadowOnMain {
     width: 100%;
     margin: 0;
     z-index: -3;
   }
-  .mainImage {
-    z-index: -2;
-    margin: 0;
-    margin-right: -40px;
-    height: 450px;
-    width: 430px;
-  }
-  .nameTxtContainer {
-    width: 200px;
-  }
-  .nameTxt {
-    font-size: 45px;
-    margin: 0;
-    line-height: 25px;
-    width: 200px;
-  }
-  .jobDescriptionContainer,
-  .jobDescriptionTxt {
-    width: 280px;
-    height: 65px;
-  }
-  .titelTxtContainer {
-    width: 280px;
-  }
-  .mainTextContainer{
+  .mainTextContainer {
     height: 80px;
+    .titelTxtContainer {
+      width: 280px;
+      .nameTxtContainer {
+        width: 200px;
+        .nameTxt {
+          font-size: 45px;
+          margin: 0;
+          line-height: 25px;
+          width: 200px;
+        }
+      }
+      .jobDescriptionContainer,
+      .jobDescriptionTxt {
+        width: 280px;
+        height: 65px;
+      }
+    }
   }
   .mainIamTxtContainer {
     margin: 0;
@@ -465,17 +496,19 @@
     gap: 16px;
     width: 400px;
     margin-left: -200px;
-  }
-  .vectorPurple {
-    width: 60px;
-    margin: 0;
+    .vectorPurple {
+      width: 60px;
+      margin: 0;
+    }
   }
 }
 
 @media (max-width: 550px) {
-  .vectorPurple {
-    width: 120px;
-    margin: 0;
+  .referencesContainer {
+    .vectorPurple {
+      width: 120px;
+      margin: 0;
+    }
   }
 }
 
@@ -486,31 +519,35 @@
     width: 100%;
     margin: 0;
     margin-top: 60px;
+    .vectorPurple {
+      display: none;
+    }
   }
-  .vectorPurple {
-    display: none;
-  }
-  .mainTextContainer{
+  .mainTextContainer {
     margin-top: 20px;
   }
 }
 
 @media (max-width: 480px) {
-  .mainImage {
-    z-index: -2;
-    margin: 0;
-    margin-right: -25px;
-    height: 450px;
-    width: 430px;
+  .mainImagesContainer {
+    .mainImage {
+      z-index: -2;
+      margin: 0;
+      margin-right: -25px;
+      height: 450px;
+      width: 430px;
+    }
   }
 }
 
 @media (max-width: 450px) {
-  .mainImage {
-    height: 400px;
-    width: 370px;
-    margin: 0;
-    margin-top: 0px;
+  .mainImagesContainer {
+    .mainImage {
+      height: 400px;
+      width: 370px;
+      margin: 0;
+      margin-top: 0px;
+    }
   }
   .bgShadowOnMain {
     margin-top: -30px;
@@ -518,8 +555,10 @@
 }
 
 @media (max-width: 400px) {
-  .mainImage {
-    margin-top: 15px;
+  .mainImagesContainer {
+    .mainImage {
+      margin-top: 15px;
+    }
   }
   .bgShadowOnMain {
     margin-top: -20px;
@@ -532,67 +571,83 @@
     margin-top: 16px;
     display: flex;
     justify-content: center;
-  }
-  .mainImage {
-    height: 350px;
-    width: 320px;
+    .mainImage {
+      height: 350px;
+      width: 320px;
+    }
   }
   .bgShadowOnMain {
     margin-top: -30px;
   }
-  .referencesContainer{
+  .referencesContainer {
     margin-right: -40px;
   }
-  .githubIconContainer,.emailIconContainer,.linkedInIconContainer{
+  .githubIconContainer,
+  .emailIconContainer,
+  .linkedInIconContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 20px;
     width: 20px;
+    .githubIcon,
+    .emailIcon,
+    .linkedInIcon {
+      width: 20px;
+      height: 20px;
+    }
   }
-  .githubIcon,.emailIcon,.linkedInIcon{
-    width: 20px;
-    height: 20px;
-  }
-  .emailTxt{
-    font-size: 20px;
+  .emailTxtContainer {
+    .emailTxt {
+      font-size: 20px;
+    }
   }
 }
 
 @media (max-width: 350px) {
-  .nameTxt {
-    font-size: 40px;
+  .mainTextContainer {
+    margin-right: -60px;
+    .titelTxtContainer {
+      .nameTxt {
+        font-size: 40px;
+      }
+      .jobDescriptionTxt {
+        font-size: 20px;
+      }
+    }
+    .mainIamTxtContainer {
+      .iamTxt {
+        font-size: 32px;
+      }
+    }
   }
-  .jobDescriptionTxt {
-    font-size: 20px;
-  }
-  .iamTxt {
-    font-size: 32px;
-  } 
   .bgShadowOnMain {
     width: 320px;
   }
-  .mainTextContainer{
-    margin-right: -60px;
-  }
-  .buttonOnMainContainer{
+  .buttonOnMainContainer {
     margin-left: -125px;
   }
-  .referencesContainer{
+  .referencesContainer {
     gap: 10px;
   }
-  .githubIconContainer,.emailIconContainer,.linkedInIconContainer{
+  .githubIconContainer,
+  .emailIconContainer,
+  .linkedInIconContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 20px;
     width: 20px;
+    .githubIcon,
+    .emailIcon,
+    .linkedInIcon {
+      width: 20px;
+      height: 20px;
+    }
   }
-  .githubIcon,.emailIcon,.linkedInIcon{
-    width: 20px;
-    height: 20px;
-  }
-  .emailTxt{
-    font-size: 20px;
+  .emailTxtContainer {
+    .emailTxt {
+      font-size: 20px;
+    }
   }
 }

@@ -33,7 +33,6 @@ export class ContactComponent {
     }
   }
 
-
   sendPostPopUp() {
     let displayStyle = 'none';
     this.sendPopUpID.nativeElement.style.display = displayStyle = 'flex';
