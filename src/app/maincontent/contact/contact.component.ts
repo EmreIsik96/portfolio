@@ -1,28 +1,32 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Component, ElementRef, inject, viewChild, ViewChild } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  inject,
+  viewChild,
+  ViewChild,
+} from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule,FormsModule],
+  imports: [CommonModule, FormsModule],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
 })
-
 export class ContactComponent {
   @ViewChild('sendPopUpID') sendPopUpID!: ElementRef;
   @ViewChild('privacySpan') privacySpan!: ElementRef;
 
-  http = inject(HttpClient)
+  http = inject(HttpClient);
 
-  checked()
-  {
-    this.contactData.checkbox = true; 
+  checked() {
+    this.contactData.checkbox = true;
   }
 
-  checkPrivacy(){
+  checkPrivacy() {
     this.privacySpan.nativeElement.style.display = 'block';
   }
 
@@ -44,11 +48,11 @@ export class ContactComponent {
   }
 
   contactData = {
-    name: "",
-    email: "",
-    message: "",
+    name: '',
+    email: '',
+    message: '',
     checkbox: false,
-  }
+  };
 
   mailTest = false;
 
@@ -77,7 +81,6 @@ export class ContactComponent {
             complete: () => this.sendPostPopUp(),
           });
       } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
-  
         ngForm.resetForm();
       }
     }

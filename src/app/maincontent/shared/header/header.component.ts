@@ -6,16 +6,16 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-isMenuOpen: boolean = false;
+  isMenuOpen: boolean = false;
 
   openMenu() {
     this.isMenuOpen = !this.isMenuOpen;
   }
 
-  closeMenu(){
+  closeMenu() {
     this.isMenuOpen = false;
   }
 }

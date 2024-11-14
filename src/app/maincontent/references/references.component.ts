@@ -40,10 +40,12 @@ export class ReferencesComponent {
       this.currentIndex--;
     }
   }
+
   nextReference() {
     this.currentIndex = (this.currentIndex + 1) % this.refences.length;
     document.getElementById;
   }
+
   getEllipseSrc(index: number) {
     if (this.currentIndex === index) {
       return '/assets/img/references/ellipseActive.png';

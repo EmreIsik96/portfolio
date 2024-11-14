@@ -10,14 +10,22 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ReferencesComponent } from './references/references.component';
 import { ContactComponent } from './contact/contact.component';
 
-
 @Component({
   selector: 'app-maincontent',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HomepageComponent, AboutmeComponent, MyskillsComponent, PortfolioComponent, ReferencesComponent, ContactComponent, HeaderComponent, FooterComponent],
+  imports: [
+    CommonModule,
+    RouterOutlet,
+    HomepageComponent,
+    AboutmeComponent,
+    MyskillsComponent,
+    PortfolioComponent,
+    ReferencesComponent,
+    ContactComponent,
+    HeaderComponent,
+    FooterComponent,
+  ],
   templateUrl: './maincontent.component.html',
-  styleUrl: './maincontent.component.scss'
+  styleUrl: './maincontent.component.scss',
 })
-export class MaincontentComponent {
-
-}
+export class MaincontentComponent {}

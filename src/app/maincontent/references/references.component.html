@@ -5,32 +5,53 @@
 
   <div class="testimonialsMainContainer">
     <div class="testimonialsContainer">
-      
       <div class="imageContainer" data-aos="fade-left">
         <div class="imageBorder">
-          <img src=""/>
+          <img src="" />
         </div>
       </div>
 
       <div class="testimonials" data-aos="fade-right">
-        <span style="color: #ffff" id="referencesID">{{refences[currentIndex].reference}}</span>
-          <div class="signatureContainer">
-            <div class="signatureSecondContainer">
-                <img class="vectorPurple" src="./assets/img/references/vector_purple_long.png"/>
-            </div>
-            <span style="color: #ffff;">{{refences[currentIndex].name}}</span>
+        <span style="color: #ffff" id="referencesID">{{
+          refences[currentIndex].reference
+        }}</span>
+        <div class="signatureContainer">
+          <div class="signatureSecondContainer">
+            <img
+              class="vectorPurple"
+              src="./assets/img/references/vector_purple_long.png"
+            />
           </div>
+          <span style="color: #ffff">{{ refences[currentIndex].name }}</span>
+        </div>
       </div>
-
-      
     </div>
 
     <div class="swipeBarContainer" data-aos="fade-in">
-      <img (click)="previousReference()" id="arrowBackID" class="arrowBack" src="./assets/img/references/arrow_back.png"/>
-      <img [src]="getEllipseSrc(0)" [ngClass]="{'active': currentIndex === 0}">
-      <img [src]="getEllipseSrc(1)" [ngClass]="{'active': currentIndex === 1}">
-      <img [src]="getEllipseSrc(2)" [ngClass]="{'active': currentIndex === 2}">
-      <img (click)="nextReference()" id="arrowForwardID" class="arrowForward" src="./assets/img/references/arrow_forward.png"/>
+      <img
+        (click)="previousReference()"
+        id="arrowBackID"
+        class="arrowBack"
+        src="./assets/img/references/arrow_back.png"
+      />
+      <img
+        [src]="getEllipseSrc(0)"
+        [ngClass]="{ active: currentIndex === 0 }"
+      />
+      <img
+        [src]="getEllipseSrc(1)"
+        [ngClass]="{ active: currentIndex === 1 }"
+      />
+      <img
+        [src]="getEllipseSrc(2)"
+        [ngClass]="{ active: currentIndex === 2 }"
+      />
+      <img
+        (click)="nextReference()"
+        id="arrowForwardID"
+        class="arrowForward"
+        src="./assets/img/references/arrow_forward.png"
+      />
     </div>
   </div>
 </div>
