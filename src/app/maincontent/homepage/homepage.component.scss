@@ -16,7 +16,6 @@ $green: #70e61c;
 .mainImagesContainer {
   display: flex;
   z-index: -100;
-
   .mainImage {
     width: 646px;
     height: 705px;
@@ -24,10 +23,7 @@ $green: #70e61c;
   }
 }
 
-.d-flexImgAndTxt,
-.mainTextContainer,
-.mainIamTxtContainer,
-.scollDownContainer {
+.d-flexImgAndTxt, .mainTextContainer, .mainIamTxtContainer, .scollDownContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +33,6 @@ $green: #70e61c;
   display: flex;
   flex-direction: column;
   margin-bottom: -70px;
-
   .nameTxt {
     margin: 0 0 -10px 0;
     font-size: 90px;
@@ -45,7 +40,6 @@ $green: #70e61c;
     line-height: 108px;
     color: $white;
   }
-
   .jobDescriptionTxt {
     font-size: 58px;
     font-weight: 400;
@@ -57,7 +51,6 @@ $green: #70e61c;
 
 .mainIamTxtContainer {
   height: 172px;
-
   .iamTxt {
     font-size: 64px;
     font-weight: 400;
@@ -78,26 +71,20 @@ $green: #70e61c;
   padding-right: 100px;
   gap: 3px;
   transform: rotate(90deg);
-
-  .scrollDownTxt,
-  .arrowDownContainer,
-  .arrowDownImg {
+  .scrollDownTxt, .arrowDownContainer, .arrowDownImg {
     color: $white;
     gap: 0;
   }
-
   .scrollDownTxt {
     width: 133px;
     height: 28px;
     text-wrap: nowrap;
   }
-
   .arrowDownContainer {
     width: 24px;
     height: 24px;
     padding: 4px 4.22px 4px 4.22px;
     transform: rotate(-90deg);
-
     .arrowDownImg {
       width: 15.56px;
       height: 16px;
@@ -109,7 +96,6 @@ $green: #70e61c;
   display: flex;
   justify-content: center;
   margin-top: 20px;
-
   .buttonOnMain {
     text-decoration: none;
     display: flex;
@@ -123,11 +109,9 @@ $green: #70e61c;
     background: $green;
     transform: scale(1);
     transition: transform 0.1s ease-in-out;
-
     &:hover {
       @include hover-scale($purple);
     }
-
     .buttonTxtOnMain {
       font-size: 23px;
       font-weight: 400;
@@ -145,27 +129,19 @@ $green: #70e61c;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-
   .vectorPurpleContainer {
-    border: 4px 0 0 0;
-
     .vectorPurple {
       width: 140px;
       height: 5px;
     }
   }
 }
-
-.githubIconContainer, // Icons
-.emailIconContainer,
-.linkedInIconContainer {
+// Icons
+.githubIconContainer, .emailIconContainer, .linkedInIconContainer {
   width: 30px;
   height: 30px;
   gap: 0px;
-
-  .githubIcon,
-  .emailIcon,
-  .linkedInIcon {
+  .githubIcon, .emailIcon, .linkedInIcon {
     transform: scale(1);
     transition: transform 0.1s ease-in-out;
     &:hover {
@@ -181,7 +157,6 @@ $green: #70e61c;
   &:hover {
     transform: scale(1.1);
   }
-
   .emailTxt {
     font-size: 23px;
     line-height: 27.6px;
