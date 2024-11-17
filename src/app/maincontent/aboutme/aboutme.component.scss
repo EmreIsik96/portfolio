@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   max-width: 1920px;
+  margin-bottom: 400px;
 }
 
 .vectorBlackContainerBack {
@@ -179,10 +180,12 @@
     width: 300px;
   }
 }
-@media (max-width: 960px) {
+@media (max-width: 1150px) {
   .vectorBlackContainerBack {
-    top: 926px;
+    top:926px;
   }
+}
+@media (max-width: 960px) {
   .aboutMeTxtMainContainer {
     width: 370px;
     .prefaceContainer,
@@ -317,9 +320,9 @@
         }
       }
     }
-    .vectorBlackContainerBack {
-      top: 870px;
-    }
+  }
+  .vectorBlackContainerBack {
+    top: 866px;
   }
 }
 @media (max-width: 552px) {
@@ -346,11 +349,6 @@
     .puzzleTxt {
       font-size: 14px;
     }
-  }
-}
-@media (max-width: 500px) {
-  .vectorBlackContainerBack {
-    top: 866px;
   }
 }
 @media (max-width: 400px) {

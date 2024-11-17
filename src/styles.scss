@@ -4,8 +4,6 @@ body {
   background: #141d2f;
   font-family: "poppins", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
-  display: flex;
-  justify-content: center;
 }
 
 html {
@@ -30,7 +28,18 @@ html {
   src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
 }
 
-@media (max-width: 3760px) {
+@media (min-width: 1921px) and (max-width: 3760px) {
+  body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #aboutMe {
+    scroll-margin-top: 100px;
+  }
+}
+
+@media (max-width: 1920px) {
   body {
     width: 100%;
   }
