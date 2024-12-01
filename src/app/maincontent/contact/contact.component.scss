@@ -9,14 +9,13 @@
   display: flex;
   align-items: center;
   gap: 32px;
-}
-
-.header {
-  font-size: 90px;
-  font-weight: 700;
-  line-height: 108px;
-  text-align: center;
-  color: #ffffff;
+  .header {
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 108px;
+    text-align: center;
+    color: #ffffff;
+  }
 }
 
 .contactDFlex {
@@ -32,30 +31,21 @@
   height: 19px;
   gap: 0px;
   opacity: 0px;
-}
-
-.contactInsideHeaderTxt {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 38.4px;
-  text-align: left;
-  color: #ffffff;
-}
-
-.contactInsideSpanTxt1 {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19.2px;
-  text-align: left;
-  color: #ffffff;
-}
-
-.contactInsideSpanTxt2 {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19.2px;
-  text-align: left;
-  color: #ffffff;
+  .contactInsideHeaderTxt {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .contactInsideSpanTxt1,
+  .contactInsideSpanTxt2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #ffffff;
+  }
 }
 
 .contactMe {
@@ -77,7 +67,7 @@
 .inputEmail {
   width: 617px;
   height: 50px;
-  padding: 15px 25px 15px 25px;
+  padding: 15px 25px;
   border-radius: 10px;
   border: 1px solid #9747ff;
   background: #141d2f;
@@ -105,44 +95,23 @@
   height: 344px;
   gap: 16px;
   opacity: 0px;
-}
-
-.inputMessageContainer {
-  display: grid;
-  width: 617px;
-  height: 202px;
-  padding: 15px 25px 15px 25px;
-  gap: 10px;
-  border-radius: 10px 0px 0px 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-}
-
-.inputMessage {
-  display: grid;
-  width: 617px;
-  height: 202px;
-  padding: 15px 25px 15px 25px;
-  gap: 10px;
-  border-radius: 10px;
-  border: 1px;
-  opacity: 0px;
-  background: #141d2f;
-  border: 1px solid #9747ff;
-  color: #ffff;
-  &::placeholder {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.2px;
-    text-align: left;
-    color: #ffffff;
+  .privacyPolicyMainContainer {
+    display: grid;
+    width: 617px;
+    height: 126px;
   }
 }
 
-.privacyPolicyMainContainer {
-  display: grid;
-  width: 617px;
-  height: 126px;
+.goUpButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  margin-right: -50px;
+  .goUpButton {
+    cursor: pointer;
+    height: 42px;
+    width: 42px;
+  }
 }
 
 .privacyPolicySecondContainer {
@@ -152,14 +121,34 @@
   gap: 8px;
   opacity: 0px;
   margin-bottom: 10px;
+  .privacyPolicy {
+    display: flex;
+    align-items: center;
+    width: 650px;
+    height: 27px;
+    opacity: 0px;
+  }
 }
 
-.privacyPolicy {
-  display: flex;
-  align-items: center;
-  width: 650px;
-  height: 27px;
+.inputMessageContainer,
+.inputMessage {
+  display: grid;
+  width: 617px;
+  height: 202px;
+  padding: 15px 25px;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #9747ff;
+  background: #141d2f;
+  color: #ffff;
   opacity: 0px;
+  &::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #ffffff;
+  }
 }
 
 .checkbox {
@@ -191,49 +180,26 @@
   justify-content: center;
 }
 
-.sendButtonActive {
-  width: 253px;
-  height: 58px;
-  padding: 15px 30px 15px 30px;
-  gap: 10px;
-  border-radius: 10px;
-  opacity: 0px;
-  font-size: 23px;
-  font-weight: 400;
-  line-height: 27.6px;
-  text-align: left;
-  background: #70e61c;
-  box-shadow: 4px 4px 4px 0px #00000040;
-  cursor: pointer;
-}
-
+.sendButtonActive,
 .sendButtonDisable {
   width: 253px;
   height: 58px;
-  padding: 15px 30px 15px 30px;
+  padding: 15px 30px;
   gap: 10px;
   border-radius: 10px;
-  opacity: 0px;
   font-size: 23px;
   font-weight: 400;
   line-height: 27.6px;
   text-align: left;
-  background: #b6b6b6;
   box-shadow: 4px 4px 4px 0px #00000040;
-  cursor: pointer;
-}
-
-.goUpButtonContainer {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 50px;
-  margin-right: -50px;
-}
-
-.goUpButton {
-  cursor: pointer;
-  height: 42px;
-  width: 42px;
+  &.sendButtonActive {
+    background: #70e61c;
+    cursor: pointer;
+  }
+  &.sendButtonDisable {
+    background: #b6b6b6;
+    cursor: pointer;
+  }
 }
 
 .sendPostPopUpContainer {
@@ -250,68 +216,51 @@
   background-color: #70e61c;
   border: 5px solid #9747ff;
   border-radius: 15px;
-}
-.OKButton{
-  width: 100px;
-  height: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
-  border: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #ffff;
-  background-color: #9747ff;
-  &:hover{
-    cursor: pointer;
-    transition: 75ms ease-in-out;
-    scale: 1.2;
+  .OKButton {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffff;
+    background-color: #9747ff;
+    &:hover {
+      cursor: pointer;
+      transition: 75ms ease-in-out;
+      scale: 1.2;
+    }
   }
 }
 
-@media (max-width: 3760px) {
-  .mainContainer {
-    margin-top: 450px;
-  }
-}
-@media (max-width: 1920px) {
-  .mainContainer {
-    margin-top: 300px;
-  }
-}
 @media (max-width: 1500px) {
   .contactDFlex {
-    gap: 150px;
+    gap: 100px;
   }
-}
-@media (max-width: 1353px) {
   .vectorLineHeader {
     width: 250px;
     height: 4px;
   }
-  .contactDFlex {
-    gap: 100px;
-  }
 }
 @media (max-width: 1280px) {
-  .header {
-    font-size: 75px;
-  }
-  .contactDFlex {
-    width: 100%;
+  .headerContainer {
+    .header {
+      font-size: 70px;
+    }
   }
   .inputName,
   .inputEmail,
   .inputMessage {
     width: 450px;
   }
-  .privacyPolicy,
-  .privacyPolicySecondContainer {
-    width: 500px;
-    font-size: 12px;
-  }
   .privacyPolicySecondContainer {
     height: 24px;
+    width: 500px;
+    .privacyPolicy {
+      width: 500px;
+      font-size: 12px;
+    }
   }
   .contactSpan1,
   .textButtonPrivacyPolicy,
@@ -329,8 +278,6 @@
     padding: 10px 10px 10px 10px;
   }
   .goUpButtonContainer {
-    display: flex;
-    justify-content: flex-end;
     margin-top: 50px;
     margin-right: 0px;
   }
@@ -339,61 +286,38 @@
     align-items: flex-end;
     flex-direction: column;
     margin-top: 50px;
+    width: 520px;
   }
   .contactInsideContainer {
     width: 300px;
   }
 }
-@media (max-width: 1150px) {
-  .header {
-    font-size: 70px;
-  }
-}
-@media (max-width: 1080px) {
-  .contactFormularContainer {
-    width: 520px;
-  }
-}
 @media (max-width: 985px) {
-  .contactFormularContainer {
-    width: 460px;
-  }
-}
-@media (max-width: 960px) {
-  .header {
-    font-size: 50px;
-  }
-  .contactDFlex {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  form {
-    width: 412px;
+  .headerContainer {
+    .header {
+      font-size: 50px;
+    }
   }
   .inputName,
-  .inputEmail {
-    width: 360px;
-    height: 30px;
-  }
+  .inputEmail,
   .inputMessage {
-    width: 360px;
-    height: 130px;
+    width: 300px;
+    height: 30px;
+    &.inputMessage {
+      height: 130px;
+    }
   }
   .contactSpan2 {
     margin-top: 40px;
     margin-left: -180px;
   }
-  .privacyPolicy {
-    width: 350px;
-  }
   .privacyPolicySecondContainer {
     width: 350px;
     height: 24px;
     margin-bottom: 40px;
-  }
-  .inputMessageRequiredContainer {
-    font-size: 12px;
-    margin-bottom: 5px;
+    .privacyPolicy {
+      width: 350px;
+    }
   }
   .sendButtonDisable,
   .sendButtonActive {
@@ -406,50 +330,7 @@
     font-size: 18px;
   }
   .goUpButtonContainer {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 50px;
     margin-right: 60px;
-  }
-  .contactFormularContainer {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    margin-top: 50px;
-  }
-  .contactInsideContainer {
-    margin-right: -60px;
-  }
-}
-@media (max-width: 840px) {
-  .header {
-    font-size: 45px;
-  }
-  .contactDFlex {
-    margin-left: 0px;
-    margin-right: 0;
-  }
-  .contactInsideSpanTxt1,
-  .contactInsideSpanTxt2 {
-    font-size: 12px;
-  }
-  .contactInsideHeaderTxt {
-    font-size: 25px;
-  }
-  .contactMe {
-    font-size: 14px;
-  }
-  form {
-    width: 360px;
-    margin-top: -8px;
-  }
-  .inputName,
-  .inputEmail {
-    width: 300px;
-  }
-  .inputMessage {
-    width: 300px;
-    height: 130px;
   }
   .contactFormularContainer {
     margin-top: 45px;
@@ -457,31 +338,33 @@
   }
   .contactInsideContainer {
     margin-right: -30px;
-    width: 260px;
+    width: 240px;
+    .contactInsideSpanTxt1,
+    .contactInsideSpanTxt2 {
+      font-size: 12px;
+    }
+    .contactInsideHeaderTxt {
+      font-size: 25px;
+    }
+  }
+  .contactMe {
+    font-size: 14px;
   }
 }
 @media (max-width: 780px) {
-  .header {
-    margin-bottom: 0;
-  }
-  form {
-    width: 330px;
-  }
   .inputName,
-  .inputEmail {
-    width: 250px;
-  }
+  .inputEmail,
   .inputMessage {
     width: 250px;
-    height: 130px;
   }
   .contactFormularContainer {
-    margin-top: 45px;
     width: 310px;
   }
-  .privacyPolicy,
   .privacyPolicySecondContainer {
     width: 300px;
+    .privacyPolicy {
+      width: 300px;
+    }
   }
   .contactSpan2 {
     margin-left: -205px;
