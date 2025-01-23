@@ -16,7 +16,7 @@ export class PortfolioComponent {
       language: 'Angular | TypeScript | HTML | CSS | Firebase',
       description:
         'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
-      linkLiveTest: 'https://emre-isik.de/join/login.html',
+      linkLiveTest: 'https://emre-isik.de/join/index.html',
       linkGitHub: 'https://github.com/EmreIsik96/join',
     },
     {
