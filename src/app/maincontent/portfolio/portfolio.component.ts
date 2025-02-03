@@ -24,7 +24,7 @@ export class PortfolioComponent {
       name: 'El Pollo Loco',
       language: 'JavaScript | HTML | CSS',
       description:
-        'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
+        'Jump Run game based on object oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.',
       linkLiveTest: 'https://emre-isik.de/elPolloLoco',
       linkGitHub: 'https://github.com/EmreIsik96/elPolloLoco',
     },
