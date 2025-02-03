@@ -359,7 +359,7 @@ $green: #70e61c;
     }
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 470px) {
   .mainTextContainer {
     margin-right: -60px;
     margin-top: -150px;
@@ -403,8 +403,11 @@ $green: #70e61c;
   }
   .referencesContainer {
     margin-top: 100px;
-    margin-left: -130px;
-    gap: 10px;
+    margin-left: -90px;
+    gap: 5px;
+    .emailTxt {
+      font-size: 18px;
+    }
   }
   .buttonOnMainContainer {
     margin-left: -125px;
