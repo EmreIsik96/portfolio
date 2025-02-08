@@ -16,6 +16,7 @@ $green: #70e61c;
   display: flex;
   z-index: -100;
   .mainImage {
+    object-fit: contain;
     width: 646px;
     height: 705px;
     gap: 0px;
