@@ -21,7 +21,7 @@
 .contactDFlex {
   display: flex;
   justify-content: center;
-  gap: 300px;
+  gap: 120px;
 }
 
 .contactInsideContainer {
@@ -35,15 +35,19 @@
     font-size: 32px;
     font-weight: 700;
     line-height: 38.4px;
-    text-align: left;
+    text-align: center;
     color: #ffffff;
   }
   .contactInsideSpanTxt1,
   .contactInsideSpanTxt2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.2px;
-    text-align: left;
+    text-align: center;
     color: #ffffff;
   }
 }
@@ -234,15 +238,7 @@
   }
 }
 
-@media (max-width: 1500px) {
-  .contactDFlex {
-    gap: 100px;
-  }
-  .vectorLineHeader {
-    width: 250px;
-    height: 4px;
-  }
-}
+
 @media (max-width: 1280px) {
   .headerContainer {
     .header {
@@ -291,86 +287,11 @@
   .contactInsideContainer {
     width: 300px;
   }
+  .vectorLineHeader {
+    width: 380px;
+  }
 }
 @media (max-width: 985px) {
-  .headerContainer {
-    .header {
-      font-size: 50px;
-    }
-  }
-  .inputName,
-  .inputEmail,
-  .inputMessage {
-    width: 300px;
-    height: 30px;
-    &.inputMessage {
-      height: 130px;
-    }
-  }
-  .contactSpan2 {
-    margin-top: 40px;
-    margin-left: -180px;
-  }
-  .privacyPolicySecondContainer {
-    width: 350px;
-    height: 24px;
-    margin-bottom: 40px;
-    .privacyPolicy {
-      width: 350px;
-    }
-  }
-  .sendButtonDisable,
-  .sendButtonActive {
-    width: 160px;
-    height: 48px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 18px;
-  }
-  .goUpButtonContainer {
-    margin-right: 60px;
-  }
-  .contactFormularContainer {
-    margin-top: 45px;
-    width: 360px;
-  }
-  .contactInsideContainer {
-    margin-right: -30px;
-    width: 240px;
-    .contactInsideSpanTxt1,
-    .contactInsideSpanTxt2 {
-      font-size: 12px;
-    }
-    .contactInsideHeaderTxt {
-      font-size: 25px;
-    }
-  }
-  .contactMe {
-    font-size: 14px;
-  }
-}
-@media (max-width: 780px) {
-  .inputName,
-  .inputEmail,
-  .inputMessage {
-    width: 250px;
-  }
-  .contactFormularContainer {
-    width: 310px;
-  }
-  .privacyPolicySecondContainer {
-    width: 300px;
-    .privacyPolicy {
-      width: 300px;
-    }
-  }
-  .contactSpan2 {
-    margin-left: -205px;
-  }
-}
-@media (max-width: 630px) {
   .mainContainer {
     margin-top: 250px;
   }
@@ -393,10 +314,12 @@
     gap: 20px;
   }
   .contactInsideHeaderTxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 0;
     margin-bottom: 20px;
-    width: 320px;
-    text-align: center;
+    width: 420px;
   }
   .contactInsideContainer {
     width: 100%;
@@ -407,8 +330,7 @@
   }
   .contactInsideSpanTxt1,
   .contactInsideSpanTxt2 {
-    width: 320px;
-    text-align: center;
+    width: 420px;
   }
   .inputName,
   .inputEmail,
@@ -436,7 +358,7 @@
   }
   .privacyPolicy,
   .privacyPolicySecondContainer {
-    margin-left: -60px;
+    margin-left: 10px;
   }
   .contactSpan1,
   .contactSpan2,
@@ -458,11 +380,10 @@
     width: 400px;
   }
   .goUpButtonContainer {
-    margin-top: 50px;
-    margin-right: -30px;
+    width: 450px;
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 580px) {
   .inputName,
   .inputEmail,
   .inputMessage {
@@ -479,12 +400,9 @@
     align-items: center;
     width: 300px;
   }
-  .privacyPolicySecondContainer {
-    margin-bottom: 50px;
-  }
   .privacyPolicy,
   .privacyPolicySecondContainer {
-    margin-left: -26px;
+    margin-left: 35px;
   }
   .contactSpan1,
   .contactSpan2,
@@ -504,7 +422,7 @@
     margin-left: 0px;
   }
   .goUpButtonContainer {
-    margin-right: 0px;
+    width: 400px;
   }
   .contactInsideHeaderTxt,
   .contactInsideSpanTxt2 {
@@ -513,120 +431,37 @@
   .contactInsideSpanTxt1 {
     text-wrap: wrap;
     width: 400px;
-    text-align: center;
-  }
-}
-@media (max-width: 470px) {
-  .inputName,
-  .inputEmail,
-  .inputMessage {
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .contactDFlex {
-    margin: 0;
-  }
-  .contactFormularContainer {
-    width: 300px;
-  }
-  .privacyPolicy,
-  .privacyPolicySecondContainer {
-    margin-left: -16px;
-  }
-  .contactSpan1,
-  .contactSpan2,
-  .textButtonPrivacyPolicy,
-  .inputMessageRequiredContainer
-    .inputEmailRequiredContainer
-    .inputNameRequiredContainer,
-  .checkboxRequiredSpanContainer {
-    font-size: 12px;
-  }
-  .contactSpan2 {
-    margin-bottom: 16px;
-    margin-left: -165px;
-    margin-top: 50px;
-  }
-  .contactInsideHeaderTxt,
-  .contactInsideSpanTxt2 {
-    width: 300px;
-  }
-}
-@media (max-width: 450px) {
-  .header {
-    font-size: 40px;
   }
 }
 @media (max-width: 400px) {
-  .contactInsideSpanTxt1 {
-    width: 260px;
-  }
-  .contactInsideSpanTxt2,
-  .contactInsideHeaderTxt {
-    text-align: center;
-  }
   .privacyPolicyMainContainer,
   .goUpButtonContainer,
   .inputMessageAndPolicyContainer {
-    width: 320px;
+    width: 300px;
   }
-}
-@media (max-width: 390px) {
   .inputName,
   .inputEmail,
   .inputMessage {
-    width: 260px;
+    width: 240px;
   }
   .contactFormularContainer {
-    width: 260px;
+    width: 240px;
     margin-top: 20px;
   }
   .privacyPolicy,
   .privacyPolicySecondContainer {
     margin-left: -8px;
-    width: 320px;
+    width: 200px;
   }
   .contactSpan2 {
     margin-bottom: 16px;
-    margin-left: -165px;
+    margin-left: -265px;
     margin-top: 50px;
+    font-size: 12px;
   }
   .contactInsideHeaderTxt,
+  .contactInsideSpanTxt1,
   .contactInsideSpanTxt2 {
     width: 260px;
-  }
-}
-@media (max-width: 340px) {
-  .inputName,
-  .inputEmail,
-  .inputMessage {
-    width: 240px;
-  }
-  .contactFormularContainer {
-    width: 240px;
-    margin-top: 120px;
-  }
-  .privacyPolicy,
-  .privacyPolicySecondContainer {
-    margin-left: 0px;
-    width: 320px;
-  }
-  .contactSpan2 {
-    margin-bottom: 16px;
-    margin-left: -190px;
-    margin-top: 50px;
-  }
-  .contactInsideHeaderTxt,
-  .contactInsideSpanTxt2 {
-    width: 260px;
-  }
-  .vectorLineHeader {
-    width: 40px;
-  }
-  .privacyPolicyMainContainer,
-  .goUpButtonContainer {
-    width: 300px;
   }
 }
