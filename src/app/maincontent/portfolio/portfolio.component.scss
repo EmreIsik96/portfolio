@@ -176,27 +176,13 @@
 
 @media (max-width: 1584px) {
   .purpleSecondLine {
-    width: 400px;
-  }
-  .projectDescriptionContainer {
-    text-wrap: wrap;
-    width: 400px;
-  }
-  .projectDisplayFlex1,
-  .projectDisplayFlex2 {
-    &.projectDisplayFlex1 {
-      margin-left: 0px;
-    }
-    &.projectDisplayFlex2 {
-      margin-left: -100px;
-    }
-  }
-}
-@media (max-width: 1372px) {
-  .purpleSecondLine {
     width: 250px;
     height: 4px;
   }
+  .projectDescriptionContainer {
+        text-wrap: wrap;
+        width: 400px;
+      }
   .projectDisplayFlex0,
   .projectDisplayFlex2 {
     &.projectDisplayFlex0,
