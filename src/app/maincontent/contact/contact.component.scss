@@ -1,8 +1,7 @@
 .mainContainer {
   height: 747px;
-  gap: 0px;
-  opacity: 0px;
   border: Mixed solid #ffffff;
+  color: #ffffff;
 }
 
 .headerContainer {
@@ -14,7 +13,6 @@
     font-weight: 700;
     line-height: 108px;
     text-align: center;
-    color: #ffffff;
   }
 }
 
@@ -29,14 +27,11 @@
   flex-direction: column;
   width: 474px;
   height: 19px;
-  gap: 0px;
-  opacity: 0px;
   .contactInsideHeaderTxt {
     font-size: 32px;
     font-weight: 700;
     line-height: 38.4px;
     text-align: center;
-    color: #ffffff;
   }
   .contactInsideSpanTxt1,
   .contactInsideSpanTxt2 {
@@ -48,16 +43,14 @@
     font-weight: 400;
     line-height: 19.2px;
     text-align: center;
-    color: #ffffff;
   }
 }
 
 .contactMe {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 19.2px;
   text-align: left;
-  color: #ffffff;
   &:hover {
     cursor: pointer;
   }
@@ -98,7 +91,6 @@
   width: 617px;
   height: 344px;
   gap: 16px;
-  opacity: 0px;
   .privacyPolicyMainContainer {
     display: grid;
     width: 617px;
@@ -123,14 +115,12 @@
   width: 617px;
   height: 52px;
   gap: 8px;
-  opacity: 0px;
   margin-bottom: 10px;
   .privacyPolicy {
     display: flex;
     align-items: center;
     width: 650px;
     height: 27px;
-    opacity: 0px;
   }
 }
 
@@ -145,7 +135,6 @@
   border: 1px solid #9747ff;
   background: #141d2f;
   color: #ffff;
-  opacity: 0px;
   &::placeholder {
     font-size: 16px;
     font-weight: 400;
@@ -158,14 +147,7 @@
 .checkbox {
   width: 18px;
   height: 18px;
-  gap: 0px;
-  opacity: 0px;
   margin-right: 10px;
-}
-
-.contactSpan1,
-.contactSpan2 {
-  color: #ffffff;
 }
 
 .textButtonPrivacyPolicy {
@@ -384,56 +366,6 @@
   }
 }
 @media (max-width: 580px) {
-  .inputName,
-  .inputEmail,
-  .inputMessage {
-    width: 330px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .contactFormularContainer {
-    width: 330px;
-  }
-  .contactInsideContainer {
-    display: flex;
-    align-items: center;
-    width: 300px;
-  }
-  .privacyPolicy,
-  .privacyPolicySecondContainer {
-    margin-left: 35px;
-  }
-  .contactSpan1,
-  .contactSpan2,
-  .textButtonPrivacyPolicy,
-  .inputMessageRequiredContainer
-    .inputEmailRequiredContainer
-    .inputNameRequiredContainer,
-  .checkboxRequiredSpanContainer {
-    font-size: 14px;
-  }
-  .contactSpan2 {
-    margin-bottom: 16px;
-    margin-left: -192px;
-    margin-top: 50px;
-  }
-  .checkboxRequiredSpanContainer {
-    margin-left: 0px;
-  }
-  .goUpButtonContainer {
-    width: 400px;
-  }
-  .contactInsideHeaderTxt,
-  .contactInsideSpanTxt2 {
-    width: 300px;
-  }
-  .contactInsideSpanTxt1 {
-    text-wrap: wrap;
-    width: 400px;
-  }
-}
-@media (max-width: 400px) {
   .privacyPolicyMainContainer,
   .goUpButtonContainer,
   .inputMessageAndPolicyContainer {
@@ -450,12 +382,11 @@
   }
   .privacyPolicy,
   .privacyPolicySecondContainer {
-    margin-left: -8px;
-    width: 200px;
+    width: 280px;
   }
   .contactSpan2 {
     margin-bottom: 16px;
-    margin-left: -265px;
+    margin-left: -280px;
     margin-top: 50px;
     font-size: 12px;
   }
