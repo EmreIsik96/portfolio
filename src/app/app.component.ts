@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { HeaderComponent } from "./maincontent/shared/header/header.component";
+import { FooterComponent } from "./maincontent/shared/footer/footer.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

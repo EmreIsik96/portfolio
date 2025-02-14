@@ -130,6 +130,23 @@ header {
   display: none;
 }
 
+.translateMainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  .englishFlag,.germanFlag {
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+    &:hover {
+      scale: 1.2;
+    }
+  }
+}
+
 @media (max-width: 1477px) {
   header {
     padding-right: 50px;

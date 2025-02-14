@@ -4,6 +4,10 @@
   </div>
 
   <div class="headerRight" data-aos="fade-left">
+    <div class="translateMainContainer">
+      <img (click)="translateInEnglish()" class="englishFlag" src="./assets/img/header/english.png" alt="english">
+      <img (click)="translateInGerman()" class="germanFlag" src="./assets/img/header/german.svg" alt="german">
+    </div>
     <a href="#aboutMe" class="headerRightAboutMe"
       ><span class="aboutMeTxt">About me</span></a
     >
@@ -14,11 +18,7 @@
       ><span class="portfolioTxt">Portfolio</span></a
     >
     <button class="buttonBurgerContainer" (click)="openMenu()">
-      <img
-        class="buttonBurgerImg"
-        src="./assets/img/header/burger-menu.png"
-        alt=""
-      />
+      <img class="buttonBurgerImg" src="./assets/img/header/burger-menu.png" alt="burger-menu"/>
     </button>
   </div>
 
