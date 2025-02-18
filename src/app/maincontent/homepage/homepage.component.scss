@@ -10,6 +10,7 @@ $green: #70e61c;
 
 .mainContainer { 
   height: 100vh;
+  margin-top: 100px;
 }
 
 .mainImagesContainer {
@@ -64,7 +65,6 @@ $green: #70e61c;
 
 .scollDownContainer {
   width: 28px;
-  height: 125px;
   position: absolute;
   top: 700px;
   right: 0;
@@ -77,13 +77,12 @@ $green: #70e61c;
   }
   .scrollDownTxt {
     width: 133px;
-    height: 28px;
+    padding-right: 20px;
     text-wrap: nowrap;
   }
   .arrowDownContainer {
     width: 24px;
-    height: 24px;
-    padding: 4px 4.22px 4px 4.22px;
+    padding: 20px 4.22px 4px;
     transform: rotate(-90deg);
     .arrowDownImg {
       width: 15.56px;
@@ -101,7 +100,7 @@ $green: #70e61c;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 165px;
+    padding: 0 14px;
     height: 58px;
     gap: 10px;
     border-radius: 10px;

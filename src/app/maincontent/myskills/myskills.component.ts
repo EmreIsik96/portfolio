@@ -1,10 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { TranslatePipe, TranslateDirective} from "@ngx-translate/core";
+import { HeaderComponent } from '../shared/header/header.component';
 
 @Component({
   selector: 'app-myskills',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, HeaderComponent, TranslatePipe, TranslateDirective],
   templateUrl: './myskills.component.html',
   styleUrl: './myskills.component.scss',
 })

@@ -1,0 +1,46 @@
+{
+    "homepage": {
+        "IamSpan": "Ich heiße",
+        "h2JobDescription": "FRONTEND ENTWICKLER",
+        "LetsTalkSpan": "Lass uns sprechen!",
+        "scrollDownSpan": "Nach unten scrollen"
+    },
+    "aboutme": {
+        "aboutMeH2": "Über mich",
+        "prefaceSpan": "Hallo, ich bin ein deutschsprachiger Frontend-Entwickler mit Sitz in Ludwigshafen am Rhein. Motiviert von den grenzenlosen Möglichkeiten in der IT, begeistert es mich, visuell ansprechende und intuitive Websites und Anwendungen zu gestalten.",
+        "locationSpan": "Flexibel in Bezug auf Arbeitsumgebungen kann ich sowohl vor Ort in Ludwigshafen als auch remote effektiv arbeiten.",
+        "bulbSpan": "Ich bin aufgeschlossen und stets auf der Suche nach persönlichen Herausforderungen, um mein Wissen und meine Fähigkeiten kontinuierlich zu verbessern.",
+        "puzzleSpan": "In meinem Beruf geht es beim Programmieren nicht nur darum, Code zu schreiben – es ist eine kreative Form des Problemlösens. Ich bin stolz darauf, komplexe technische Herausforderungen in einfache, benutzerfreundliche Lösungen zu übersetzen. So helfe ich Ihnen, Ihre Ziele zu erreichen und Ihre Visionen zum Leben zu erwecken."
+    },
+    "myskills": {
+        "mySkillsHeader": "Fähigkeiten",
+        "mySkillsSpan": "Ich habe Erfahrung in der Entwicklung von Projekten mit verschiedenen Frontend-Technologien und Konzepten gesammelt.",
+        "mySkillsMainSpan": "Suchen Sie nach",
+        "mySkillsAnotherSpan": "weitere bzw. andere Fähigkeiten",
+        "mySkillsSecondSpan": "Zögern Sie nicht, mich zu kontaktieren. Ich freue mich darauf, mein Wissen weiter auszubauen.",
+        "getInTouchSpan": "Nehmen Sie Kontakt auf"
+    },
+    "portfolio": {
+        "sidetextSpan": "Entdecken Sie hier eine Auswahl meiner Arbeiten – Interagieren Sie mit den Projekten, um meine Fähigkeiten in Aktion zu sehen.",
+        "joinDescriptionSpan": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
+        "elPolloLocoDescriptionSpan": "Jump-Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen das verrückte Huhn zu kämpfen.",
+        "PokedexDescriptionSpan": "Basierend auf der PokéAPI – eine einfache Bibliothek, die Pokémon-Informationen bereitstellt und katalogisiert.",
+        "leftButtonSpan": "Live testen"
+    },
+    "contact": {
+        "contactHeader": "Kontakt",
+        "contactInsideHeaderSpan": "Haben Sie ein Problem zu lösen?",
+        "contactInsideSpan1": "Kontaktieren Sie mich über dieses Formular. Ich freue mich darauf, von Ihnen zu hören, Ihre Ideen kennenzulernen und mit meiner Arbeit zu Ihren Projekten beizutragen.",
+        "contactInsideSpan2": "Benötigen Sie einen Frontend-Entwickler?",
+        "contactMeSpan": "Kontaktieren Sie mich!",
+        "requiredNameSpan": "Bitte geben Sie Ihren Namen ein",
+        "requiredEmailSpan": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+        "requiredMessageSpan": "Bitte geben Sie eine Nachricht ein",
+        "privacyPolicyFirstSpan": "Ich habe die",
+        "privacyPolicySpan": "Datenschutzerklärung",
+        "privacyPolicySecondSpan": "und stimme der Verarbeitung meiner Daten gemäß der beschriebenen Richtlinien zu.",
+        "privacyPolicyRequiredSpan": "Bitte akzeptieren Sie die Datenschutzerklärung",
+        "buttonSpan": "Nachricht senden :)",
+        "sendPostSpan": "Nachricht erfolgreich gesendet"
+    }
+}

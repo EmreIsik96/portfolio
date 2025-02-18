@@ -1,0 +1,46 @@
+{
+    "homepage": {
+        "IamSpan": "I am",
+        "h2JobDescription": "FRONTEND DEVELOPER",
+        "LetsTalkSpan": "Let´s talk!",
+        "scrollDownSpan": "Scroll down"
+    },
+    "aboutme": {
+        "aboutMeH2": "About me",
+        "prefaceSpan": "Hi, I’m a german speaking Frontend Developer based in Ludwigshafen am Rhein. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications.",
+        "locationSpan": "Flexible in terms of working environments, I can work effectively both on-site in Ludwigshafen and remotely.",
+        "bulbSpan": "I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills.",
+        "puzzleSpan": "In my profession, programming isn't just about writing code; it's a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life."
+    },
+    "myskills": {
+        "mySkillsHeader": "My skills",
+        "mySkillsSpan": "I have gained experience in building projects with different frontend technologies and concepts.",
+        "mySkillsMainSpan": "Looking for",
+        "mySkillsAnotherSpan": "another skill",
+        "mySkillsSecondSpan": "Feel free to contact me. I look forward to expanding on my previous knowledge.",
+        "getInTouchSpan": "Get in touch"
+    },
+    "portfolio": {
+        "sidetextSpan": "Explore a selection of my work here - Interact with projects to see my skills in action.",
+        "joinDescriptionSpan": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+        "elPolloLocoDescriptionSpan": "Jump Run game based on object oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen",
+        "PokedexDescriptionSpan": "Based on the PokéAPI a simple library that provides and catalogues pokemon information",
+        "leftButtonSpan": "Live test"
+    },
+    "contact": {
+        "contactHeader": "Contact",
+        "contactInsideHeaderSpan": "Got a problem to solve?",
+        "contactInsideSpan1": "Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work.",
+        "contactInsideSpan2": "Need a Frontend developer?",
+        "contactMeSpan": "Contact me!",
+        "requiredNameSpan": "Please enter your name",
+        "requiredEmailSpan": "Please enter your email adress",
+        "requiredMessageSpan": "Please enter a message",
+        "privacyPolicyFirstSpan": "I've read the",
+        "privacyPolicySpan": "privacy policy",
+        "privacyPolicySecondSpan": "and agree to the processing of my data as outlined.",
+        "privacyPolicyRequiredSpan": "Please accept the privacy policy",
+        "buttonSpan": "Send message :)",
+        "sendPostSpan": "Send post complete"
+    }
+}

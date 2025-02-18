@@ -2,20 +2,19 @@
   <div data-aos="fade-right" class="headerContainer"
   >
     <img class="vectorLineHeader" src="./assets/img/contact/linie_purple_long.png" />
-    <h2 class="header">Contact</h2>
+    <h2 class="header">{{'contact.contactHeader' | translate }}</h2>
   </div>
 
   <div class="contactDFlex">
     <div data-aos="fade-right" class="contactInsideContainer" 
     >
-      <h4 class="contactInsideHeaderTxt">Got a problem to solve?</h4>
+      <h4 class="contactInsideHeaderTxt">{{'contact.contactInsideHeaderSpan' | translate }}</h4>
       <span class="contactInsideSpanTxt1">
-        Contact me through this form, I am interested in hearing from you,
-        knowing your ideas and contributing to your projects with my work.</span>
+        {{'contact.contactInsideSpan1' | translate }}</span>
       <br/>
       <span class="contactInsideSpanTxt2">
-        Need a Frontend developer?
-        <span class="contactMe">Contact me!</span>
+        {{'contact.contactInsideSpan2' | translate }}
+        <span class="contactMe">{{'contact.contactMeSpan' | translate }}</span>
     </span>
     </div>
 
@@ -24,33 +23,33 @@
         <input #name="ngModel" minlength="4" [(ngModel)]="contactData.name" name="name"  class="inputName" type="name" placeholder="Your name" required/>
         <div class="inputNameRequiredContainer">
           @if (!name.valid && name.touched) {
-            <span style="color: red;">Please enter your name</span>
+            <span style="color: red;">{{'contact.requiredNameSpan' | translate }}</span>
           }
         </div>
 
         <input #email="ngModel" minlength="4" [(ngModel)]="contactData.email" name="email" class="inputEmail" type="email" placeholder="Your email" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"/>
         <div class="inputEmailRequiredContainer">
           @if (!email.valid && email.touched) {
-            <span style="color: red;">Please enter your email adress</span>
+            <span style="color: red;">{{'contact.requiredEmailSpan' | translate }}</span>
           }
         </div>
 
         <input #message="ngModel" minlength="4" [(ngModel)]="contactData.message" name="message" class="inputMessage" type="message" placeholder="Your message" required/>
         <div class="inputMessageRequiredContainer">
           @if (!message.valid && message.touched) {
-            <span style="color: red;">Please enter a message</span>
+            <span style="color: red;">{{'contact.requiredMessageSpan' | translate }}</span>
           }
         </div>
        
         <div class="privacyPolicySecondContainer">
           <div class="privacyPolicy">
             <input (click)="checked()" name="checkbox" #checkbox="ngModel" [(ngModel)]="contactData.checkbox" class="checkbox" type="checkbox" required/>
-            <span class="contactSpan1">I've read the</span>
-            <a href="privacypolicy" target="_blank" class="textButtonPrivacyPolicy">privacy policy</a>
-            <span class="contactSpan2">and agree to the processing of my data as outlined.</span>
+            <span class="contactSpan1">{{'contact.privacyPolicyFirstSpan' | translate }}</span>
+            <a href="privacypolicy" target="_blank" class="textButtonPrivacyPolicy">{{'contact.privacyPolicySpan' | translate }}</a>
+            <span class="contactSpan2">{{'contact.privacyPolicySecondSpan' | translate }}</span>
           </div>
           <div class="checkboxRequiredSpanContainer" #privacySpan style="display: none;" *ngIf="!contactData.checkbox">
-            <span style="color: red;">Please accept the privacy policy</span>
+            <span style="color: red;">{{'contact.privacyPolicyRequiredSpan' | translate }}</span>
           </div>
         </div>
        
@@ -72,7 +71,7 @@
     </div>
   </div>
   <div #sendPopUpID style="display: none;" class="sendPostPopUpContainer">
-    <h1 class="sendPostTxt">Send post complete</h1>
+    <h1 class="sendPostTxt">{{'contact.sendPostSpan' | translate }}</h1>
     <button (click)="closePopUp()" class="OKButton">OK</button>
   </div>
 </div>

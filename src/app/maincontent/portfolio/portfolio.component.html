@@ -14,10 +14,9 @@
     </div>
   </div>
   <div class="sideTextContainer" data-aos="fade-in">
-    <span class="sideText"
-      >Explore a selection of my work here - Interact with projects to see my
-      skills in action.</span
-    >
+    <span class="sideText">
+      {{'portfolio.sidetextSpan' | translate }}
+    </span>
   </div>
 
   <div class="projectContainer">
@@ -47,7 +46,7 @@
             href="{{ projects[$index].linkLiveTest }}"
             target="_blank"
             class="liveTestButton"
-            >Live test</a
+            >{{'portfolio.leftButtonSpan' | translate }}</a
           >
           <a
             href="{{ projects[$index].linkGitHub }}"

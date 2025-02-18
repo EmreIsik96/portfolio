@@ -1,4 +1,6 @@
 import { CommonModule } from '@angular/common';
+import { TranslatePipe, TranslateDirective} from "@ngx-translate/core";
+import { HeaderComponent } from '../shared/header/header.component';
 import { HttpClient } from '@angular/common/http';
 import {
   Component,
@@ -12,7 +14,7 @@ import { FormsModule, NgForm } from '@angular/forms';
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, HeaderComponent, TranslatePipe, TranslateDirective],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
 })

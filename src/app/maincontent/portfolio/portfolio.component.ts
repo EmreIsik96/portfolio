@@ -1,10 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { TranslatePipe, TranslateDirective} from "@ngx-translate/core";
+import { HeaderComponent } from '../shared/header/header.component';
 
 @Component({
   selector: 'app-portfolio',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, HeaderComponent, TranslatePipe, TranslateDirective],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.scss',
 })
@@ -33,7 +35,7 @@ export class PortfolioComponent {
       name: 'Pokèdex',
       language: 'JavaScript | HTML | CSS | Api',
       description:
-        'Based on the PokéAPI a simple library that provides and catalogues pokemon information..',
+        'Based on the PokéAPI a simple library that provides and catalogues pokemon information.',
       linkLiveTest: 'https://emre-isik.de/pokedex',
       linkGitHub: 'https://github.com/EmreIsik96/pokedex',
     },
