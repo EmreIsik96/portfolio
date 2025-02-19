@@ -1,14 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject} from '@angular/core';
 import { TranslatePipe, TranslateDirective, } from "@ngx-translate/core";
-import { HeaderComponent } from '../shared/header/header.component';
 import { TranslateFunctionService } from '../translate-function.service';
 
 
 @Component({
   selector: 'app-portfolio',
   standalone: true,
-  imports: [CommonModule, HeaderComponent, TranslatePipe, TranslateDirective],
+  imports: [CommonModule, TranslatePipe, TranslateDirective],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.scss',
 })

@@ -1,4 +1,7 @@
-{
+{   "header": {
+        "aboutmeSpan": "Über mich",
+        "skillsSpan": "Fähigkeiten"
+    },
     "homepage": {
         "IamSpan": "Ich heiße",
         "h2JobDescription": "FRONTEND ENTWICKLER",

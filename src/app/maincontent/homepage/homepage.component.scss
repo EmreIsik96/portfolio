@@ -187,7 +187,7 @@ $green: #70e61c;
     }
   }
 }
-@media (max-width: 1150px) {
+@media (max-width: 1200px) {
   .mainTextContainer {
     margin-left: -50px;
     .mainIamTxtContainer {
@@ -235,7 +235,7 @@ $green: #70e61c;
     }
   }
 }
-@media (max-width: 795px) {
+@media (max-width: 830px) {
   .mainTextContainer {
     .mainIamTxtContainer {
       .iamTxt {
@@ -271,7 +271,7 @@ $green: #70e61c;
     margin-left: -70px;
   }
 }
-@media (max-width: 635px) {
+@media (max-width: 655px) {
   .mainContainer {
     margin-bottom: 150px;
     display: flex;
@@ -318,6 +318,7 @@ $green: #70e61c;
       .jobDescriptionTxt {
         width: 280px;
         height: 65px;
+        text-wrap: nowrap;
       }
     }
   }

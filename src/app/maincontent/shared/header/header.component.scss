@@ -31,10 +31,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 326px;
   height: 32px;
-  gap: 29px;
-  opacity: 0px;
+  gap: 34px;
 }
 
 .homepageMyName {
@@ -48,7 +46,6 @@ header {
 .headerRightAboutMe {
   display: flex;
   align-items: flex-end;
-  width: 114px;
   height: 32px;
   padding: 0px 1px 4px 0px;
   color: white;
@@ -64,7 +61,6 @@ header {
 .headerRightSkills {
   display: flex;
   align-items: flex-end;
-  width: 59px;
   height: 32px;
   padding: 0px 4px 4px 0px;
   text-decoration: none;
@@ -79,7 +75,6 @@ header {
 .headerRightPortfolio {
   display: flex;
   align-items: flex-end;
-  width: 95px;
   height: 32px;
   padding: 0px 1px 4px 0px;
   text-decoration: none;
@@ -92,7 +87,6 @@ header {
 }
 
 .aboutMeTxt {
-  width: 113px;
   height: 28px;
   gap: 0px;
   opacity: 0px;
@@ -103,7 +97,6 @@ header {
 }
 
 .skillsTxt {
-  width: 55px;
   height: 28px;
   gap: 0px;
   opacity: 0px;
@@ -114,10 +107,7 @@ header {
 }
 
 .portfolioTxt {
-  width: 94px;
   height: 28px;
-  gap: 0px;
-  opacity: 0px;
   font-size: 23px;
   font-weight: 400;
   line-height: 27.6px;
