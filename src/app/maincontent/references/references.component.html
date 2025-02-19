@@ -12,17 +12,18 @@
       </div>
 
       <div class="testimonials" data-aos="fade-right">
-        <span style="color: #ffff" id="referencesID">{{
-          refences[currentIndex].reference
-        }}</span>
+        <span style="color: #ffff" id="referencesID">
+         @if (changeLangGlob.currentLanguage === 'en') {
+          {{ refencesEn[currentIndex].reference }}
+         } @else {
+          {{ refencesDe[currentIndex].reference }}
+         }
+        </span>
         <div class="signatureContainer">
           <div class="signatureSecondContainer">
-            <img
-              class="vectorPurple"
-              src="./assets/img/references/vector_purple_long.png"
-            />
+            <img class="vectorPurple" src="./assets/img/references/vector_purple_long.png"/>
           </div>
-          <span style="color: #ffff">{{ refences[currentIndex].name }}</span>
+          <span style="color: #ffff">{{ refencesEn[currentIndex].name }}</span>
         </div>
       </div>
     </div>
