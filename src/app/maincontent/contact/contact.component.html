@@ -20,21 +20,21 @@
 
     <div data-aos="fade-left" class="contactFormularContainer">
       <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
-        <input #name="ngModel" minlength="4" [(ngModel)]="contactData.name" name="name"  class="inputName" type="name" placeholder="Your name" required/>
+        <input #name="ngModel" minlength="4" [(ngModel)]="contactData.name" name="name"  class="inputName" type="name" placeholder="{{'contact.yourNamePlaceholder' | translate }}" required/>
         <div class="inputNameRequiredContainer">
           @if (!name.valid && name.touched) {
             <span style="color: red;">{{'contact.requiredNameSpan' | translate }}</span>
           }
         </div>
 
-        <input #email="ngModel" minlength="4" [(ngModel)]="contactData.email" name="email" class="inputEmail" type="email" placeholder="Your email" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"/>
+        <input #email="ngModel" minlength="4" [(ngModel)]="contactData.email" name="email" class="inputEmail" type="email" placeholder="{{'contact.yourEmailPlaceholder' | translate }}" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"/>
         <div class="inputEmailRequiredContainer">
           @if (!email.valid && email.touched) {
             <span style="color: red;">{{'contact.requiredEmailSpan' | translate }}</span>
           }
         </div>
 
-        <input #message="ngModel" minlength="4" [(ngModel)]="contactData.message" name="message" class="inputMessage" type="message" placeholder="Your message" required/>
+        <input #message="ngModel" minlength="4" [(ngModel)]="contactData.message" name="message" class="inputMessage" type="message" placeholder="{{'contact.yourMessagePlaceholder' | translate }}" required/>
         <div class="inputMessageRequiredContainer">
           @if (!message.valid && message.touched) {
             <span style="color: red;">{{'contact.requiredMessageSpan' | translate }}</span>
@@ -54,7 +54,7 @@
         </div>
        
         @if (!message.valid || !email.valid || !name.valid || !contactData.checkbox) {
-          <input (click)="checkPrivacy()" type="submit" value="Send message :)" class="sendButtonDisable">
+          <input (click)="checkPrivacy()" type="submit" [value]="'contact.buttonSpan' | translate" class="sendButtonDisable">
         }
         @else if (message.valid && email.valid && name.valid && contactData.checkbox){
           <input type="submit" value="Send message :)" class="sendButtonActive">
