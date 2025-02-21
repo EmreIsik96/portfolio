@@ -6,7 +6,6 @@ import {
   Component,
   ElementRef,
   inject,
-  viewChild,
   ViewChild,
 } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';

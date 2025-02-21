@@ -44,7 +44,8 @@
         "requiredMessageSpan": "Bitte geben Sie eine Nachricht ein",
         "privacyPolicyFirstSpan": "Ich habe die",
         "privacyPolicySpan": "Datenschutzerklärung",
-        "privacyPolicySecondSpan": "und stimme der Verarbeitung meiner Daten gemäß der beschriebenen Richtlinien zu.",
+        "privacyPolicySecondSpan": "gelesen und stimme",
+        "privacyPolicyThirdSpan": "der Richtlinien zu.",
         "privacyPolicyRequiredSpan": "Bitte akzeptieren Sie die Datenschutzerklärung",
         "buttonSpan": "Nachricht senden :)",
         "sendPostSpan": "Nachricht erfolgreich gesendet"
