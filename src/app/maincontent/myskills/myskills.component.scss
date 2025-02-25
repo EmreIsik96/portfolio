@@ -1,8 +1,6 @@
 .mainContainer {
   display: flex;
-  justify-content: space-between;
   flex-direction: row-reverse;
-  align-items: center;
   margin-bottom: 300px;
   max-width: 1920px;
 }
@@ -10,15 +8,14 @@
 .skillsIconContainer {
   display: flex;
   flex-wrap: wrap;
+  width: 650px;
   gap: 57px;
-  width: 664px;
-  margin-left: 100px;
   img {
     object-fit: contain;
     transform: scale(1);
     transition: transform 0.1s ease-in-out;
-    height: 94px;
-    width: 84px;
+    height: 84px;
+    width: 74px;
     &:hover {
       transform: scale(1.4);
     }
@@ -26,8 +23,12 @@
 }
 
 .skillsTxtContainer {
-  width: 571px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
   height: 400px;
+  flex: 0.83;
   .mySkillsHeaderContainer {
     display: flex;
     align-items: center;
@@ -40,20 +41,21 @@
       font-weight: 700;
       line-height: 108px;
       text-align: right;
+      text-wrap: nowrap;
       color: #ffff;
     }
     .vectorPurpleSmall {
-      width: 180px;
+      width: 200px;
       height: 5px;
     }
   }
   .mySkillsTxtContainer {
     display: grid;
     gap: 30px;
-    width: 471px;
-    margin-left: -110px;
+    width: 655px;
+    margin-left: 40px;
     .mySkillsTxt {
-      width: 500px;
+      width: 420px;
       font-size: 16px;
       font-weight: 400;
       line-height: 19.2px;
@@ -66,7 +68,7 @@
       gap: 40px;
       .mySkillsMainTxt {
         text-wrap: wrap;
-        width: 500px;
+        width: 420px;
         font-size: 34px;
         font-weight: 700;
         line-height: 38.4px;
@@ -77,7 +79,7 @@
         }
       }
       .mySkillsSecondTxt {
-        width: 500px;
+        width: 420px;
         font-size: 16px;
         font-weight: 400;
         line-height: 19.2px;
@@ -87,6 +89,7 @@
       .mySkillButtonContainer {
         display: flex;
         justify-content: flex-end;
+        width: 420px;
         margin-top: 32px;
         .mySkillButton {
           text-decoration: none;
@@ -127,35 +130,41 @@
 }
 
 
-@media (max-width: 1470px) {
+@media (max-width: 1460px) {
   .skillsTxtContainer {
     width: 350px;
+    flex: 0.73;
+    margin-left: 170px;
     .mySkillsHeaderContainer {
+      margin-bottom: 0;
       .mySkillsHeader {
         font-size: 50px;
         text-wrap: nowrap;
       }
+      .vectorPurpleSmall {
+        width: 165px;
+      }
     }
     .mySkillsTxtContainer {
-      width: 350px;
-      margin-left: -90px;
+      width: 515px;
+      .mySkillsTxt {
+      width: 320px;
+      }
       .getInTouchContainer {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
-        width: 350px;
         margin-left: 0;
         .mySkillsMainTxt {
           font-size: 25px;
-          width: 350px;
+          width: 320px;
         }
         .mySkillsSecondTxt {
           text-wrap: wrap;
-          width: 350px;
+          width: 320px;
         }
-      }
-      .mySkillsTxt {
-        width: 350px;
+        .mySkillButtonContainer {
+          width: 320px;
+        }
       }
     }
   }
@@ -169,6 +178,8 @@
 }
 @media (max-width: 1100px) {
   .skillsTxtContainer {
+    flex: 0;
+    margin-left: 100px;
     .mySkillsHeaderContainer {
       .mySkillsHeader {
         font-size: 45px;
@@ -178,40 +189,32 @@
       }
     }
     .mySkillsTxtContainer {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
+      width: 400px;
+      margin: 0;
       .mySkillsTxt {
-        text-align: center;
         width: 270px;
         font-size: 14px;
       }
       .getInTouchContainer {
-        align-items: center;
-        width: 270px;
         .mySkillsMainTxt {
           font-size: 20px;
-          text-align: center;
+          width: 270px;
         }
         .mySkillsSecondTxt {
-          text-align: center;
           font-size: 14px;
+          width: 270px;
         }
         .mySkillButtonContainer {
-          justify-content: center;
-          .mySkillButton{
-            text-align: center;
-          }
-          
+          width: 270px;     
         }
       }
     }
   }
-
   .skillsIconContainer {
+    flex: 0.95;
+    padding-left: 100px;
     width: 400px;
     gap: 46px;
-    margin-left: 50px;
     img {
       height: 64px;
       width: 54px;
@@ -220,14 +223,28 @@
 }
 @media (max-width: 840px) {
   .skillsTxtContainer {
-    width: 300px;
+    margin-left: 40px;
     .mySkillsHeaderContainer {
       .vectorPurpleSmall {
         width: 40px;
       }
     }
+    .mySkillsTxtContainer {
+      width: 335px;
+      .mySkillsTxt {
+        width: 260px;
+      }
+      .getInTouchContainer {
+        .mySkillsMainTxt,
+        .mySkillsSecondTxt,
+        .mySkillButtonContainer {
+          width: 260px;
+        }
+      }
+    }
   }
   .skillsIconContainer {
+    padding-left: 55px;
     width: 300px;
   }
 }
@@ -241,6 +258,7 @@
     margin-top: 400px;
   }
   .skillsTxtContainer {
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -262,14 +280,29 @@
         margin-bottom: 300px;
         width: 350px;
       }
+      .getInTouchContainer {
+        justify-content: center;
+        align-items: center;
+        .mySkillsMainTxt,
+        .mySkillsSecondTxt,
+        .mySkillButtonContainer {
+          justify-content: center;
+          text-align: center;
+          width: 350px;
+          text-wrap: wrap;
+        }
+      }
+      
     }
   }
 
   .skillsIconContainer {
     margin: 0;
     width: 100%;
+    flex: 0;
+    padding: 0;
     justify-content: center;
-    margin-top: -350px;
+    margin-top: -500px;
   }
 }
 @media (max-width: 553px) {
@@ -281,7 +314,7 @@
     }
   }
   .skillsIconContainer {
-    margin-top: -400px;
+    margin-top: -580px;
   }
   .greenShadowBg1 {
     width: 320px;
@@ -292,12 +325,20 @@
     .mySkillsTxtContainer {
       width: 270px;
       .mySkillsTxt {
-        width: 100%;
-        margin-bottom: 430px;
+        text-align: center;
+        width: 270px;
+        margin-bottom: 450px;
       }
       .getInTouchContainer {
-        .mySkillsSecondTxt {
-          width: 300px;
+        margin-bottom: -70px;
+        .mySkillsMainTxt,
+        .mySkillsSecondTxt,
+        .mySkillButtonContainer {
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          width: 220px;
+          text-wrap: wrap;
         }
       }
     }
@@ -305,6 +346,6 @@
   
   .skillsIconContainer {
     width: 320px;
-    margin-top: -440px;
+    margin-top: -680px;
   }
 }
