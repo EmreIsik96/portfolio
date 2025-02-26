@@ -4,8 +4,34 @@
   flex-direction: column;
   text-wrap: wrap;
   color: white;
-  margin-left: 180px;
-  margin-right: 180px;
+  width: fit-content;
   margin-top: 100px;
+  padding: 50px 100px 0px 100px;
   margin-bottom: -200px;
+  a {
+    color: white;
+  }
+}
+@media (min-width: 1921px) and (max-width: 3760px) {
+  .impressum {
+    text-align: center;
+    padding-left: 850px;
+    padding-right: 850px;
+  }
+}
+@media (max-width: 1477px) {
+  .impressum {
+    padding: 50px 70px 0px 70px;
+    margin-bottom: -350px;
+  }
+}
+@media (max-width: 840px) {
+  .impressum {
+    padding: 50px 40px 0px 30px;
+  }
+}
+@media (max-width: 630px) {
+  .impressum {
+    text-align: center;
+  }
 }
