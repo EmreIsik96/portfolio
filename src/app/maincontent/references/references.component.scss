@@ -52,11 +52,32 @@
 }
 
 .imageBorder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 272px;
   height: 272px;
   border-radius: 1000px;
   border: 4px;
   border: 4px solid #9747ff;
+  .profilePicFromReference\$0 {
+    height: 300px;
+    margin-left: -44px;
+    margin-bottom: -18px;
+    object-fit: cover;
+  }
+  .profilePicFromReference\$1 {
+    height: 280px;
+    margin-left: -27px;
+    margin-bottom: -27px;
+    object-fit: cover;
+  }
+  .profilePicFromReference\$2 {
+    height: 300px;
+    margin-left: -25px;
+    margin-bottom: -15px;
+    object-fit: cover;
+  }
 }
 
 .swipeBarContainer {
@@ -122,6 +143,19 @@
   .imageBorder {
     width: 230px;
     height: 230px;
+    .profilePicFromReference\$0 {
+      height: 250px;
+      margin-left: -37px;
+      margin-bottom: -20px;
+    }
+    .profilePicFromReference\$1 {
+      height: 230px;
+      margin-left: -24px;
+      margin-bottom: -30px;
+    }
+    .profilePicFromReference\$2 {
+      height: 250px;
+    }
   }
 }
 @media (max-width: 1500px) {
@@ -136,6 +170,19 @@
   .imageBorder {
     width: 200px;
     height: 200px;
+    .profilePicFromReference\$0 {
+      height: 220px;
+      margin-left: -30px;
+      margin-bottom: -14px;
+    }
+    .profilePicFromReference\$1 {
+      height: 200px;
+      margin-left: -24px;
+      margin-bottom: -25px;
+    }
+    .profilePicFromReference\$2 {
+      height: 210px;
+    }
   }
   .signatureContainer {
     margin-top: -40px;
@@ -183,6 +230,19 @@
   .imageBorder {
     width: 180px;
     height: 180px;
+    .profilePicFromReference\$0 {
+      height: 200px;
+      margin-left: -30px;
+      margin-bottom: -12px;
+    }
+    .profilePicFromReference\$1 {
+      height: 180px;
+      margin-left: -20px;
+      margin-bottom: -21px;
+    }
+    .profilePicFromReference\$2 {
+      height: 190px;
+    }
   }
 }
 @media (max-width: 835px) {

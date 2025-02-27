@@ -19,18 +19,21 @@ export class ReferencesComponent {
       reference: `I worked on a project with Emre and was impressed by his work style.
       He is extremely meticulous and detail-oriented in designing his pages.
       Emre is always clear in his approach, as he actively seeks solutions and continuously develops himself.`,
+      picture: "./assets/img/references/batoolZamani.png"
     },
     {
       name: 'Sebastian Rothe',
       reference: `I had the opportunity to work with Emre on a project at the Developer Akademie (DA) and was impressed by his positive commitment and teamwork skills.
       He brings valuable competencies and is always ready to take on new challenges.
       His quick comprehension and proactive approach significantly contribute to the team's success.`,
+      picture: "./assets/img/references/sebastianRothe.png"
     },
     {
       name: 'Enver Shala',
       reference: `Emre Isik was one of my teammates during the JOIN project.
       He was reliable and communicative, making collaboration very enjoyable.
       He is someone I would gladly work with again at any time.`,
+      picture: "./assets/img/references/enverShala.png"
     },
   ];
 
@@ -40,6 +43,7 @@ export class ReferencesComponent {
       reference: `Ich habe mit Emre an einem Projekt gearbeitet und war von seinem Arbeitsstil begeistert. 
       Er agiert äußerst sorgfältig und detailgenau bei der Gestaltung seiner Seiten. 
       Emre ist stets klar in seinen Ansätzen, da er aktiv nach Lösungen sucht und sich kontinuierlich weiterentwickelt.`,
+      picture: ""
     },
     {
       name: 'Sebastian Rothe',
@@ -47,12 +51,14 @@ export class ReferencesComponent {
       und war von seinem positiven Engagement und seiner Teamfähigkeit beeindruckt. 
       Er bringt wertvolle Kompetenzen mit und ist stets bereit, neue Herausforderungen anzunehmen. 
       Seine schnelle Auffassungsgabe und proaktive Herangehensweise tragen erheblich zum Teamerfolg bei.`,
+      picture: ""
     },
     {
       name: 'Enver Shala',
       reference: `Emre Isik war einer meiner Team-Kollegen während des JOIN Projekts. 
       Er war zuverlässig & kommunikativ, so dass die Zusammenarbeit sehr angenehm war. 
       Er ist eine Person, mit der ich weitere Zusammenarbeiten jederzeit begrüßen würde.`,
+      picture: ""
     },
   ];
 
