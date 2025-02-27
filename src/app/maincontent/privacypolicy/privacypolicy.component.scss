@@ -1,14 +1,15 @@
-.privacyPolicyContainer{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-wrap: wrap;
+.privacyPolicyContainer {
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-wrap: wrap;
+  color: white;
+  padding: 150px 100px 0px 100px;
+  margin-bottom: -200px;
+  a {
     color: white;
-    padding: 150px 100px 0px 100px;
-    margin-bottom: -200px;
-    a {
-        color: white;
-    }
+  }
 }
 @media (min-width: 1921px) and (max-width: 3760px) {
   .privacyPolicyContainer {
@@ -17,25 +18,25 @@
     padding-right: 850px;
     li {
       display: block;
-    } 
-    &::marker{
+    }
+    &::marker {
       display: none;
     }
   }
 }
 @media (max-width: 1477px) {
-    .privacyPolicyContainer {
-      padding: 150px 70px 0px 70px;
-      margin-bottom: -350px;
-    }
+  .privacyPolicyContainer {
+    padding: 150px 70px 0px 70px;
+    margin-bottom: -350px;
   }
-  @media (max-width: 840px) {
-    .privacyPolicyContainer {
-      padding: 150px 40px 0px 30px;
-    }
+}
+@media (max-width: 840px) {
+  .privacyPolicyContainer {
+    padding: 150px 40px 0px 30px;
   }
-  @media (max-width: 630px) {
-    .privacyPolicyContainer {
-      text-align: center;
-    }
+}
+@media (max-width: 630px) {
+  .privacyPolicyContainer {
+    text-align: center;
   }
+}
