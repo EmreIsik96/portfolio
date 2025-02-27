@@ -16,6 +16,10 @@ header {
   padding-bottom: 16px;
 }
 
+.d-none {
+  display: none;
+}
+
 .headerLeft {
   display: flex;
   justify-content: flex-start;
@@ -184,17 +188,16 @@ header {
     display: none;
   }
   .bgMenuContainer {
-    position: absolute;
-    height: 88vh;
-    width: 100%;
-    margin-top: 800px;
-    margin-left: -30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
     background-color: #414856;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    overflow: hidden;
     gap: 29px;
     font-size: 26px;
     .buttonBurgerAboutme,
@@ -207,6 +210,17 @@ header {
         cursor: pointer;
       }
     }
+  }
+  .closeBurgerContainer {
+    position: absolute;
+    top: 0;
+    left: 100;
+    right: 0;
+    height: 32px;
+    width: 32px;
+    padding-top: 30px;
+    padding-right: 30px;
+    cursor: pointer;
   }
 }
 @media (max-width: 600px) {
@@ -225,10 +239,5 @@ header {
   }
   .buttonBurgerImg {
     height: 24px;
-  }
-  .bgMenuContainer {
-    height: 95vh;
-    margin-top: 850px;
-    margin-left: -30px;
   }
 }
