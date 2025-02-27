@@ -9,6 +9,7 @@ import {
   ViewChild,
 } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
+import { startWith } from 'rxjs';
 
 @Component({
   selector: 'app-contact',
@@ -32,10 +33,7 @@ export class ContactComponent {
   }
 
   scrollToHomepage() {
-    const element = document.getElementById('homepageID');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    window.scrollBy({ top: -10000, behavior: 'smooth' });
   }
 
   sendPostPopUp() {
