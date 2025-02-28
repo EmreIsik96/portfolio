@@ -1,8 +1,4 @@
 <div class="mainContainer">
-  <div class="gooseFeetContainer" data-aos="fade-in">
-    <img class="gooseFeet" src="./assets/img/references/goose-feet.png" />
-  </div>
-
   <div class="testimonialsMainContainer">
     <div class="testimonialsContainer">
       <div class="imageContainer" data-aos="fade-left">
@@ -12,6 +8,9 @@
       </div>
 
       <div class="testimonials" data-aos="fade-right">
+        <div class="gooseFeetContainer" data-aos="fade-in">
+          <img class="gooseFeet" src="./assets/img/references/goose-feet.png" />
+        </div>
         <span style="color: #ffff" id="referencesID">
          @if (changeLangGlob.currentLanguage === 'en') {
           {{ refencesEn[currentIndex].reference }}

@@ -1,91 +1,89 @@
 .mainContainer {
+  position: relative;
   display: flex;
-  justify-content: center;
-  height: 378px;
   margin-bottom: 150px;
   max-width: 1920px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .gooseFeetContainer {
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 96.9px;
   height: 68.1px;
   gap: 10px;
-  margin-top: -32px;
-  margin-right: -32px;
+  margin-top: -42px;
+  margin-left: -15px;
   z-index: 1;
 }
 
 .testimonialsMainContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 344px;
   gap: 32px;
-}
-
-.testimonialsContainer {
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-  height: 272px;
-  gap: 200px;
-}
-
-.testimonials {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 650px;
-  height: 150px;
-  padding: 48px 96px 48px 96px;
-  gap: 44px;
-  border-radius: 32px;
-  border: 4px 0px 0px 0px;
-  border: 4px solid #70e61c;
-  flex: 0.1;
-}
-
-.imageContainer {
-  display: flex;
-  align-items: center;
-  height: 272px;
-  flex: 1;
-}
-
-.imageBorder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 272px;
-  height: 272px;
-  border-radius: 1000px;
-  border: 4px;
-  border: 4px solid #9747ff;
-  .profilePicFromReference\$0 {
-    height: 300px;
-    margin-left: -19px;
-    margin-bottom: -19.5px;
-    object-fit: cover;
-  }
-  .profilePicFromReference\$1 {
-    height: 280px;
-    margin-left: 0px;
-    margin-bottom: -27px;
-    object-fit: cover;
-  }
-  .profilePicFromReference\$2 {
-    height: 300px;
-    margin-right: -5px;
-    margin-bottom: -15px;
-    object-fit: cover;
+  .testimonialsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    .testimonials {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 650px;
+      height: 150px;
+      padding: 48px 96px 48px 96px;
+      gap: 44px;
+      border-radius: 32px;
+      border: 4px 0px 0px 0px;
+      border: 4px solid #70e61c;
+      flex: 0.1;
+    }
+    .imageContainer {
+      position: absolute;
+      right: 150px;
+      display: flex;
+      align-items: center;
+      height: 272px;
+      .imageBorder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 272px;
+        height: 272px;
+        border-radius: 1000px;
+        border: 4px;
+        border: 4px solid #9747ff;
+        .profilePicFromReference\$0 {
+          height: 300px;
+          margin-left: -19px;
+          margin-bottom: -19.5px;
+          object-fit: cover;
+        }
+        .profilePicFromReference\$1 {
+          height: 280px;
+          margin-left: 0px;
+          margin-bottom: -27px;
+          object-fit: cover;
+        }
+        .profilePicFromReference\$2 {
+          height: 300px;
+          margin-right: -5px;
+          margin-bottom: -15px;
+          object-fit: cover;
+        }
+      }
+    }
   }
 }
 
 .swipeBarContainer {
   display: flex;
   align-items: center;
-  width: 184px;
-  height: 40px;
+  justify-content: center;
+  width: 100%;
   gap: 20px;
 }
 
@@ -116,166 +114,70 @@
     margin-top: 300px;
   }
 }
-@media (max-width: 1630px) {
-  .mainContainer {
-    width: 100%;
-    justify-content: center;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .testimonials {
-    width: 550px;
-    height: 150px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    gap: 44px;
-  }
-  .gooseFeetContainer {
-    width: 66.9px;
-    height: 38.1px;
-    margin-top: 10px;
-    margin-right: -36px;
-  }
-  .gooseFeet {
-    width: 55.9px;
-    height: 38.1px;
-  }
-  .imageBorder {
-    width: 230px;
-    height: 230px;
-    .profilePicFromReference\$0 {
-      height: 250px;
-      margin-left: -16px;
-      margin-bottom: -20px;
-    }
-    .profilePicFromReference\$1 {
-      height: 230px;
-      margin-left: 0px;
-      margin-bottom: -30px;
-    }
-    .profilePicFromReference\$2 {
-      height: 250px;
-    }
-  }
-}
-@media (max-width: 1500px) {
-  .testimonials {
-    width: 450px;
-    height: 150px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    gap: 44px;
-  }
-  .imageBorder {
-    width: 200px;
-    height: 200px;
-    .profilePicFromReference\$0 {
-      height: 220px;
-      margin-left: -14px;
-      margin-bottom: -14px;
-    }
-    .profilePicFromReference\$1 {
-      height: 200px;
-      margin-bottom: -25px;
-    }
-    .profilePicFromReference\$2 {
-      height: 210px;
-    }
-  }
-  .signatureContainer {
-    margin-top: -40px;
-  }
-  .vectorPurple {
-    width: 300px;
-  }
-}
-@media (max-width: 1270px) {
+@media (max-width: 1460px) {
   .mainContainer {
     margin-bottom: 80px;
   }
   span {
     font-size: 12px;
   }
-  .testimonials {
-    width: 300px;
-    height: 150px;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 40px;
-    gap: 44px;
-    text-wrap: wrap;
+  .testimonialsMainContainer {
+    .testimonialsContainer {
+      .testimonials {
+        width: 300px;
+        height: 150px;
+        padding-left: 50px;
+        padding-right: 70px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+        margin-bottom: 40px;
+        gap: 44px;
+        text-wrap: wrap;
+      }
+    }
+  }
+  
+  .swipeBarContainer {
+    width: 380px;
   }
   .vectorPurple {
     width: 150px;
   }
 }
-@media (max-width: 1110px) {
-  .testimonialsContainer {
-    gap: 150px;
-  }
-}
-@media (max-width: 980px) {
-  .mainContainer {
-    margin-bottom: 100px;
-  }
-  .gooseFeetContainer {
-    margin-top: -10px;
-  }
-  .testimonials {
-    width: 250px;
-    height: 200px;
-  }
-  .imageBorder {
-    width: 180px;
-    height: 180px;
-    .profilePicFromReference\$0 {
-      height: 200px;
-      margin-left: -12px;
-      margin-bottom: -12px;
-    }
-    .profilePicFromReference\$1 {
-      height: 180px;
-      margin-bottom: -21px;
-    }
-    .profilePicFromReference\$2 {
-      height: 190px;
-    }
-  }
-}
-@media (max-width: 835px) {
-  .testimonialsContainer {
-    gap: 60px;
-  }
-  .testimonials {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-  }
-}
-@media (max-width: 630px) {
+@media (max-width: 1000px) {
   .mainContainer {
     margin-bottom: 200px;
     margin-top: 150px;
   }
-  .testimonialsContainer {
-    display: flex;
-    justify-content: center;
+  .testimonialsMainContainer{
+    width: 100%;
     align-items: center;
-    flex-direction: column;
-  }
-  .gooseFeetContainer {
-    margin-top: 130px;
-  }
-  .swipeBarContainer {
-    margin-top: 120px;
-  }
+    .testimonialsContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      .testimonials{
+        margin-bottom: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+      }
+      .imageContainer {
+        position: relative;
+        right: 0;
+      }
+    }
+  }  
 }
-@media (max-width: 390px) {
-  .testimonials {
-    width: 200px;
-    height: 220px;
+@media (max-width: 450px) {
+  .testimonialsMainContainer {
+    .testimonialsContainer {
+      .testimonials {
+        width: 200px;
+        height: 220px;
+      }
+    }
   }
   .vectorPurple {
     width: 50px;
@@ -288,6 +190,7 @@
     height: 28px;
   }
   .gooseFeetContainer {
-    margin-right: -54px;
+    margin-top: -10px;
+    margin-left: -5px;
   }
 }
