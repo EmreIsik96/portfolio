@@ -151,7 +151,7 @@ $green: #70e61c;
   width: 248px;
   height: 28px;
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   .emailTxt {
     font-size: 23px;
@@ -171,7 +171,11 @@ $green: #70e61c;
   height: 671.38px;
   z-index: -1;
 }
-
+@media screen and (min-height: 840px) and (max-height: 940px) {
+  .referencesContainer {
+    bottom: 200px !important;
+  }
+}
 @media (min-height: 660px) and (max-height: 780px) {
   .mainImagesContainer {
     margin-top: -12px !important;
