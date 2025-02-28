@@ -34,9 +34,11 @@ html {
 
 @media (min-width: 1921px) and (max-width: 3840px) {
   body {
+    max-width: 1920px;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
   }
   #aboutMe {
     scroll-margin-top: 100px;
