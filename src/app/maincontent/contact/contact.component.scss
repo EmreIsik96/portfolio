@@ -1,8 +1,11 @@
 .mainContainer {
+  position: relative;
   height: 747px;
   border: Mixed solid #ffffff;
   color: #ffffff;
   max-width: 1920px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .target-element {
@@ -10,9 +13,13 @@
 }
 
 .headerContainer {
+  position: absolute;
+  left: 0;
+  top: 0;
   display: flex;
   align-items: center;
   gap: 32px;
+  margin-top: -300px;
   .header {
     font-size: 90px;
     font-weight: 700;
@@ -23,8 +30,8 @@
 
 .contactDFlex {
   display: flex;
-  justify-content: center;
-  gap: 250px;
+  justify-content: space-between;
+  margin-top: 500px;
 }
 
 .contactInsideContainer {
@@ -230,10 +237,8 @@
 
 
 @media (max-width: 1460px) {
-  .contactDFlex {
-    gap: 130px;
-  }
   .headerContainer {
+    margin-top: -200px;
     .header {
       font-size: 70px;
     }
@@ -279,17 +284,12 @@
     width: 380px;
   }
 }
-@media (max-width: 1100px) {
-  .mainContainer {
-    margin-top: 250px;
-  }
+@media (max-width: 1200px) {
   .headerContainer {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .header {
-    margin: 0;
   }
   .vectorLineHeader {
     display: none;

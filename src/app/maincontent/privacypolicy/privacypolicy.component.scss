@@ -5,17 +5,17 @@
   flex-direction: column;
   text-wrap: wrap;
   color: white;
-  padding: 150px 100px 0px 100px;
+  padding: 150px 150px 0px 150px;
   margin-bottom: -200px;
   a {
     color: white;
   }
 }
-@media (min-width: 1921px) and (max-width: 3760px) {
+@media (min-width: 1921px) and (max-width: 3840px) {
   .privacyPolicyContainer {
     text-align: center;
-    padding-left: 850px;
-    padding-right: 850px;
+    padding-left: 150px;
+    padding-right: 150px;
     li {
       display: block;
     }

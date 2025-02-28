@@ -5,9 +5,9 @@
   flex-direction: column;
   text-wrap: wrap;
   color: white;
-  width: fit-content;
   margin-top: 100px;
-  padding: 50px 100px 0px 100px;
+  padding-left: 150px;
+  padding-right: 150px;
   margin-bottom: -200px;
   a {
     color: white;
@@ -15,13 +15,11 @@
 }
 @media (min-width: 1921px) and (max-width: 3840px) {
   .impressum {
-    height: 100vh;
-    width: 100vw;
+    max-width: 1648px;
+    height: 80vh;
     text-align: center;
-    margin-top: -250px;
-    margin-bottom: -500px;
-    padding-left: 850px;
-    padding-right: 850px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 }
 @media (max-width: 1477px) {
