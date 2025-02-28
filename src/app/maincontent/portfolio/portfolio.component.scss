@@ -1,12 +1,18 @@
 .mainContainer {
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin-bottom: 200px;
   max-width: 1920px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .headerMainContainer {
+  position: absolute;
+  right: 0;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -32,7 +38,8 @@
 }
 
 .sideTextContainer {
-  margin: 64px;
+  margin-top: 200px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: center;
   .sideText {
@@ -50,28 +57,19 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 150px;
 }
-
 .projectDisplayFlex0,
 .projectDisplayFlex1,
 .projectDisplayFlex2 {
   width: 1168px;
-  height: 339.19px;
   gap: 170px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  &.projectDisplayFlex0 {
-    margin-right: -200px;
-  }
+  justify-content: center;
   &.projectDisplayFlex1 {
     text-align: right;
     flex-direction: row-reverse;
-    margin-left: -350px;
-  }
-  &.projectDisplayFlex0,
-  &.projectDisplayFlex1 {
-    margin-bottom: 64px;
   }
 }
 
@@ -174,34 +172,30 @@
   }
 }
 
-@media (max-width: 1584px) {
-  .purpleSecondLine {
-    width: 250px;
-    height: 4px;
-  }
-  .projectDescriptionContainer {
-        text-wrap: wrap;
-        width: 400px;
-      }
-  .projectDisplayFlex0,
-  .projectDisplayFlex2 {
-    &.projectDisplayFlex0,
-    &.projectDisplayFlex2 {
-      margin-right: -50px;
-    }
-  }
-  .projectDisplayFlex1 {
-    &.projectDisplayFlex1 {
-      margin-left: -100px;
+@media (max-width: 1540px) {
+  .headerMainContainer {
+    .purpleSecondLine {
+      width: 250px;
+      height: 4px;
     }
   }
 }
-@media (max-width: 1236px) {
+@media (max-width: 1460px) {
+  .projectContainer {
+    gap: 100px;
+  }
   .headerMainContainer {
     .headerTxtContainer {
       .portfolioTxt {
         font-size: 70px;
       }
+    }
+  }
+  .sideTextContainer {
+    margin-top: 160px;
+    margin-bottom: 60px;
+    .sideText {
+      font-size: 14px;
     }
   }
   .projectLanguageContainer {
@@ -214,11 +208,14 @@
     &.projectDisplayFlex0,
     &.projectDisplayFlex1,
     &.projectDisplayFlex2 {
-      margin-right: 0;
-      margin-left: 0;
       gap: 60px;
       width: 100%;
     }
+  }
+  .laptopImages0,
+  .laptopImages1,
+  .laptopImages2 {
+    height: 200px;
   }
   .projectDescription0,
   .projectDescription2 {
@@ -235,63 +232,11 @@
     text-wrap: wrap;
     text-align: end;
   }
-  .sideTextContainer {
-    margin-top: 0;
-  }
-}
-@media (max-width: 990px) {
-  .headerMainContainer {
-    .headerTxtContainer {
-      .portfolioTxt {
-        font-size: 50px;
-      }
-    }
-  }
-  .sideTextContainer {
-    .sideText {
-      font-size: 14px;
-    }
-  }
   .projectNameContainer {
     margin-bottom: 10px;
     .projectName {
-      font-size: 30px;
+      font-size: 26px;
     }
-  }
-  .projectLanguageContainer {
-    .projectLanguage {
-      font-size: 18px;
-    }
-  }
-  .projectDescription0,
-  .projectDescription1,
-  .projectDescription2 {
-    font-size: 12px;
-  }
-  .laptopImages0,
-  .laptopImages1,
-  .laptopImages2 {
-    height: 200px;
-  }
-  .liveTestButton,
-  .gitHubButton {
-    width: 132px;
-    height: 50px;
-  }
-  .purpleSecondLine {
-    width: 160px;
-  }
-}
-@media (max-width: 773px) {
-  .mainContainer {
-    margin-bottom: 100px;
-  }
-  .sideTextContainer {
-    margin-bottom: 0px;
-    text-wrap: wrap;
-  }
-  .projectDescriptionContainer {
-    margin-bottom: 20px;
   }
   .projectRightContainer,
   .projectNameContainer,
@@ -301,25 +246,8 @@
   .projectDescription0,
   .projectDescription1,
   .projectDescription2 {
+    font-size: 12px;
     width: 300px;
-  }
-  .laptopImages0,
-  .laptopImages1,
-  .laptopImages2 {
-    height: 160px;
-  }
-  .projectDisplayFlex0,
-  .projectDisplayFlex1,
-  .projectDisplayFlex2 {
-    &.projectDisplayFlex0,
-    &.projectDisplayFlex1 {
-      margin-bottom: 0px;
-    }
-    &.projectDisplayFlex2 {
-      gap: 40px;
-    }
-  }
-  .projectLanguageContainer {
     .projectLanguage {
       font-size: 16px;
     }
@@ -331,9 +259,12 @@
     font-size: 18px;
   }
 }
-@media (max-width: 630px) {
+@media (max-width: 1000px) {
+  .projectContainer {
+    gap: 120px;
+  }
   .headerMainContainer {
-    margin-bottom: 20px;
+    width: 100%;
     display: flex;
     justify-content: center;
     .purpleFirstLine,
@@ -373,13 +304,7 @@
       justify-content: center;
       flex-direction: column;
       width: 100%;
-    }
-    &.projectDisplayFlex0,
-    &.projectDisplayFlex1 {
-      margin-bottom: 180px;
-    }
-    &.projectDisplayFlex2 {
-      margin-bottom: 200px;
+      gap: 20px;
     }
   }
   .projectButtons0,
@@ -388,3 +313,19 @@
     justify-content: center;
   }
 }
+@media (max-width: 660px) {
+  .projectContainer {
+    margin-top: 280px;
+    margin-bottom: 150px;
+  }
+  .sideTextContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    .sideText {
+      width: 300px;
+    }
+  }
+}
+

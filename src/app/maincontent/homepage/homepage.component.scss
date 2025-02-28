@@ -197,6 +197,8 @@ $green: #70e61c;
   .scollDownContainer {
     position: absolute;
     right: 0;
+    top: 0;
+    margin-top: -760px;
   }
 }
 @media (max-width: 1920px) {
