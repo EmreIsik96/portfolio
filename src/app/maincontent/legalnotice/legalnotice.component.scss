@@ -13,9 +13,13 @@
     color: white;
   }
 }
-@media (min-width: 1921px) and (max-width: 3760px) {
+@media (min-width: 1921px) and (max-width: 3840px) {
   .impressum {
+    height: 100vh;
+    width: 100vw;
     text-align: center;
+    margin-top: -250px;
+    margin-bottom: -500px;
     padding-left: 850px;
     padding-right: 850px;
   }

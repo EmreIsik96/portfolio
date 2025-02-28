@@ -177,6 +177,15 @@ $green: #70e61c;
   z-index: -1;
 }
 
+@media (min-width: 1921px) and (max-width: 3840px) {
+  .mainContainer {
+    position: relative;
+  }
+  .scollDownContainer {
+    position: absolute;
+    right: 0;
+  }
+}
 @media (max-width: 1920px) {
   .mainImagesContainer {
     .mainImage {
