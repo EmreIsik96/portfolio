@@ -16,6 +16,11 @@
     right: 0;
     display: flex;
     align-items: center;
+    .vectorGreenLongContainer {
+      .vectorGreenLong {
+        width: 155px
+      }
+    }
   }
 }
 
@@ -188,7 +193,7 @@
       .profilePictureMainContainer,
       .vectorGreenLongContainer {
         .vectorGreenLong{
-          width: 165px;
+          width: 155px;
         }
       }
     }

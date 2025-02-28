@@ -1,14 +1,18 @@
 .mainContainer {
+  position: relative;
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 300px;
   max-width: 1920px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .skillsIconContainer {
   display: flex;
   flex-wrap: wrap;
-  width: 650px;
+  width: 600px;
   gap: 57px;
   img {
     object-fit: contain;
@@ -23,12 +27,11 @@
 }
 
 .skillsTxtContainer {
+  position: absolute;
+  right: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
   height: 400px;
-  flex: 0.83;
   .mySkillsHeaderContainer {
     display: flex;
     align-items: center;
@@ -45,14 +48,14 @@
       color: #ffff;
     }
     .vectorPurpleSmall {
-      width: 200px;
+      width: 150px;
       height: 5px;
     }
   }
   .mySkillsTxtContainer {
     display: grid;
     gap: 30px;
-    width: 655px;
+    width: 600px;
     margin-left: 40px;
     .mySkillsTxt {
       width: 420px;
@@ -123,7 +126,6 @@
   position: absolute;
   width: 428.59px;
   height: 951.44px;
-  top: 1902.96px;
   left: 0px;
   backdrop-filter: blur(93px);
   z-index: -2;
@@ -132,9 +134,6 @@
 
 @media (max-width: 1460px) {
   .skillsTxtContainer {
-    width: 350px;
-    flex: 0.73;
-    margin-left: 170px;
     .mySkillsHeaderContainer {
       margin-bottom: 0;
       .mySkillsHeader {
@@ -142,11 +141,11 @@
         text-wrap: nowrap;
       }
       .vectorPurpleSmall {
-        width: 165px;
+        width: 145px;
       }
     }
     .mySkillsTxtContainer {
-      width: 515px;
+      width: 500px;
       .mySkillsTxt {
       width: 320px;
       }
@@ -176,10 +175,8 @@
     }
   }
 }
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
   .skillsTxtContainer {
-    flex: 0;
-    margin-left: 100px;
     .mySkillsHeaderContainer {
       .mySkillsHeader {
         font-size: 45px;
@@ -211,9 +208,8 @@
     }
   }
   .skillsIconContainer {
-    flex: 0.95;
-    padding-left: 100px;
     width: 400px;
+    margin-top: -50px;
     gap: 46px;
     img {
       height: 64px;
@@ -221,34 +217,7 @@
     }
   }
 }
-@media (max-width: 840px) {
-  .skillsTxtContainer {
-    margin-left: 40px;
-    .mySkillsHeaderContainer {
-      .vectorPurpleSmall {
-        width: 40px;
-      }
-    }
-    .mySkillsTxtContainer {
-      width: 335px;
-      .mySkillsTxt {
-        width: 260px;
-      }
-      .getInTouchContainer {
-        .mySkillsMainTxt,
-        .mySkillsSecondTxt,
-        .mySkillButtonContainer {
-          width: 260px;
-        }
-      }
-    }
-  }
-  .skillsIconContainer {
-    padding-left: 55px;
-    width: 300px;
-  }
-}
-@media (max-width: 710px) {
+@media (max-width: 1000px) {
   .mainContainer {
     display: flex;
     flex-direction: column;
@@ -258,6 +227,7 @@
     margin-top: 400px;
   }
   .skillsTxtContainer {
+    position: relative;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -273,7 +243,6 @@
       }
     }
     .mySkillsTxtContainer {
-      margin: 0;
       justify-content: center;
       align-items: center;
       .mySkillsTxt {
@@ -300,25 +269,22 @@
   .skillsIconContainer {
     margin: 0;
     width: 100%;
-    flex: 0;
     padding: 0;
     justify-content: center;
-    margin-top: -500px;
+    margin-top: -340px;
   }
 }
-@media (max-width: 553px) {
+@media (max-width: 853px) {
   .skillsTxtContainer {
     .mySkillsTxtContainer {
       .mySkillsTxt {
-        margin-bottom: 360px;
-      }
+        margin-bottom: 450px;
+      }      
     }
   }
   .skillsIconContainer {
-    margin-top: -580px;
-  }
-  .greenShadowBg1 {
-    width: 320px;
+    margin-top: -450px;
+    width: 300px;
   }
 }
 @media (max-width: 395px) {
@@ -344,9 +310,7 @@
       }
     }
   }
-  
   .skillsIconContainer {
-    width: 320px;
-    margin-top: -680px;
+    margin-top: -435px;
   }
 }
