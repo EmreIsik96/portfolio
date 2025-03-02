@@ -34,6 +34,10 @@ html {
 
 @media (min-width: 1921px) and (max-width: 3840px) {
   body {
+    box-sizing: border-box;
+    background: #141d2f;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+    overflow-x: visible;
     max-width: 1920px;
     width: 100%;
     display: flex;
@@ -74,4 +78,3 @@ html {
     scroll-margin-top: 150px;
   }
 }
-

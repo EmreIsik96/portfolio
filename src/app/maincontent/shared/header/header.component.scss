@@ -152,7 +152,12 @@ header {
 
 @media (min-width: 1921px) and (max-width: 3840px) {
   header {
-    position: relative;
+    z-index: 9999;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     max-width: 1920px;
     margin: 0 auto;
@@ -164,11 +169,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    position: -webkit-sticky;
     top: 0;
-    // z-index: 1000;
-    // background-color: #141d2f;
-    // backdrop-filter: blur(65px);
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 16px;
