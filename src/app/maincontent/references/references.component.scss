@@ -104,6 +104,11 @@
   }
 }
 
+@media (min-width: 1921px) and (max-width: 3840px) {
+  .mainContainer {
+    margin-top: 300px;
+  }
+}
 @media (max-width: 3760px) {
   .mainContainer {
     margin-top: 400px;
