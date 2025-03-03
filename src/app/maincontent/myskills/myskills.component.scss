@@ -124,14 +124,33 @@
 
 .greenShadowBg1 {
   position: absolute;
-  width: 428.59px;
-  height: 951.44px;
   left: 0px;
   backdrop-filter: blur(93px);
   z-index: -2;
 }
 
-
+@media (min-width: 1921px) and (max-width: 3840px) {
+  .greenShadowBg1{
+    position: absolute;
+    right: 0px;
+    top: 1950px;
+    width: 428.59px;
+    height: 951.44px;
+    backdrop-filter: blur(93px);
+    z-index: -100;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1920px) {
+  .greenShadowBg1 {
+    position: absolute;
+    left: 0px;
+    top: 1700px;
+    width: 428.59px;
+    height: 951.44px;
+    backdrop-filter: blur(93px);
+    z-index: -2;
+  }
+}
 @media (max-width: 1460px) {
   .skillsTxtContainer {
     .mySkillsHeaderContainer {

@@ -162,6 +162,22 @@
     margin-top: -1200px;
     position: relative;
   }
+  .purple_shadow {
+    position: absolute;
+    right: 0px;
+    top: 1150px;
+    backdrop-filter: blur(93px);
+    z-index: -100;
+  }
+}
+@media (max-width: 1920px) {
+  .purple_shadow {
+    position: absolute;
+    right: 0px;
+    top: 1000px;
+    backdrop-filter: blur(93px);
+    z-index: -100;
+  }
 }
 @media (min-height: 950px) and (max-height: 1648px) {
   .vectorBlackContainerBack {
